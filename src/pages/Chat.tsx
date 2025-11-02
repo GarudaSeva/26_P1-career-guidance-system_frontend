@@ -16,16 +16,17 @@ type Message = {
 };
 
 type ChatMode = "initial" | "basic" | "advanced";
-type BasicStep = "gender" | "job" | "absence" | "extracurricular" | "study_hours" | "scores" | "complete";
+type BasicStep = "gender" | "job" | "absence" | "extracurricular" | "study_hours" | "math" | "history" | "physics" | "chemistry" | "biology" | "english" | "geography" | "complete";
 type AdvancedStep = "skills" | "interests" | "top_k" | "complete";
 
 const Chat = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
-      content: "Hi! 👋 I'm your AI Career Assistant. Are you a school student (below 12th) or a college student/professional?",
+      content: "Hi! 👋 I'm your AI Career Assistant. Please select your category:",
     },
   ]);
+  const [showModeButtons, setShowModeButtons] = useState(true);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [mode, setMode] = useState<ChatMode>("initial");
@@ -83,28 +84,57 @@ const Chat = () => {
       case "study_hours":
         const studyHours = parseInt(userInput) || 0;
         setBasicData((prev: any) => ({ ...prev, weekly_self_study_hours: studyHours }));
-        setBasicStep("scores");
-        addMessage(
-          "bot",
-          "Please enter your subject scores separated by commas in this order: Math, History, Physics, Chemistry, Biology, English, Geography"
-        );
+        setBasicStep("math");
+        addMessage("bot", "What is your Math score?");
         break;
 
-      case "scores":
-        const scores = userInput.split(",").map((s) => parseInt(s.trim()) || 0);
-        if (scores.length !== 7) {
-          addMessage("bot", "Please provide exactly 7 scores separated by commas.");
-          return;
-        }
+      case "math":
+        const mathScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, math_score: mathScore }));
+        setBasicStep("history");
+        addMessage("bot", "What is your History score?");
+        break;
+
+      case "history":
+        const historyScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, history_score: historyScore }));
+        setBasicStep("physics");
+        addMessage("bot", "What is your Physics score?");
+        break;
+
+      case "physics":
+        const physicsScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, physics_score: physicsScore }));
+        setBasicStep("chemistry");
+        addMessage("bot", "What is your Chemistry score?");
+        break;
+
+      case "chemistry":
+        const chemistryScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, chemistry_score: chemistryScore }));
+        setBasicStep("biology");
+        addMessage("bot", "What is your Biology score?");
+        break;
+
+      case "biology":
+        const biologyScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, biology_score: biologyScore }));
+        setBasicStep("english");
+        addMessage("bot", "What is your English score?");
+        break;
+
+      case "english":
+        const englishScore = parseInt(userInput) || 0;
+        setBasicData((prev: any) => ({ ...prev, english_score: englishScore }));
+        setBasicStep("geography");
+        addMessage("bot", "What is your Geography score?");
+        break;
+
+      case "geography":
+        const geographyScore = parseInt(userInput) || 0;
         const finalData = {
           ...basicData,
-          math_score: scores[0],
-          history_score: scores[1],
-          physics_score: scores[2],
-          chemistry_score: scores[3],
-          biology_score: scores[4],
-          english_score: scores[5],
-          geography_score: scores[6],
+          geography_score: geographyScore,
         };
 
         setIsLoading(true);
@@ -182,6 +212,18 @@ const Chat = () => {
     }
   };
 
+  const handleModeSelection = (selectedMode: "basic" | "advanced") => {
+    setShowModeButtons(false);
+    setMode(selectedMode);
+    if (selectedMode === "basic") {
+      addMessage("user", "School Student");
+      addMessage("bot", "Great! Let's start with some questions. What is your gender? (male/female)");
+    } else {
+      addMessage("user", "College Student/Professional");
+      addMessage("bot", "Perfect! Let's begin. What are your key skills? (e.g., Python, SQL, Machine Learning)");
+    }
+  };
+
   const handleSend = async () => {
     if (!input.trim() || isLoading) return;
 
@@ -189,18 +231,7 @@ const Chat = () => {
     addMessage("user", userInput);
     setInput("");
 
-    if (mode === "initial") {
-      const lowerInput = userInput.toLowerCase();
-      if (lowerInput.includes("school")) {
-        setMode("basic");
-        addMessage("bot", "Great! Let's start with some questions. What is your gender? (male/female)");
-      } else if (lowerInput.includes("college") || lowerInput.includes("professional")) {
-        setMode("advanced");
-        addMessage("bot", "Perfect! Let's begin. What are your key skills? (e.g., Python, SQL, Machine Learning)");
-      } else {
-        addMessage("bot", "Please specify if you're a school student or college/professional.");
-      }
-    } else if (mode === "basic") {
+    if (mode === "basic") {
       await handleBasicMode(userInput);
     } else if (mode === "advanced") {
       await handleAdvancedMode(userInput);
@@ -228,10 +259,10 @@ const Chat = () => {
                 {message.isCareerCard ? (
                   <Card className="max-w-lg p-6 bg-accent/50 border-primary/20">
                     <h3 className="text-xl font-semibold text-primary mb-2">
-                      {message.careerData?.career_title || message.careerData?.Career || "Career Recommendation"}
+                      {message.careerData?.recommended_career || message.careerData?.career_opportunity || "Career Recommendation"}
                     </h3>
                     <p className="text-sm text-muted-foreground mb-4">
-                      {message.careerData?.description || message.careerData?.Description || "No description available"}
+                      {message.careerData?.description || "No description available"}
                     </p>
                     {message.careerData?.pay_scale && (
                       <div className="mb-3">
@@ -239,14 +270,17 @@ const Chat = () => {
                         <Badge variant="secondary">{message.careerData.pay_scale}</Badge>
                       </div>
                     )}
-                    {message.careerData?.skills && (
+                    {message.careerData?.similarity && (
+                      <div className="mb-3">
+                        <span className="text-sm font-medium">Match Score: </span>
+                        <Badge variant="outline">{(message.careerData.similarity * 100).toFixed(1)}%</Badge>
+                      </div>
+                    )}
+                    {message.careerData?.skills_required && (
                       <div className="mb-3">
                         <span className="text-sm font-medium mb-2 block">Required Skills:</span>
                         <div className="flex flex-wrap gap-2">
-                          {(Array.isArray(message.careerData.skills) 
-                            ? message.careerData.skills 
-                            : message.careerData.skills.split(",")
-                          ).map((skill: string, i: number) => (
+                          {message.careerData.skills_required.map((skill: string, i: number) => (
                             <Badge key={i} variant="outline" className="bg-primary/10">
                               {skill.trim()}
                             </Badge>
@@ -258,10 +292,7 @@ const Chat = () => {
                       <div>
                         <span className="text-sm font-medium mb-2 block">Skills to Develop:</span>
                         <div className="flex flex-wrap gap-2">
-                          {(Array.isArray(message.careerData.skill_gap)
-                            ? message.careerData.skill_gap
-                            : message.careerData.skill_gap.split(",")
-                          ).map((skill: string, i: number) => (
+                          {message.careerData.skill_gap.map((skill: string, i: number) => (
                             <Badge key={i} variant="destructive" className="bg-destructive/20 text-destructive">
                               {skill.trim()}
                             </Badge>
@@ -290,6 +321,26 @@ const Chat = () => {
                 </div>
               </div>
             )}
+            {showModeButtons && (
+              <div className="flex justify-start animate-fade-in">
+                <div className="flex flex-col gap-2">
+                  <Button
+                    onClick={() => handleModeSelection("basic")}
+                    variant="outline"
+                    className="bg-primary/10 hover:bg-primary/20"
+                  >
+                    School Student
+                  </Button>
+                  <Button
+                    onClick={() => handleModeSelection("advanced")}
+                    variant="outline"
+                    className="bg-primary/10 hover:bg-primary/20"
+                  >
+                    College Student/Professional
+                  </Button>
+                </div>
+              </div>
+            )}
             <div ref={messagesEndRef} />
           </div>
 
@@ -305,10 +356,10 @@ const Chat = () => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Type your message..."
-                disabled={isLoading}
+                disabled={isLoading || mode === "initial"}
                 className="flex-1"
               />
-              <Button type="submit" disabled={isLoading || !input.trim()}>
+              <Button type="submit" disabled={isLoading || !input.trim() || mode === "initial"}>
                 <Send className="h-4 w-4" />
               </Button>
             </form>
