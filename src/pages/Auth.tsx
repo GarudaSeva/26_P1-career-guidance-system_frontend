@@ -9,6 +9,8 @@ import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+const API_BASE = "http://localhost:5000";
+
 const Auth = () => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
@@ -17,31 +19,75 @@ const Auth = () => {
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    // Simulate authentication
-    setTimeout(() => {
+
+    const form = e.currentTarget;
+    const email = (form.elements.namedItem("login-email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("login-password") as HTMLInputElement).value;
+
+    try {
+      const res = await fetch(`${API_BASE}/login`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Login failed");
+
       toast({
         title: "Welcome back!",
-        description: "You've successfully logged in.",
+        description: data.message || "You've successfully logged in.",
       });
+
+      // Optionally store user in localStorage
+      sessionStorage.setItem("user", JSON.stringify(data.user));
+
+      navigate("/");
+    } catch (err: any) {
+      toast({
+        title: "Login Failed",
+        description: err.message,
+        variant: "destructive",
+      });
+    } finally {
       setIsLoading(false);
-      navigate("/chat");
-    }, 1000);
+    }
   };
 
   const handleSignup = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    // Simulate authentication
-    setTimeout(() => {
-      toast({
-        title: "Account created!",
-        description: "Welcome to AI Career Discovery.",
+
+    const form = e.currentTarget;
+    const fullname = (form.elements.namedItem("signup-name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("signup-email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("signup-password") as HTMLInputElement).value;
+
+    try {
+      const res = await fetch(`${API_BASE}/signup`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ fullname, email, password }),
       });
-      setIsLoading(false);
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Signup failed");
+
+      toast({
+        title: "Account Created!",
+        description: data.message || "Welcome to AI Career Discovery.",
+      });
+
       navigate("/chat");
-    }, 1000);
+    } catch (err: any) {
+      toast({
+        title: "Signup Failed",
+        description: err.message,
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -61,7 +107,8 @@ const Auth = () => {
                 <TabsTrigger value="login">Login</TabsTrigger>
                 <TabsTrigger value="signup">Sign Up</TabsTrigger>
               </TabsList>
-              
+
+              {/* LOGIN TAB */}
               <TabsContent value="login">
                 <form onSubmit={handleLogin} className="space-y-4">
                   <div className="space-y-2">
@@ -87,7 +134,8 @@ const Auth = () => {
                   </Button>
                 </form>
               </TabsContent>
-              
+
+              {/* SIGNUP TAB */}
               <TabsContent value="signup">
                 <form onSubmit={handleSignup} className="space-y-4">
                   <div className="space-y-2">

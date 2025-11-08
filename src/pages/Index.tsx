@@ -5,34 +5,39 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  // ✅ Check login state from sessionStorage
+  const user = sessionStorage.getItem("user");
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="flex-1 container mx-auto px-4 pt-32 pb-20">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-primary/10 rounded-full">
             <span className="text-sm font-medium text-primary">AI-Powered Career Guidance</span>
           </div>
-          
+
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
             Discover Your Perfect
             <span className="text-primary block mt-2">Career Path with AI</span>
           </h1>
-          
+
           <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
             Smart recommendations tailored to your skills, interests, and ambitions. 
             Let our AI guide you to the career that matches your unique potential.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/chat">
+            {/* ✅ Conditional link based on login status */}
+            <Link to={user ? "/chat" : "/auth"}>
               <Button size="lg" className="group">
                 Start Your Journey
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
+
             <Link to="/auth">
               <Button size="lg" variant="outline">
                 Learn More
@@ -55,7 +60,7 @@ const Index = () => {
                 AI analyzes your profile to recommend careers that truly fit your strengths and interests
               </p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                 <Lightbulb className="h-8 w-8 text-primary" />
@@ -65,7 +70,7 @@ const Index = () => {
                 Identify missing skills and get personalized learning recommendations to bridge the gap
               </p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                 <TrendingUp className="h-8 w-8 text-primary" />
@@ -78,7 +83,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
