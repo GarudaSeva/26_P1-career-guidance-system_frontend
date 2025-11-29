@@ -51,7 +51,7 @@ const Careers = () => {
               <p className="text-muted-foreground mt-2">Try a different search term</p>
             </div>
           ) : (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="flex flex-col gap-6 max-w-4xl mx-auto">
               {displayedRoles.map((role) => (
                 <Card key={role.id} className="hover:shadow-lg transition-shadow">
                   <CardHeader>
@@ -77,7 +77,7 @@ const Careers = () => {
                       </div>
                     </div>
                     <Link to={`/careers/${role.id}`}>
-                      <Button className="w-full">Know More</Button>
+                      <Button className="w-full">Read More</Button>
                     </Link>
                   </CardContent>
                 </Card>
