@@ -5,7 +5,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
+import Home from "./pages/Home";
 import Chat from "./pages/Chat";
+import Careers from "./pages/Careers";
+import CareerDetail from "./pages/CareerDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,16 +25,22 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-
-            {/* ✅ Conditionally render chat or auth */}
-            {user ? (
-              <Route path="/chat" element={<Chat />} />
-            ) : (
-              <Route path="/chat" element={<Auth />} />
-            )}
-
-            {/* ✅ Auth route (still accessible if not logged in) */}
             <Route path="/auth" element={<Auth />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/careers/:id" element={<CareerDetail />} />
+            
+            {/* Protected routes - require login */}
+            {user ? (
+              <>
+                <Route path="/home" element={<Home />} />
+                <Route path="/chat" element={<Chat />} />
+              </>
+            ) : (
+              <>
+                <Route path="/home" element={<Auth />} />
+                <Route path="/chat" element={<Auth />} />
+              </>
+            )}
 
             {/* Catch-all route */}
             <Route path="*" element={<NotFound />} />

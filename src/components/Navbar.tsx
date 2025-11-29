@@ -63,15 +63,24 @@ const Navbar = () => {
               Home
             </Link>
 
-            {/* Show Chat only if logged in */}
+            <Link
+              to="/careers"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isActive("/careers") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Careers
+            </Link>
+
+            {/* Show Dashboard only if logged in */}
             {user && (
               <Link
-                to="/chat"
+                to="/home"
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive("/chat") ? "text-primary" : "text-muted-foreground"
+                  isActive("/home") ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                Chat
+                Dashboard
               </Link>
             )}
 

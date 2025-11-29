@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
@@ -20,6 +21,7 @@ type BasicStep = "gender" | "job" | "absence" | "extracurricular" | "study_hours
 type AdvancedStep = "skills" | "interests" | "top_k" | "complete";
 
 const Chat = () => {
+  const location = useLocation();
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
@@ -44,6 +46,18 @@ const Chat = () => {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  // Handle mode from navigation state
+  useEffect(() => {
+    const state = location.state as { mode?: "basic" | "advanced" };
+    if (state?.mode) {
+      if (state.mode === "basic") {
+        handleModeSelection("basic");
+      } else if (state.mode === "advanced") {
+        handleModeSelection("advanced");
+      }
+    }
+  }, [location.state]);
 
   const addMessage = (role: "user" | "bot", content: string, careerData?: any) => {
     setMessages((prev) => [...prev, { role, content, isCareerCard: !!careerData, careerData }]);
