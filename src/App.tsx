@@ -28,20 +28,10 @@ const App = () => {
             <Route path="/auth" element={<Auth />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/careers/:id" element={<CareerDetail />} />
+          
+            <Route path="/home" element={<Home />} />
+            <Route path="/chat" element={<Chat />} />
             
-            {/* Protected routes - require login */}
-            {user ? (
-              <>
-                <Route path="/home" element={<Home />} />
-                <Route path="/chat" element={<Chat />} />
-              </>
-            ) : (
-              <>
-                <Route path="/home" element={<Auth />} />
-                <Route path="/chat" element={<Auth />} />
-              </>
-            )}
-
             {/* Catch-all route */}
             <Route path="*" element={<NotFound />} />
           </Routes>

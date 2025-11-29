@@ -10,7 +10,11 @@ import rolesData from "@/data/roles.json";
 const CareerDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const role = rolesData.find((r) => r.id === id);
+  const role = rolesData.find(
+  (r) =>
+    r.job_title.toLowerCase() ===
+    decodeURIComponent(id as string).toLowerCase()
+);
 
   if (!role) {
     return (

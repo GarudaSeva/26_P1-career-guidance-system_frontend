@@ -17,7 +17,20 @@ type Message = {
 };
 
 type ChatMode = "initial" | "basic" | "advanced";
-type BasicStep = "gender" | "job" | "absence" | "extracurricular" | "study_hours" | "math" | "history" | "physics" | "chemistry" | "biology" | "english" | "geography" | "complete";
+type BasicStep =
+  | "gender"
+  | "job"
+  | "absence"
+  | "extracurricular"
+  | "study_hours"
+  | "math"
+  | "history"
+  | "physics"
+  | "chemistry"
+  | "biology"
+  | "english"
+  | "geography"
+  | "complete";
 type AdvancedStep = "skills" | "interests" | "top_k" | "complete";
 
 const Chat = () => {
@@ -25,7 +38,8 @@ const Chat = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
-      content: "Hi! 👋 I'm your AI Career Assistant. Please select your category:",
+      content:
+        "Hi! 👋 I'm your AI Career Assistant. Please select your category:",
     },
   ]);
   const [showModeButtons, setShowModeButtons] = useState(true);
@@ -59,8 +73,15 @@ const Chat = () => {
     }
   }, [location.state]);
 
-  const addMessage = (role: "user" | "bot", content: string, careerData?: any) => {
-    setMessages((prev) => [...prev, { role, content, isCareerCard: !!careerData, careerData }]);
+  const addMessage = (
+    role: "user" | "bot",
+    content: string,
+    careerData?: any
+  ) => {
+    setMessages((prev) => [
+      ...prev,
+      { role, content, isCareerCard: !!careerData, careerData },
+    ]);
   };
 
   const handleBasicMode = async (userInput: string) => {
@@ -68,7 +89,8 @@ const Chat = () => {
 
     switch (basicStep) {
       case "gender":
-        const gender = lowerInput.includes("male") && !lowerInput.includes("female") ? 1 : 0;
+        const gender =
+          lowerInput.includes("male") && !lowerInput.includes("female") ? 1 : 0;
         setBasicData((prev: any) => ({ ...prev, gender }));
         setBasicStep("job");
         addMessage("bot", "Do you have a part-time job? (yes/no)");
@@ -85,19 +107,28 @@ const Chat = () => {
         const absenceDays = parseInt(userInput) || 0;
         setBasicData((prev: any) => ({ ...prev, absence_days: absenceDays }));
         setBasicStep("extracurricular");
-        addMessage("bot", "Do you participate in extracurricular activities? (yes/no)");
+        addMessage(
+          "bot",
+          "Do you participate in extracurricular activities? (yes/no)"
+        );
         break;
 
       case "extracurricular":
         const extracurricular = lowerInput.includes("yes") ? 1 : 0;
-        setBasicData((prev: any) => ({ ...prev, extracurricular_activities: extracurricular }));
+        setBasicData((prev: any) => ({
+          ...prev,
+          extracurricular_activities: extracurricular,
+        }));
         setBasicStep("study_hours");
         addMessage("bot", "How many hours do you study weekly?");
         break;
 
       case "study_hours":
         const studyHours = parseInt(userInput) || 0;
-        setBasicData((prev: any) => ({ ...prev, weekly_self_study_hours: studyHours }));
+        setBasicData((prev: any) => ({
+          ...prev,
+          weekly_self_study_hours: studyHours,
+        }));
         setBasicStep("math");
         addMessage("bot", "What is your Math score?");
         break;
@@ -125,7 +156,10 @@ const Chat = () => {
 
       case "chemistry":
         const chemistryScore = parseInt(userInput) || 0;
-        setBasicData((prev: any) => ({ ...prev, chemistry_score: chemistryScore }));
+        setBasicData((prev: any) => ({
+          ...prev,
+          chemistry_score: chemistryScore,
+        }));
         setBasicStep("biology");
         addMessage("bot", "What is your Biology score?");
         break;
@@ -159,15 +193,23 @@ const Chat = () => {
             body: JSON.stringify(finalData),
           });
           const data = await response.json();
-          
-          addMessage("bot", "Based on your profile, here's my recommendation:", data);
+
+          addMessage(
+            "bot",
+            "Based on your profile, here's my recommendation:",
+            data
+          );
         } catch (error) {
           toast({
             title: "Error",
-            description: "Failed to get career recommendations. Please try again.",
+            description:
+              "Failed to get career recommendations. Please try again.",
             variant: "destructive",
           });
-          addMessage("bot", "I encountered an error. Please try again or contact support.");
+          addMessage(
+            "bot",
+            "I encountered an error. Please try again or contact support."
+          );
         }
         setIsLoading(false);
         setBasicStep("complete");
@@ -180,13 +222,19 @@ const Chat = () => {
       case "skills":
         setAdvancedData((prev: any) => ({ ...prev, skills: userInput }));
         setAdvancedStep("interests");
-        addMessage("bot", "What are your main interests? (e.g., Data Science, AI, Web Development)");
+        addMessage(
+          "bot",
+          "What are your main interests? (e.g., Data Science, AI, Web Development)"
+        );
         break;
 
       case "interests":
         setAdvancedData((prev: any) => ({ ...prev, interests: userInput }));
         setAdvancedStep("top_k");
-        addMessage("bot", "How many career recommendations would you like? (default is 5)");
+        addMessage(
+          "bot",
+          "How many career recommendations would you like? (default is 5)"
+        );
         break;
 
       case "top_k":
@@ -204,21 +252,29 @@ const Chat = () => {
             body: JSON.stringify(finalData),
           });
           const data = await response.json();
-          
+
           if (data.recommendations && Array.isArray(data.recommendations)) {
             data.recommendations.forEach((career: any) => {
               addMessage("bot", `Here's a career option for you:`, career);
             });
           } else {
-            addMessage("bot", "Based on your profile, here are your career recommendations:", data);
+            addMessage(
+              "bot",
+              "Based on your profile, here are your career recommendations:",
+              data
+            );
           }
         } catch (error) {
           toast({
             title: "Error",
-            description: "Failed to get career recommendations. Please try again.",
+            description:
+              "Failed to get career recommendations. Please try again.",
             variant: "destructive",
           });
-          addMessage("bot", "I encountered an error. Please try again or contact support.");
+          addMessage(
+            "bot",
+            "I encountered an error. Please try again or contact support."
+          );
         }
         setIsLoading(false);
         setAdvancedStep("complete");
@@ -231,10 +287,16 @@ const Chat = () => {
     setMode(selectedMode);
     if (selectedMode === "basic") {
       addMessage("user", "School Student");
-      addMessage("bot", "Great! Let's start with some questions. What is your gender? (male/female)");
+      addMessage(
+        "bot",
+        "Great! Let's start with some questions. What is your gender? (male/female)"
+      );
     } else {
       addMessage("user", "College Student/Professional");
-      addMessage("bot", "Perfect! Let's begin. What are your key skills? (e.g., Python, SQL, Machine Learning)");
+      addMessage(
+        "bot",
+        "Perfect! Let's begin. What are your key skills? (e.g., Python, SQL, Machine Learning)"
+      );
     }
   };
 
@@ -268,49 +330,93 @@ const Chat = () => {
             {messages.map((message, index) => (
               <div
                 key={index}
-                className={`flex ${message.role === "user" ? "justify-end" : "justify-start"} animate-fade-in`}
+                className={`flex ${
+                  message.role === "user" ? "justify-end" : "justify-start"
+                } animate-fade-in`}
               >
                 {message.isCareerCard ? (
                   <Card className="max-w-lg p-6 bg-accent/50 border-primary/20">
-                    <h3 className="text-xl font-semibold text-primary mb-2">
-                      {message.careerData?.recommended_career || message.careerData?.career_opportunity || "Career Recommendation"}
+                    <h3 className="text-xl font-semibold text-primary mb-2 flex justify-between items-center">
+                      {message.careerData?.recommended_career ||
+                        message.careerData?.career_opportunity ||
+                        "Career Recommendation"}
+
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="text-xs"
+                        onClick={() =>
+                          window.location.assign(
+                            `/careers/${encodeURIComponent(
+                              message.careerData?.recommended_career ||
+                                message.careerData?.career_opportunity
+                            )}`
+                          )
+                        }
+                      >
+                        See Details →
+                      </Button>
                     </h3>
+
                     <p className="text-sm text-muted-foreground mb-4">
-                      {message.careerData?.description || "No description available"}
+                      {message.careerData?.description ||
+                        "No description available"}
                     </p>
                     {message.careerData?.pay_scale && (
                       <div className="mb-3">
                         <span className="text-sm font-medium">Pay Scale: </span>
-                        <Badge variant="secondary">{message.careerData.pay_scale}</Badge>
+                        <Badge variant="secondary">
+                          {message.careerData.pay_scale}
+                        </Badge>
                       </div>
                     )}
                     {message.careerData?.similarity && (
                       <div className="mb-3">
-                        <span className="text-sm font-medium">Match Score: </span>
-                        <Badge variant="outline">{(message.careerData.similarity * 100).toFixed(1)}%</Badge>
+                        <span className="text-sm font-medium">
+                          Match Score:{" "}
+                        </span>
+                        <Badge variant="outline">
+                          {(message.careerData.similarity * 100).toFixed(1)}%
+                        </Badge>
                       </div>
                     )}
                     {message.careerData?.skills_required && (
                       <div className="mb-3">
-                        <span className="text-sm font-medium mb-2 block">Required Skills:</span>
+                        <span className="text-sm font-medium mb-2 block">
+                          Required Skills:
+                        </span>
                         <div className="flex flex-wrap gap-2">
-                          {message.careerData.skills_required.map((skill: string, i: number) => (
-                            <Badge key={i} variant="outline" className="bg-primary/10">
-                              {skill.trim()}
-                            </Badge>
-                          ))}
+                          {message.careerData.skills_required.map(
+                            (skill: string, i: number) => (
+                              <Badge
+                                key={i}
+                                variant="outline"
+                                className="bg-primary/10"
+                              >
+                                {skill.trim()}
+                              </Badge>
+                            )
+                          )}
                         </div>
                       </div>
                     )}
                     {message.careerData?.skill_gap && (
                       <div>
-                        <span className="text-sm font-medium mb-2 block">Skills to Develop:</span>
+                        <span className="text-sm font-medium mb-2 block">
+                          Skills to Develop:
+                        </span>
                         <div className="flex flex-wrap gap-2">
-                          {message.careerData.skill_gap.map((skill: string, i: number) => (
-                            <Badge key={i} variant="destructive" className="bg-destructive/20 text-destructive">
-                              {skill.trim()}
-                            </Badge>
-                          ))}
+                          {message.careerData.skill_gap.map(
+                            (skill: string, i: number) => (
+                              <Badge
+                                key={i}
+                                variant="destructive"
+                                className="bg-destructive/20 text-destructive"
+                              >
+                                {skill.trim()}
+                              </Badge>
+                            )
+                          )}
                         </div>
                       </div>
                     )}
@@ -323,7 +429,9 @@ const Chat = () => {
                         : "bg-[hsl(var(--chat-bot-bg))] text-primary-foreground"
                     }`}
                   >
-                    <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                    <p className="text-sm whitespace-pre-wrap">
+                      {message.content}
+                    </p>
                   </div>
                 )}
               </div>
@@ -373,7 +481,10 @@ const Chat = () => {
                 disabled={isLoading || mode === "initial"}
                 className="flex-1"
               />
-              <Button type="submit" disabled={isLoading || !input.trim() || mode === "initial"}>
+              <Button
+                type="submit"
+                disabled={isLoading || !input.trim() || mode === "initial"}
+              >
                 <Send className="h-4 w-4" />
               </Button>
             </form>

@@ -44,9 +44,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+            {/* <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
               <Sparkles className="h-6 w-6 text-primary" />
-            </div>
+            </div> */}
             <span className="text-xl font-semibold text-foreground">
               AI Career Discovery
             </span>
@@ -63,6 +63,7 @@ const Navbar = () => {
               Home
             </Link>
 
+{user && (
             <Link
               to="/careers"
               className={`text-sm font-medium transition-colors hover:text-primary ${
@@ -71,6 +72,7 @@ const Navbar = () => {
             >
               Careers
             </Link>
+)}
 
             {/* Show Dashboard only if logged in */}
             {user && (

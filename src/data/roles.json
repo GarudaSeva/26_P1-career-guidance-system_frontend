@@ -1,8 +1,527 @@
 [
   {
-    "id": "software-engineer",
+  "job_title": "Lawyer",
+  "description": "Lawyers represent clients in legal matters, provide legal advice, draft legal documents, and advocate in courtrooms to ensure justice and protect legal rights.",
+  "roles_and_overview": "Responsible for researching legal precedents, preparing case files, drafting legal documents, and representing individuals or organizations in court or negotiations.",
+  "skills_required": [
+    "Legal research",
+    "Court procedures",
+    "Negotiation skills",
+    "Client communication",
+    "Legal writing",
+    "Analytical reasoning"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in Law (LLB)",
+    "Optional: Master's degree in specialized law (LLM)",
+    "Must pass Bar Council exam to practice legally"
+  ],
+  "duties_and_responsibilities": [
+    "Provide legal consultation and defend clients in court",
+    "Draft and review contracts, agreements, and legal paperwork",
+    "Prepare case strategies and analyze evidence",
+    "Represent clients before judges, juries, and tribunals",
+    "Maintain ethical conduct and client confidentiality"
+  ],
+  "salary_range": "₹4,00,000 – ₹25,00,000 per year in India (higher for corporate lawyers)",
+  "top_companies_offering_this_role": [
+    "Supreme Court of India",
+    "High Courts",
+    "Corporate law firms (Cyril Amarchand Mangaldas, Khaitan & Co)",
+    "Private law firms",
+    "Government legal services",
+    "Judicial services"
+  ]
+},
+{
+  "job_title": "Doctor",
+  "description": "Doctors diagnose illnesses, prescribe treatments, and promote overall patient well-being using medical knowledge and clinical expertise.",
+  "roles_and_overview": "Examine patients, identify medical conditions, perform tests, prescribe medication, and provide long-term patient care.",
+  "skills_required": [
+    "Clinical diagnosis",
+    "Medical ethics",
+    "Patient care",
+    "Pharmacology",
+    "Decision making",
+    "Emergency care handling"
+  ],
+  "educational_requirements": [
+    "MBBS from recognized medical college",
+    "Internship for 1 year mandatory",
+    "Optional specialization MD/MS in chosen field"
+  ],
+  "duties_and_responsibilities": [
+    "Examine patients and interpret medical tests",
+    "Prescribe medicines and treatment plans",
+    "Perform surgeries or medical procedures (specialists)",
+    "Maintain patient records and follow up on recovery",
+    "Collaborate with nurses, pharmacists, and technicians"
+  ],
+  "salary_range": "₹8,00,000 – ₹40,00,000+ per year depending on specialization",
+  "top_companies_offering_this_role": [
+    "Apollo Hospitals",
+    "AIIMS",
+    "Fortis",
+    "Manipal Hospitals",
+    "Government hospitals",
+    "Narayana Health"
+  ]
+},
+{
+  "job_title": "Government Officer",
+  "description": "Government officers manage administration, execute policies, and ensure public welfare and law enforcement across districts and departments.",
+  "roles_and_overview": "Lead public administration operations, supervise government projects, implement development schemes, and maintain governance quality.",
+  "skills_required": [
+    "Public policy",
+    "Administrative management",
+    "Report drafting",
+    "Leadership",
+    "Data analysis",
+    "Decision-making"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in any field",
+    "Clear UPSC / State PSC civil service examination"
+  ],
+  "duties_and_responsibilities": [
+    "Manage government departments and planning projects",
+    "Maintain law and order",
+    "Policy implementation and public service",
+    "Address citizen concerns and conduct field inspections"
+  ],
+  "salary_range": "₹6,00,000 – ₹22,00,000 per year + Government benefits",
+  "top_companies_offering_this_role": [
+    "Indian Administrative Service (IAS)",
+    "IPS, IFS, IRS departments",
+    "State Government departments",
+    "Ministries and Central Government sectors"
+  ]
+},
+{
+  "job_title": "Artist",
+  "description": "Artists create visual, digital, or performance-based artworks to communicate ideas, emotions, stories, and cultural messages. They work across various mediums such as painting, digital art, sculpting, animation, and multimedia to produce visually appealing and meaningful work.",
+  "roles_and_overview": "Responsible for conceptualizing artistic ideas, developing visual designs, creating original artwork, and adapting different art styles using creative tools. Collaborates with clients, studios, or galleries to produce artwork for exhibitions, publications, films, advertisements, or online media.",
+  "skills_required": [
+    "Sketching and drawing",
+    "Digital design and illustration",
+    "Color theory and composition",
+    "Creative visualization",
+    "Software tools (Photoshop, Illustrator, Procreate, Blender, After Effects)",
+    "Visual storytelling"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in Fine Arts (BFA), Visual Arts, or Graphic Design",
+    "Diploma courses in animation, digital arts, or multimedia design",
+    "Portfolio is more important than formal degree"
+  ],
+  "duties_and_responsibilities": [
+    "Create original artworks using traditional or digital mediums",
+    "Develop concepts based on themes, creative briefs, or client requirements",
+    "Collaborate with media houses, designers, writers, and directors",
+    "Participate in exhibitions, art shows, or online sales",
+    "Edit and refine artwork based on feedback",
+    "Maintain an online portfolio and build personal brand"
+  ],
+  "salary_range": "₹3,00,000 – ₹20,00,000 per year (varies highly based on niche, demand, and popularity)",
+  "top_companies_offering_this_role": [
+    "Animation and gaming studios",
+    "Advertising and creative agencies",
+    "Publishing houses",
+    "Film production and OTT platforms",
+    "Freelance projects on Upwork, Fiverr, Behance, Dribbble",
+    "Art galleries and design studios"
+  ]
+},
+{
+  "job_title": "Social Media Analyst",
+  "description": "Social Media Analysts study behavioral trends and online interactions across social platforms to improve engagement and marketing strategies.",
+  "roles_and_overview": "Responsible for analyzing digital audience behavior, running campaigns, studying social trends, and helping brands grow.",
+  "skills_required": [
+    "Data analytics",
+    "Digital marketing",
+    "Psychology and behavioral analytics",
+    "Content strategy",
+    "Trend prediction"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Sociology / Psychology / Marketing / Media",
+    "Courses in Digital Marketing and analytics tools"
+  ],
+  "duties_and_responsibilities": [
+    "Track and analyze social media metrics",
+    "Create reports on audience behavior",
+    "Develop strategy to grow brand reach",
+    "Monitor industry trends"
+  ],
+  "salary_range": "₹4,00,000 – ₹18,00,000 per year",
+  "top_companies_offering_this_role": [
+    "Meta",
+    "Google",
+    "Zomato",
+    "Swiggy",
+    "Brand and marketing agencies"
+  ]
+},
+{
+  "job_title": "Teacher",
+  "description": "Teachers educate students, develop lesson plans, conduct assessments, and guide learners to build strong academic and personal foundations.",
+  "roles_and_overview": "Responsible for classroom teaching, mentoring, conducting evaluations, and fostering a positive learning environment.",
+  "skills_required": [
+    "Classroom management",
+    "Subject expertise",
+    "Communication and presentation",
+    "Curriculum planning",
+    "Student assessment",
+    "Empathy and motivation"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in Education (B.Ed)",
+    "Master’s degree optional (M.Ed) or specialization subject degree",
+    "Teaching certification and training"
+  ],
+  "duties_and_responsibilities": [
+    "Create lesson plans and deliver lectures",
+    "Evaluate student performance",
+    "Support slow learners and track progress",
+    "Organize educational activities",
+    "Maintain classroom discipline"
+  ],
+  "salary_range": "₹2,50,000 – ₹10,00,000 per year depending on school or college",
+  "top_companies_offering_this_role": [
+    "Apollo Schools",
+    "Delhi Public School",
+    "Sri Chaitanya",
+    "Narayana",
+    "Government schools",
+    "Universities & Colleges"
+  ]
+},
+{
+  "job_title": "Business Owner / Entrepreneur",
+  "description": "Business owners create and manage companies, handle operations, finance, sales, marketing, and lead business expansion.",
+  "roles_and_overview": "Responsible for planning strategies, managing teams, analyzing profits, monitoring finance, and scaling the business.",
+  "skills_required": [
+    "Leadership",
+    "Strategic planning",
+    "Marketing and sales",
+    "Financial management",
+    "Risk analysis",
+    "Negotiation"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Business, Commerce, or Management (Preferable)",
+    "MBA optional",
+    "Entrepreneurship courses / startup experience"
+  ],
+  "duties_and_responsibilities": [
+    "Manage employees and business resources",
+    "Plan budgets and financial strategy",
+    "Develop marketing campaigns",
+    "Monitor sales and customer service",
+    "Handle legal and administrative operations"
+  ],
+  "salary_range": "Income varies depending on business success (₹5 lakhs – ₹50 crores+)",
+  "top_companies_offering_this_role": [
+    "Startups",
+    "Self-owned businesses",
+    "Franchise networks",
+    "E-commerce companies"
+  ]
+},
+{
+  "job_title": "Scientist",
+  "description": "Scientists conduct experiments, analyze data, and contribute to research that advances scientific knowledge and technology.",
+  "roles_and_overview": "Responsible for research, data analysis, publishing papers, and innovating new findings for developmental progress.",
+  "skills_required": [
+    "Research and analysis",
+    "Laboratory skills",
+    "Mathematical modeling",
+    "Scientific writing",
+    "Critical thinking"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in Science (B.Sc)",
+    "Master’s (M.Sc) + PhD for research positions",
+    "Specialization in the chosen research field"
+  ],
+  "duties_and_responsibilities": [
+    "Design and conduct experiments",
+    "Analyze results and publish research papers",
+    "Participate in scientific conferences",
+    "Develop new theories and inventions",
+    "Collaborate with research labs"
+  ],
+  "salary_range": "₹6,00,000 – ₹40,00,000 per year depending on domain",
+  "top_companies_offering_this_role": [
+    "ISRO",
+    "DRDO",
+    "CSIR",
+    "NASA",
+    "Bhabha Atomic Research Centre",
+    "Pharmaceutical companies",
+    "Research universities"
+  ]
+},
+{
+  "job_title": "Banker",
+  "description": "Bankers manage financial transactions, customer accounts, investments, and ensure regulatory compliance in banking operations.",
+  "roles_and_overview": "Handles loans, savings, investment guidance, financial risk, and customer financial planning.",
+  "skills_required": [
+    "Financial analysis",
+    "Accounting",
+    "Customer handling",
+    "Risk assessment",
+    "Business and economics knowledge"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Commerce / Finance / Economics / BBA",
+    "Banking certifications like CAIIB, NISM, CFA optional",
+    "IBPS or government exam for public banks"
+  ],
+  "duties_and_responsibilities": [
+    "Manage accounts and loans",
+    "Review credit and investments",
+    "Assist customers with banking services",
+    "Analyze financial records",
+    "Maintain compliance with banking laws"
+  ],
+  "salary_range": "₹3,50,000 – ₹20,00,000 per year depending on role",
+  "top_companies_offering_this_role": [
+    "SBI",
+    "HDFC",
+    "ICICI",
+    "Axis Bank",
+    "Kotak",
+    "RBI",
+    "Government banks"
+  ]
+},
+{
+  "job_title": "Writer",
+  "description": "Writers create engaging content, books, articles, scripts, or documentation for media, marketing, education, or entertainment.",
+  "roles_and_overview": "Responsible for researching topics, drafting content, editing, proofreading, and publishing creative or technical writing.",
+  "skills_required": [
+    "Storytelling",
+    "Creative thinking",
+    "Editing and proofreading",
+    "Research",
+    "Grammar and vocabulary",
+    "Content strategy"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Literature / Journalism / Mass Communication",
+    "Creative writing courses"
+  ],
+  "duties_and_responsibilities": [
+    "Write articles, blogs, or books",
+    "Research and gather factual data",
+    "Edit and format content",
+    "Work with editors and publishers",
+    "Develop engaging stories"
+  ],
+  "salary_range": "₹2,50,000 – ₹18,00,000 per year / or freelance earnings",
+  "top_companies_offering_this_role": [
+    "Newspapers",
+    "Magazines",
+    "Film & television",
+    "Marketing agencies",
+    "Digital platforms",
+    "Publishing houses"
+  ]
+},
+{
+  "job_title": "Accountant",
+  "description": "Accountants maintain financial records, prepare statements, handle audits, and ensure tax compliance for businesses or individuals.",
+  "roles_and_overview": "Manages budgets, invoices, payroll, and financial risk, ensuring accuracy and legal compliance.",
+  "skills_required": [
+    "Accounting software",
+    "Taxation",
+    "Bookkeeping",
+    "Excel and financial reports",
+    "Auditing",
+    "Analytical reasoning"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in B.Com / BBA Finance",
+    "CA, CMA, CPA, or MBA optional for specialization"
+  ],
+  "duties_and_responsibilities": [
+    "Prepare financial reports",
+    "File taxes and maintain accounts",
+    "Perform audits",
+    "Analyze revenue and expenses",
+    "Ensure legal financial compliance"
+  ],
+  "salary_range": "₹3,00,000 – ₹25,00,000 per year depending on qualification",
+  "top_companies_offering_this_role": [
+    "Deloitte",
+    "KPMG",
+    "PwC",
+    "TCS",
+    "Infosys",
+    "Government audit departments",
+    "Finance firms"
+  ]
+},
+{
+  "job_title": "Designer",
+  "description": "Designers create visual branding, product designs, digital experiences, and creative assets for marketing and business needs.",
+  "roles_and_overview": "Responsible for developing visual layouts, digital illustrations, UI/UX designs, logos, and product models.",
+  "skills_required": [
+    "Creativity",
+    "UI/UX design",
+    "Adobe Photoshop & Illustrator",
+    "Figma / Canva",
+    "Color theory & layouts",
+    "User research"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Design / Animation / Fine Arts",
+    "UI/UX certification optional"
+  ],
+  "duties_and_responsibilities": [
+    "Create visual and digital design assets",
+    "Collaborate with developers and marketing teams",
+    "Conduct user research and testing",
+    "Develop branding and product visuals"
+  ],
+  "salary_range": "₹4,00,000 – ₹20,00,000 per year",
+  "top_companies_offering_this_role": [
+    "Google",
+    "Adobe",
+    "Infosys",
+    "Byju’s",
+    "Design studios",
+    "Gaming companies"
+  ]
+},
+{
+  "job_title": "Construction Engineer",
+  "description": "Construction Engineers plan, design, and supervise construction projects including buildings, bridges, and infrastructure.",
+  "roles_and_overview": "Responsible for structural planning, material analysis, site supervision, and ensuring safety standards.",
+  "skills_required": [
+    "AutoCAD",
+    "Civil engineering design",
+    "Project management",
+    "Materials engineering",
+    "Cost estimation",
+    "Safety compliance"
+  ],
+  "educational_requirements": [
+    "B.Tech / B.E in Civil Engineering",
+    "M.Tech optional",
+    "Training certifications in project management"
+  ],
+  "duties_and_responsibilities": [
+    "Plan and design structural layouts",
+    "Manage construction sites",
+    "Coordinate teams and contractors",
+    "Check safety standards",
+    "Estimate project cost and timeline"
+  ],
+  "salary_range": "₹4,50,000 – ₹25,00,000 per year",
+  "top_companies_offering_this_role": [
+    "L&T",
+    "GMR",
+    "TATA Projects",
+    "Adani",
+    "Indian Railways",
+    "Government infrastructure agencies"
+  ]
+},
+{
+  "job_title": "Game Developer",
+  "description": "Game Developers build interactive video games using programming, design, 3D modeling, and animation technologies.",
+  "roles_and_overview": "Responsible for gameplay mechanics, UI/UX interaction, graphics, physics, and optimization.",
+  "skills_required": [
+    "Unity / Unreal Engine",
+    "C++ / C# / Java",
+    "3D modeling tools",
+    "Game physics",
+    "Animation and scripting"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Game Development / Computer Science / Graphics",
+    "Courses in Animation, VFX, and 3D modeling"
+  ],
+  "duties_and_responsibilities": [
+    "Develop game logic & mechanics",
+    "Create animations and 3D elements",
+    "Collaborate with designers and artists",
+    "Test performance and fix bugs"
+  ],
+  "salary_range": "₹4,00,000 – ₹30,00,000 per year",
+  "top_companies_offering_this_role": [
+    "Ubisoft",
+    "EA Sports",
+    "Rockstar Games",
+    "Sony Games",
+    "Nazara Technologies"
+  ]
+},
+{
+  "job_title": "Stock Investor / Trader",
+  "description": "Stock investors analyze financial markets and trade stocks to generate financial profit based on market strategies.",
+  "roles_and_overview": "Responsible for risk management, market research, investment planning, and portfolio management.",
+  "skills_required": [
+    "Market research",
+    "Financial analysis",
+    "Trading tools",
+    "Risk management",
+    "Portfolio management"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Commerce / Economics / Finance",
+    "Investment certifications (NISM, CFA) optional"
+  ],
+  "duties_and_responsibilities": [
+    "Analyze market trends",
+    "Monitor share prices and news",
+    "Manage investment portfolios",
+    "Develop risk strategies"
+  ],
+  "salary_range": "Variable: losses/profits based on trading performance (₹5 lakhs – ₹5 crores+)",
+  "top_companies_offering_this_role": [
+    "Trading firms",
+    "Stock broking companies",
+    "Investment banks",
+    "Self trading"
+  ]
+},
+{
+  "job_title": "Real Estate Developer",
+  "description": "Real Estate Developers plan and construct residential or commercial buildings and manage investments in large-scale property projects.",
+  "roles_and_overview": "Responsible for planning layouts, supervising project execution, analyzing property values, and coordinating with stakeholders.",
+  "skills_required": [
+    "Market analysis",
+    "Finance and investment",
+    "Construction and architecture",
+    "Negotiation",
+    "Urban planning"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Civil Engineering / Architecture / Business / Real Estate",
+    "MBA optional"
+  ],
+  "duties_and_responsibilities": [
+    "Plan housing and commercial projects",
+    "Monitor construction phases",
+    "Manage investors and budgets",
+    "Negotiate land and property deals"
+  ],
+  "salary_range": "₹10,00,000 – ₹5,00,00,000+ (highly profitable industry)",
+  "top_companies_offering_this_role": [
+    "DLF",
+    "Prestige",
+    "Lodha Group",
+    "Brigade Group",
+    "Sobha Developers"
+  ]
+},
+
+  {
     "job_title": "Software Engineer",
-    "description": "A Software Engineer designs, develops, tests, and maintains software applications or systems that solve real business problems. They work with programming languages, frameworks, and development tools to create scalable and efficient digital solutions.",
+    "description": "A Software Engineer designs, develops, tests, and maintains software applications or systems that solve real business problems. They work with programming languages, frameworks, and development tools to create scalable and efficient digital solutions. Their work includes building user-friendly applications, improving performance, and ensuring software security and reliability.",
     "roles_and_overview": "Responsible for full-cycle software development including requirement analysis, system design, coding, debugging, deployment, and maintenance. Works closely with cross-functional teams including designers, testers, and product managers.",
     "skills_required": [
       "Programming languages (Java, Python, C++, JavaScript, etc.)",
@@ -13,7 +532,7 @@
       "Problem-solving and analytical thinking"
     ],
     "educational_requirements": [
-      "Bachelor's or Master's degree in Computer Science, Software Engineering, or IT",
+      "Bachelor's or Master’s degree in Computer Science, Software Engineering, or IT",
       "Strong understanding of operating systems, networking, and cloud platforms"
     ],
     "duties_and_responsibilities": [
@@ -27,251 +546,3568 @@
     "top_companies_offering_this_role": ["Google", "Microsoft", "Amazon", "Infosys", "TCS", "Accenture", "Wipro"]
   },
   {
-    "id": "data-scientist",
     "job_title": "Data Scientist",
-    "description": "Data Scientists analyze complex data sets to extract meaningful insights and help businesses make data-driven decisions using statistical analysis, machine learning, and data visualization techniques.",
-    "roles_and_overview": "Collect, process, and analyze large datasets to identify trends, patterns, and business opportunities. Build predictive models and machine learning algorithms.",
+    "description": "A Data Scientist analyzes and interprets complex datasets to help organizations make data-driven decisions. They build predictive models, extract meaningful insights, and use advanced statistical and machine learning techniques to solve business problems.",
+    "roles_and_overview": "Works with big data tools, analytics methods, and AI models to convert raw data into actionable intelligence. Collaborates with data engineers, business analysts, and domain experts.",
     "skills_required": [
       "Python, R, SQL",
-      "Machine Learning and Deep Learning",
-      "Statistics and Mathematics",
-      "Data Visualization (Tableau, Power BI)",
-      "Big Data technologies (Hadoop, Spark)",
-      "Communication skills"
+      "Machine learning & deep learning knowledge",
+      "Statistics & probability",
+      "Data visualization tools (Power BI, Tableau)",
+      "Big data technologies (Hadoop, Spark)",
+      "Analytical thinking & problem solving"
     ],
     "educational_requirements": [
-      "Bachelor's or Master's degree in Data Science, Statistics, Computer Science, or related field",
-      "Knowledge of statistical modeling and machine learning algorithms"
+      "Bachelor's or Master's degree in Data Science, AI/ML, Mathematics, or Statistics"
     ],
     "duties_and_responsibilities": [
-      "Analyze large datasets to discover trends and insights",
-      "Build and deploy machine learning models",
-      "Create data visualizations and dashboards",
-      "Collaborate with business teams to solve problems",
-      "Present findings to stakeholders"
+      "Collect, clean and analyze large datasets",
+      "Build machine-learning & predictive models",
+      "Create dashboards and reports",
+      "Optimize decisions using analytical insights"
+    ],
+    "salary_range": "₹8,00,000 - ₹45,00,000 per year in India, depending on expertise",
+    "top_companies_offering_this_role": ["Google", "IBM", "Amazon", "Accenture", "Deloitte", "PwC", "Oracle"]
+  },
+  {
+    "job_title": "Marketing Manager",
+    "description": "A Marketing Manager leads marketing strategies and campaigns to promote products or services, enhance brand visibility, and drive business growth. They analyze market trends, target audience behavior, and competitor positioning to execute effective marketing plans.",
+    "roles_and_overview": "Oversees digital marketing, advertising, branding, and communication efforts. Coordinates with sales and product teams to ensure high market performance.",
+    "skills_required": [
+      "Digital marketing and SEO",
+      "Content strategy and branding",
+      "Market research and analytics",
+      "Communication & leadership",
+      "Campaign planning and budgeting"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or MBA in Marketing, Communications, or Business Management"
+    ],
+    "duties_and_responsibilities": [
+      "Plan marketing campaigns and strategies",
+      "Manage brand identity and product positioning",
+      "Monitor campaign analytics and prepare reports",
+      "Collaborate with agencies and creative teams"
     ],
     "salary_range": "₹6,00,000 - ₹35,00,000 per year in India",
-    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "Flipkart", "Walmart", "IBM", "Adobe"]
+    "top_companies_offering_this_role": ["Hindustan Unilever", "Tata", "Apple", "Swiggy", "Zomato", "Google", "PepsiCo"]
   },
   {
-    "id": "machine-learning-engineer",
-    "job_title": "Machine Learning Engineer",
-    "description": "Design and implement ML algorithms for production systems, focusing on building scalable machine learning models and deploying them in real-world applications.",
-    "roles_and_overview": "Bridge the gap between data science and engineering by taking ML models from research to production, optimizing performance and scalability.",
+    "job_title": "UX Designer",
+    "description": "A UX Designer focuses on designing intuitive, user-friendly, and meaningful digital experiences for applications, products, or websites. They understand user behavior, perform research, and build wireframes and prototypes.",
+    "roles_and_overview": "Helps optimize user experience by improving usability, accessibility, interaction flow, and visual consistency.",
     "skills_required": [
-      "Python, TensorFlow, PyTorch",
-      "Machine Learning algorithms",
-      "Cloud platforms (AWS, Azure, GCP)",
-      "Statistics and Mathematics",
-      "Software engineering practices",
-      "MLOps and model deployment"
+      "UI/UX tools (Figma, Adobe XD, Sketch)",
+      "User research & persona mapping",
+      "Wireframing & prototyping",
+      "Design thinking",
+      "Usability testing"
     ],
     "educational_requirements": [
-      "Bachelor's or Master's degree in Computer Science, AI/ML, or related field",
-      "Strong understanding of algorithms and data structures"
+      "Bachelor's degree in Design, Human-Computer Interaction, Psychology, or related fields"
     ],
     "duties_and_responsibilities": [
-      "Design and develop ML models and algorithms",
-      "Deploy models to production environments",
-      "Optimize model performance and scalability",
-      "Monitor and maintain ML systems",
-      "Collaborate with data scientists and engineers"
-    ],
-    "salary_range": "₹8,00,000 - ₹40,00,000 per year in India",
-    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "NVIDIA", "Tesla", "Netflix", "Uber"]
-  },
-  {
-    "id": "ai-research-scientist",
-    "job_title": "AI Research Scientist",
-    "description": "Conduct advanced research in artificial intelligence and machine learning, developing new algorithms and approaches to solve complex AI challenges.",
-    "roles_and_overview": "Focus on cutting-edge AI research, publishing papers, and developing novel approaches to advance the field of artificial intelligence.",
-    "skills_required": [
-      "Deep Learning and Neural Networks",
-      "Research methodology",
-      "Python, TensorFlow, PyTorch",
-      "Mathematics and Statistics",
-      "Academic writing and publication",
-      "Critical thinking"
-    ],
-    "educational_requirements": [
-      "PhD in Computer Science, AI, Machine Learning, or related field",
-      "Strong publication record in top-tier conferences"
-    ],
-    "duties_and_responsibilities": [
-      "Conduct fundamental and applied AI research",
-      "Develop novel algorithms and techniques",
-      "Publish research papers in conferences and journals",
-      "Collaborate with academic and industry researchers",
-      "Mentor junior researchers and engineers"
-    ],
-    "salary_range": "₹15,00,000 - ₹50,00,000+ per year in India",
-    "top_companies_offering_this_role": ["Google DeepMind", "Microsoft Research", "Meta AI", "OpenAI", "IBM Research", "Amazon Science"]
-  },
-  {
-    "id": "business-intelligence-analyst",
-    "job_title": "Business Intelligence Analyst",
-    "description": "Analyze business data to support decision making, creating reports and dashboards that help organizations understand their performance and opportunities.",
-    "roles_and_overview": "Transform raw data into actionable business insights through analysis, visualization, and reporting to support strategic decisions.",
-    "skills_required": [
-      "SQL and database management",
-      "Tableau, Power BI",
-      "Data analysis and statistics",
-      "Business acumen",
-      "Excel and data modeling",
-      "Communication skills"
-    ],
-    "educational_requirements": [
-      "Bachelor's degree in Business Analytics, Statistics, or related field",
-      "Understanding of business processes and metrics"
-    ],
-    "duties_and_responsibilities": [
-      "Analyze business data and identify trends",
-      "Create dashboards and reports",
-      "Provide data-driven recommendations",
-      "Collaborate with business stakeholders",
-      "Maintain data quality and documentation"
-    ],
-    "salary_range": "₹4,00,000 - ₹20,00,000 per year in India",
-    "top_companies_offering_this_role": ["Deloitte", "PwC", "EY", "Accenture", "McKinsey", "KPMG", "Flipkart"]
-  },
-  {
-    "id": "product-manager",
-    "job_title": "Product Manager",
-    "description": "Lead product development from concept to launch, defining product strategy, roadmap, and features while working with cross-functional teams.",
-    "roles_and_overview": "Own the product vision and strategy, prioritize features, and ensure successful product delivery that meets customer needs and business goals.",
-    "skills_required": [
-      "Product strategy and roadmapping",
-      "Data analysis",
-      "Communication and leadership",
-      "Market research",
-      "Agile methodologies",
-      "Technical understanding"
-    ],
-    "educational_requirements": [
-      "Bachelor's degree in Business, Engineering, or related field",
-      "MBA preferred for senior roles",
-      "Understanding of technology and user experience"
-    ],
-    "duties_and_responsibilities": [
-      "Define product vision and strategy",
-      "Create and prioritize product roadmap",
-      "Work with engineering, design, and marketing teams",
-      "Analyze market trends and user feedback",
-      "Launch and iterate on products"
-    ],
-    "salary_range": "₹10,00,000 - ₹45,00,000 per year in India",
-    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "Flipkart", "PhonePe", "Swiggy", "Zomato"]
-  },
-  {
-    "id": "ux-ui-designer",
-    "job_title": "UX/UI Designer",
-    "description": "Design user-friendly and visually appealing digital interfaces, focusing on user experience and interface design to create intuitive products.",
-    "roles_and_overview": "Research user needs, create wireframes and prototypes, and design interfaces that provide excellent user experiences.",
-    "skills_required": [
-      "Figma, Sketch, Adobe XD",
-      "User research and testing",
-      "Wireframing and prototyping",
-      "Visual design principles",
-      "HTML/CSS basics",
-      "Empathy and communication"
-    ],
-    "educational_requirements": [
-      "Bachelor's degree in Design, HCI, or related field",
-      "Portfolio demonstrating design work",
-      "Understanding of design thinking principles"
-    ],
-    "duties_and_responsibilities": [
-      "Conduct user research and usability testing",
-      "Create wireframes, prototypes, and mockups",
-      "Design user interfaces and experiences",
+      "Conduct user research and usability tests",
+      "Create wireframes, prototypes, and UI components",
       "Collaborate with developers and product managers",
-      "Maintain design systems and guidelines"
-    ],
-    "salary_range": "₹3,50,000 - ₹25,00,000 per year in India",
-    "top_companies_offering_this_role": ["Google", "Amazon", "Adobe", "Airbnb", "Netflix", "Razorpay", "CRED"]
-  },
-  {
-    "id": "devops-engineer",
-    "job_title": "DevOps Engineer",
-    "description": "Automate and streamline software development and deployment processes, ensuring reliable and efficient infrastructure and operations.",
-    "roles_and_overview": "Bridge development and operations teams, implementing CI/CD pipelines, managing cloud infrastructure, and ensuring system reliability.",
-    "skills_required": [
-      "Linux/Unix systems",
-      "CI/CD tools (Jenkins, GitLab)",
-      "Cloud platforms (AWS, Azure, GCP)",
-      "Docker and Kubernetes",
-      "Scripting (Python, Bash)",
-      "Monitoring and logging tools"
-    ],
-    "educational_requirements": [
-      "Bachelor's degree in Computer Science or related field",
-      "Strong understanding of software development and IT operations",
-      "Cloud certifications preferred"
-    ],
-    "duties_and_responsibilities": [
-      "Build and maintain CI/CD pipelines",
-      "Manage cloud infrastructure",
-      "Automate deployment processes",
-      "Monitor system performance and reliability",
-      "Troubleshoot and resolve infrastructure issues"
-    ],
-    "salary_range": "₹6,00,000 - ₹30,00,000 per year in India",
-    "top_companies_offering_this_role": ["Amazon", "Google", "Microsoft", "Netflix", "Atlassian", "Red Hat", "HashiCorp"]
-  },
-  {
-    "id": "cybersecurity-analyst",
-    "job_title": "Cybersecurity Analyst",
-    "description": "Protect organizations from cyber threats by monitoring security systems, investigating incidents, and implementing security measures.",
-    "roles_and_overview": "Monitor networks for security breaches, investigate security incidents, and implement measures to protect organizational data and systems.",
-    "skills_required": [
-      "Network security",
-      "Threat detection and analysis",
-      "Security tools (SIEM, IDS/IPS)",
-      "Ethical hacking",
-      "Risk assessment",
-      "Incident response"
-    ],
-    "educational_requirements": [
-      "Bachelor's degree in Cybersecurity, Computer Science, or related field",
-      "Security certifications (CEH, CISSP, CompTIA Security+)",
-      "Understanding of security frameworks and compliance"
-    ],
-    "duties_and_responsibilities": [
-      "Monitor security alerts and events",
-      "Investigate security incidents",
-      "Conduct vulnerability assessments",
-      "Implement security controls",
-      "Develop security policies and procedures"
+      "Ensure consistent visual design standards"
     ],
     "salary_range": "₹5,00,000 - ₹28,00,000 per year in India",
-    "top_companies_offering_this_role": ["IBM", "Cisco", "Palo Alto Networks", "CrowdStrike", "Deloitte", "EY", "PwC"]
+    "top_companies_offering_this_role": ["Spotify", "Adobe", "Google", "Microsoft", "Infosys", "TCS"]
   },
   {
-    "id": "cloud-architect",
-    "job_title": "Cloud Architect",
-    "description": "Design and oversee cloud computing strategies, managing cloud infrastructure and ensuring scalability, security, and cost-effectiveness.",
-    "roles_and_overview": "Lead cloud strategy and architecture decisions, design cloud solutions, and ensure best practices in cloud implementation.",
+    "job_title": "Financial Analyst",
+    "description": "A Financial Analyst evaluates financial data and investment performance to help businesses make informed economic decisions. They analyze budgets, forecast earnings, and assess risks based on market movements and company trends.",
+    "roles_and_overview": "Works with financial reporting, investment modeling, and cash flow analytics to support senior leadership.",
     "skills_required": [
-      "Cloud platforms (AWS, Azure, GCP)",
-      "Infrastructure as Code",
-      "Microservices architecture",
-      "Security and compliance",
-      "Networking concepts",
-      "Cost optimization"
+      "Financial modeling & forecasting",
+      "Advanced Excel & spreadsheets",
+      "Accounting and budgeting",
+      "Risk analysis",
+      "Strong mathematical and analytical skills"
     ],
     "educational_requirements": [
-      "Bachelor's degree in Computer Science or related field",
-      "Cloud certifications (AWS Solutions Architect, Azure Architect)",
-      "Extensive experience in cloud technologies"
+      "Bachelor’s degree in Finance, Accounting, Economics, or Business Administration",
+      "Certifications like CFA/FRM are beneficial"
     ],
     "duties_and_responsibilities": [
-      "Design cloud architecture solutions",
-      "Lead cloud migration projects",
-      "Optimize cloud infrastructure costs",
-      "Ensure security and compliance",
-      "Provide technical leadership and guidance"
+      "Analyze financial statements and reports",
+      "Prepare budgets and financial projections",
+      "Evaluate investment opportunities",
+      "Compile data for decision-making presentations"
     ],
-    "salary_range": "₹12,00,000 - ₹50,00,000 per year in India",
-    "top_companies_offering_this_role": ["Amazon", "Microsoft", "Google", "IBM", "Accenture", "Wipro", "Infosys"]
+    "salary_range": "₹4,50,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["JP Morgan", "Goldman Sachs", "Deloitte", "KPMG", "EY", "HSBC"]
+  },
+  {
+    "job_title": "Project Manager",
+    "description": "A Project Manager is responsible for planning, executing, and delivering projects on time and within budget while coordinating teams, resources, risks, and communications. They ensure successful completion by defining project goals and tracking progress.",
+    "roles_and_overview": "Leads cross-functional teams, oversees workflows, mitigates risks, and communicates with stakeholders.",
+    "skills_required": [
+      "Leadership and team management",
+      "Planning and scheduling",
+      "Risk management",
+      "Budgeting and resource allocation",
+      "Communication & documentation"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business, Engineering, or related fields",
+      "Certifications like PMP, PRINCE2, or Agile Scrum Master are valuable"
+    ],
+    "duties_and_responsibilities": [
+      "Define project scope, goals, and deliverables",
+      "Manage project timelines and tasks",
+      "Monitor performance and adjust plans",
+      "Organize meetings and status reporting"
+    ],
+    "salary_range": "₹7,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["TCS", "Wipro", "Accenture", "IBM", "Infosys", "Capgemini"]
+  },
+  {
+    "job_title": "Sales Representative",
+    "description": "A Sales Representative sells products or services to customers, manages client relationships, and increases business revenue. They identify leads, pitch solutions, negotiate pricing, and close sales deals.",
+    "roles_and_overview": "Acts as the primary contact between the company and customers, supporting sales growth and customer satisfaction.",
+    "skills_required": [
+      "Communication and negotiation",
+      "Customer relationship management",
+      "Persuasive speaking and presentation",
+      "Market and product knowledge"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business, Marketing, or any field depending on industry requirement"
+    ],
+    "duties_and_responsibilities": [
+      "Identify and approach potential clients",
+      "Present product features and pricing",
+      "Negotiate deals and close sales",
+      "Maintain sales reports and CRM records"
+    ],
+    "salary_range": "₹3,00,000 - ₹15,00,000 per year in India + incentives",
+    "top_companies_offering_this_role": ["Reliance", "HDFC", "Tata", "Amazon", "Byju’s", "Asian Paints"]
+  },
+  {
+    "job_title": "HR Specialist",
+    "description": "An HR Specialist handles employee recruitment, onboarding, training, payroll, compliance, and workplace policies. They support organizational growth by managing human talent efficiently.",
+    "roles_and_overview": "Works closely with HR managers, leadership, and employees to enhance productivity and maintain an ethical workplace culture.",
+    "skills_required": [
+      "Recruitment and talent acquisition",
+      "Communication and relationship building",
+      "Payroll and HRMS tools",
+      "Labor law and compliance knowledge",
+      "Conflict resolution"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Human Resources, Business Administration, or related field",
+      "Certifications like SHRM, HRBP, or HR Analytics are helpful"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct interviews and hiring processes",
+      "Manage HR records, payroll, and policies",
+      "Coordinate employee engagement programs",
+      "Resolve workplace concerns"
+    ],
+    "salary_range": "₹3,50,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["LinkedIn", "TCS", "HCL", "Tech Mahindra", "IBM", "Infosys"]
+  },
+  {
+    "job_title": "Graphic Designer",
+    "description": "A Graphic Designer creates visual content and branding elements such as logos, banners, posters, UI assets, and marketing material for digital and print media. They combine creativity and design principles to communicate ideas visually.",
+    "roles_and_overview": "Works with design teams, marketing personnel, and clients to produce appealing graphics aligned with brand identity.",
+    "skills_required": [
+      "Adobe Photoshop, Illustrator, CorelDRAW",
+      "Creativity and visual communication",
+      "Typography and color theory",
+      "Layout design",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Graphic Design, Fine Arts, Media, or relevant discipline"
+    ],
+    "duties_and_responsibilities": [
+      "Conceptualize and design creative assets",
+      "Collaborate with teams to understand requirements",
+      "Prepare designs for digital and print formats",
+      "Revise and improve based on feedback"
+    ],
+    "salary_range": "₹2,50,000 - ₹14,00,000 per year in India",
+    "top_companies_offering_this_role": ["Pinterest", "Canva", "Adobe", "Byju’s", "TCS", "Wipro"]
+  },
+  {
+    "job_title": "Business Analyst",
+    "description": "A Business Analyst analyzes business processes, identifies improvement opportunities, and provides strategic solutions through data insights and requirement modeling. They act as a bridge between business teams and technical teams.",
+    "roles_and_overview": "Works on requirement documentation, workflow design, feasibility analysis, and project coordination to improve operational efficiency and decision-making.",
+    "skills_required": [
+      "Requirement gathering and documentation",
+      "Data analysis and visualization",
+      "SQL & Excel",
+      "Problem-solving and analytical thinking",
+      "Agile & Scrum knowledge"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business Administration, Finance, Engineering, or related field"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze existing processes and propose improvements",
+      "Prepare BRD, FRD, and user-story documents",
+      "Interact with stakeholders and technical teams",
+      "Support testing and implementation"
+    ],
+    "salary_range": "₹5,00,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["Deloitte", "EY", "Cognizant", "Accenture", "Capgemini", "KPMG"]
+  },
+  {
+    "job_title": "Content Writer",
+    "description": "A Content Writer creates engaging written material for websites, blogs, social media, marketing campaigns, and product descriptions. They research topics, understand audience needs, and produce compelling content that improves brand communication and organic visibility.",
+    "roles_and_overview": "Responsible for producing high-quality written content, optimizing writing for SEO, and collaborating with marketing teams for brand storytelling.",
+    "skills_required": [
+      "Creative writing and storytelling",
+      "SEO and keyword optimization",
+      "Research and editing",
+      "Grammar and proofreading",
+      "Content strategy and planning"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in English, Journalism, Communications, or any related field"
+    ],
+    "duties_and_responsibilities": [
+      "Research topics and write engaging content",
+      "Proofread and edit articles",
+      "Optimize content for search engines",
+      "Work with designers, marketers, and subject experts"
+    ],
+    "salary_range": "₹2,50,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Times Group", "Amazon", "BYJU’S", "Wipro", "Infosys", "Swiggy"]
+  },
+  {
+    "job_title": "Network Administrator",
+    "description": "A Network Administrator manages, maintains, and troubleshoots an organization’s computer networks and ensures smooth connectivity and security. They support IT infrastructure including routers, switches, servers, and firewalls.",
+    "roles_and_overview": "Monitors network performance, ensures uptime, resolves technical issues, and implements cybersecurity measures.",
+    "skills_required": [
+      "Networking protocols (TCP/IP, DNS, DHCP)",
+      "Firewall and security management",
+      "Troubleshooting and system maintenance",
+      "Linux and Windows server management",
+      "VPN and cloud network concepts"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Information Technology, Computer Networking, or Computer Science",
+      "Certifications like CCNA, CCNP, or CompTIA Network+"
+    ],
+    "duties_and_responsibilities": [
+      "Install and configure network systems",
+      "Maintain network security and backups",
+      "Monitor performance and resolve outages",
+      "Coordinate with IT support teams"
+    ],
+    "salary_range": "₹4,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Cisco", "HCL", "TCS", "ISRO", "Wipro"]
+  },
+  {
+    "job_title": "Accountant",
+    "description": "An Accountant manages financial records, prepares statements, ensures tax compliance, and analyzes cost reports to support financial planning. They maintain accuracy and transparency in business finances.",
+    "roles_and_overview": "Works with financial documents, manages invoices, tracks expenses, and supports audits and business budgeting.",
+    "skills_required": [
+      "Tally / SAP / QuickBooks",
+      "Financial reporting and auditing",
+      "Tax and compliance management",
+      "Analytical and numerical skills",
+      "MS Excel and spreadsheets"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Accounting, Commerce, or Finance",
+      "CA, CMA, or CPA certifications are preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Prepare financial statements and reports",
+      "Manage invoices, payroll, and tax filing",
+      "Analyze budgets and cost control",
+      "Assist in audits and regulatory compliance"
+    ],
+    "salary_range": "₹3,00,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Deloitte", "KPMG", "EY", "PwC", "HDFC Bank", "ICICI"]
+  },
+  {
+    "job_title": "Customer Service Representative",
+    "description": "A Customer Service Representative assists customers by resolving queries, providing product information, and maintaining customer satisfaction through direct communication across calls, emails, or chat.",
+    "roles_and_overview": "Acts as a connection between customers and business operations to enhance service quality and user experience.",
+    "skills_required": [
+      "Communication & listening skills",
+      "Problem-solving",
+      "Patience and empathy",
+      "CRM tools",
+      "Time management"
+    ],
+    "educational_requirements": [
+      "Any Bachelor’s degree; training provided by employers"
+    ],
+    "duties_and_responsibilities": [
+      "Respond to customer inquiries",
+      "Resolve product-related issues",
+      "Maintain service records",
+      "Escalate issues when necessary"
+    ],
+    "salary_range": "₹2,00,000 - ₹10,00,000 per year in India",
+    "top_companies_offering_this_role": ["Amazon", "Flipkart", "Jio", "HDFC", "Tech Mahindra"]
+  },
+  {
+    "job_title": "Operations Manager",
+    "description": "An Operations Manager oversees daily business operations, manages resources and workforce, and ensures productivity, efficiency, and profitability. They streamline processes and improve performance.",
+    "roles_and_overview": "Coordinates with departments, manages budgets, monitors KPIs, and implements process optimization strategies.",
+    "skills_required": [
+      "Leadership and team management",
+      "Project planning and coordination",
+      "Analytical skills",
+      "Decision-making",
+      "Process optimization & supply chain"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or MBA in Operations, Business Management, or Logistics"
+    ],
+    "duties_and_responsibilities": [
+      "Oversee business operations and workflow",
+      "Maintain performance metrics",
+      "Manage budgets and resource allocation",
+      "Support strategic initiatives"
+    ],
+    "salary_range": "₹6,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["Reliance", "Tata Steel", "Adani", "DHL", "Amazon"]
+  },
+  {
+    "job_title": "DevOps Engineer",
+    "description": "A DevOps Engineer automates software development workflows, manages CI/CD pipelines, and bridges the gap between development and operations to deliver reliable applications faster.",
+    "roles_and_overview": "Works with cloud platforms, automation tools, and system monitoring to ensure smooth deployment and scalability.",
+    "skills_required": [
+      "Linux & shell scripting",
+      "CI/CD (Jenkins, GitHub Actions)",
+      "Docker & Kubernetes",
+      "AWS / Azure / GCP",
+      "Infrastructure as Code (Terraform, Ansible)"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Computer Science or related field"
+    ],
+    "duties_and_responsibilities": [
+      "Automate deployment and integration processes",
+      "Implement cloud-native solutions",
+      "Monitor infrastructure performance",
+      "Collaborate with development teams"
+    ],
+    "salary_range": "₹7,00,000 - ₹45,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Netflix", "Amazon", "Infosys", "Accenture"]
+  },
+  {
+    "job_title": "Quality Assurance Tester",
+    "description": "A QA Tester ensures software functionality, performance, and security by identifying bugs, performing test cases, and improving product quality before release.",
+    "roles_and_overview": "Works with manual testing, automation, and reporting tools to ensure flawless application performance.",
+    "skills_required": [
+      "Manual and Automation testing",
+      "Selenium / Cypress",
+      "Bug tracking tools (JIRA)",
+      "Attention to detail",
+      "Basic programming knowledge"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Computer Science, IT, or Software Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Design and execute test cases",
+      "Report defects and verify fixes",
+      "Ensure performance and security testing",
+      "Prepare documentation"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["TCS", "Wipro", "Capgemini", "Cognizant", "Accenture"]
+  },
+  {
+    "job_title": "Social Media Manager",
+    "description": "A Social Media Manager manages brand visibility and engagement across social platforms by creating content strategies, analyzing performance metrics, and interacting with target audiences.",
+    "roles_and_overview": "Develops campaigns, manages posts, increases followers, and ensures consistent digital branding.",
+    "skills_required": [
+      "Digital marketing",
+      "Content creation",
+      "Analytics tools (Meta Insights, Google Analytics)",
+      "Creativity",
+      "Brand strategy"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Marketing, Media, Communication, or similar fields"
+    ],
+    "duties_and_responsibilities": [
+      "Plan and schedule posts",
+      "Run ad campaigns",
+      "Track engagement and analytics",
+      "Collaborate with influencers"
+    ],
+    "salary_range": "₹3,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Swiggy", "Zomato", "Tata", "Dream11", "Nykaa"]
+  },
+  {
+    "job_title": "Research Scientist",
+    "description": "A Research Scientist investigates scientific concepts, conducts experiments, and develops solutions using advanced research techniques to contribute discoveries in science and technology.",
+    "roles_and_overview": "Analyzes data, performs research publications, and collaborates with academic and industry experts.",
+    "skills_required": [
+      "Research methodology",
+      "Data analysis & statistical tools",
+      "Lab experimentation",
+      "Scientific writing",
+      "Critical and analytical thinking"
+    ],
+    "educational_requirements": [
+      "Master’s or Ph.D. in Science, Biotechnology, Physics, Chemistry, or related domain"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct controlled laboratory experiments",
+      "Publish research papers",
+      "Develop prototypes and scientific models",
+      "Collaborate with researchers globally"
+    ],
+    "salary_range": "₹6,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["ISRO", "DRDO", "CSIR", "Pfizer", "Novartis"]
+  },
+  {
+    "job_title": "Legal Assistant",
+    "description": "A Legal Assistant supports lawyers by preparing legal documents, managing case files, conducting research, and organizing hearings and trial schedules.",
+    "roles_and_overview": "Helps ensure smooth legal operations and assists in client communication and legal procedures.",
+    "skills_required": [
+      "Legal documentation & research",
+      "Analytical thinking",
+      "Communication & writing",
+      "Case management software",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Law, Political Science, or Legal Studies"
+    ],
+    "duties_and_responsibilities": [
+      "Organize case records and legal files",
+      "Prepare affidavits and reports",
+      "Conduct legal research",
+      "Support attorneys in hearings"
+    ],
+    "salary_range": "₹3,00,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Luthra & Luthra", "Trilegal", "AMSS", "High Courts", "EY Legal"]
+  },
+  {
+    "job_title": "Web Developer",
+    "description": "A Web Developer builds and maintains interactive websites and web applications using frontend and backend technologies. They ensure functionality, performance, and visual responsiveness.",
+    "roles_and_overview": "Works with UI designers, backend teams, and stakeholders to deliver user-friendly web solutions.",
+    "skills_required": [
+      "HTML, CSS, JavaScript",
+      "React / Angular / Vue",
+      "Node.js / PHP / Python",
+      "Database systems",
+      "Responsive design"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Computer Science or related fields"
+    ],
+    "duties_and_responsibilities": [
+      "Develop website features and UI components",
+      "Optimize site speed and performance",
+      "Fix bugs and improve usability",
+      "Integrate APIs and backend services"
+    ],
+    "salary_range": "₹3,50,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Zoho", "TCS", "Infosys", "Freshworks"]
+  },
+  {
+    "job_title": "Nurse",
+    "description": "A Nurse provides medical care, patient monitoring, and support in hospitals and healthcare facilities. They assist doctors, administer medications, and ensure patient safety and recovery.",
+    "roles_and_overview": "Serves on the front line of patient treatment and healthcare services.",
+    "skills_required": [
+      "Patient care and communication",
+      "Medical equipment handling",
+      "Emergency response",
+      "Record keeping",
+      "Compassion and empathy"
+    ],
+    "educational_requirements": [
+      "B.Sc. Nursing or GNM Nursing certification",
+      "Licensing required by medical council"
+    ],
+    "duties_and_responsibilities": [
+      "Monitor patient conditions",
+      "Administer injections and medications",
+      "Assist in surgeries and treatments",
+      "Maintain medical records"
+    ],
+    "salary_range": "₹2,50,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Hospitals", "AIIMS", "Fortis", "Narayana Health"]
+  },
+  {
+    "job_title": "Teacher",
+    "description": "A Teacher educates students through structured lessons, learning activities, and assessments. They foster academic growth, discipline, creativity, and character development.",
+    "roles_and_overview": "Creates engaging classroom environments and adapts teaching methods for diverse learning needs.",
+    "skills_required": [
+      "Subject knowledge",
+      "Communication & presentation skills",
+      "Classroom management",
+      "Lesson planning and evaluation",
+      "Patience and mentorship"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or Master’s degree in Education or subject specialization",
+      "B.Ed / M.Ed certification"
+    ],
+    "duties_and_responsibilities": [
+      "Prepare lesson plans and conduct classes",
+      "Evaluate student performance",
+      "Guide students in personal development",
+      "Coordinate academic activities"
+    ],
+    "salary_range": "₹2,40,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Kendriya Vidyalaya", "BYJU’S", "Unacademy", "Allen"]
+  },
+  {
+    "job_title": "Mechanical Engineer",
+    "description": "A Mechanical Engineer designs, analyzes, and manufactures mechanical systems such as engines, machines, equipment, and industrial tools. They work in automotive, manufacturing, aerospace, energy, and robotics sectors.",
+    "roles_and_overview": "Responsible for research, prototyping, testing, quality standards, and process improvement.",
+    "skills_required": [
+      "3D CAD tools (AutoCAD, SolidWorks, CATIA)",
+      "Thermodynamics & fluid mechanics",
+      "Manufacturing technology",
+      "Quality control and safety standards",
+      "Problem-solving and mechanical design"
+    ],
+    "educational_requirements": [
+      "B.Tech / B.E in Mechanical Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Create mechanical designs and technical drawings",
+      "Develop and test prototypes",
+      "Evaluate performance and safety",
+      "Collaborate with production and QA teams"
+    ],
+    "salary_range": "₹3,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Tata Motors", "Mahindra", "BHEL", "ISRO", "L&T", "Ashok Leyland"]
+  },
+  {
+    "job_title": "Digital Marketing Specialist",
+    "description": "A Digital Marketing Specialist plans and executes online marketing strategies to promote products, increase brand awareness, and generate leads through digital channels including SEO, social media, ads, email campaigns, and analytics.",
+    "roles_and_overview": "Responsible for optimizing online presence, tracking campaign performance, and boosting customer engagement using digital platforms.",
+    "skills_required": [
+      "SEO & SEM",
+      "Google Ads & Analytics",
+      "Social media marketing",
+      "Content strategy",
+      "Email marketing automation",
+      "Creative problem-solving"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Marketing, Communications, or Business",
+      "Certifications like Google Digital Marketing, HubSpot"
+    ],
+    "duties_and_responsibilities": [
+      "Plan and execute online marketing campaigns",
+      "Analyze performance metrics and optimize ROI",
+      "Manage social media and paid ad campaigns",
+      "Conduct market and competitor research"
+    ],
+    "salary_range": "₹3,00,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Meta", "Zomato", "Swiggy", "Amazon", "Tata"]
+  },
+  {
+    "job_title": "Database Administrator",
+    "description": "A Database Administrator manages, organizes, and maintains data storage systems to ensure secure, reliable, and efficient access to business information.",
+    "roles_and_overview": "Oversees database installation, backups, optimization, and resolves performance issues while ensuring data security.",
+    "skills_required": [
+      "SQL/NoSQL databases",
+      "Oracle, MySQL, PostgreSQL, MongoDB",
+      "Backup and recovery procedures",
+      "Performance tuning",
+      "Cybersecurity and access control"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Computer Science or Information Technology"
+    ],
+    "duties_and_responsibilities": [
+      "Maintain, secure, and optimize databases",
+      "Monitor performance and troubleshoot issues",
+      "Create backups and recovery strategies",
+      "Ensure data accessibility and integrity"
+    ],
+    "salary_range": "₹5,00,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["Oracle", "IBM", "TCS", "Infosys", "HCL", "Accenture"]
+  },
+  {
+    "job_title": "Administrative Assistant",
+    "description": "An Administrative Assistant provides essential support to ensure smooth office operations, including scheduling, documentation, communication handling, and team coordination.",
+    "roles_and_overview": "Acts as the organizational backbone enabling efficiency and workflow management.",
+    "skills_required": [
+      "Communication and organization",
+      "Time management",
+      "MS Office / Excel",
+      "Customer service",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business Administration or any discipline"
+    ],
+    "duties_and_responsibilities": [
+      "Manage schedules and appointments",
+      "Prepare reports, documentation, and emails",
+      "Organize records and office supplies",
+      "Coordinate meetings and communication"
+    ],
+    "salary_range": "₹2,50,000 - ₹9,00,000 per year in India",
+    "top_companies_offering_this_role": ["Wipro", "TCS", "Deloitte", "Infosys", "Government departments"]
+  },
+  {
+    "job_title": "Video Editor",
+    "description": "A Video Editor assembles visual footage, audio, and graphics to create compelling video content for ads, films, YouTube, and social media.",
+    "roles_and_overview": "Transforms raw media into polished final output through creative editing and visual storytelling.",
+    "skills_required": [
+      "Adobe Premiere Pro, Final Cut Pro, After Effects",
+      "Motion graphics",
+      "Storyboarding",
+      "Color grading and sound editing",
+      "Creativity and timing sense"
+    ],
+    "educational_requirements": [
+      "Degree in Media, Film Production, or Mass Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Edit video footage and audio",
+      "Add effects, transitions, and titles",
+      "Work with marketing and creative teams",
+      "Ensure quality production timelines"
+    ],
+    "salary_range": "₹2,50,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["YouTube Studios", "Netflix", "Star Sports", "Zee", "T-Series"]
+  },
+  {
+    "job_title": "Cybersecurity Analyst",
+    "description": "A Cybersecurity Analyst protects digital systems from cyber threats by monitoring networks, detecting vulnerabilities, and implementing security measures.",
+    "roles_and_overview": "Responds to security incidents, evaluates risks, and strengthens organizational data security.",
+    "skills_required": [
+      "Network security and firewalls",
+      "Threat analysis & incident response",
+      "Ethical hacking",
+      "SIEM tools",
+      "Encryption and malware analysis"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Cybersecurity, IT, or Computer Science",
+      "Certifications like CEH, CompTIA Security+, CISSP"
+    ],
+    "duties_and_responsibilities": [
+      "Monitor network activity and threat alerts",
+      "Perform vulnerability assessments",
+      "Implement defense mechanisms",
+      "Document security procedures"
+    ],
+    "salary_range": "₹6,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["IBM Security", "Cisco", "Infosys", "Deloitte", "Cybercrime Cells"]
+  },
+  {
+    "job_title": "Supply Chain Coordinator",
+    "description": "A Supply Chain Coordinator manages logistics, suppliers, and product movement to ensure efficient storage, transportation, and delivery operations.",
+    "roles_and_overview": "Supports procurement, inventory planning, and vendor management.",
+    "skills_required": [
+      "Logistics management",
+      "Inventory systems & ERP",
+      "Excel & analytics",
+      "Negotiation",
+      "Problem solving"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Supply Chain, Logistics, or Business"
+    ],
+    "duties_and_responsibilities": [
+      "Track shipments and manage logistics",
+      "Coordinate with vendors and warehouses",
+      "Prepare supply chain reports",
+      "Optimize stock management"
+    ],
+    "salary_range": "₹3,50,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Amazon", "Flipkart", "DHL", "BlueDart", "Tata Steel"]
+  },
+  {
+    "job_title": "Mobile App Developer",
+    "description": "A Mobile App Developer builds and maintains apps for Android, iOS, and cross-platform frameworks. They ensure user-friendly UI/UX and high-performance functionality.",
+    "roles_and_overview": "Responsible for application coding, testing, debugging, and integration with backend services.",
+    "skills_required": [
+      "Java / Kotlin / Swift",
+      "Flutter / React Native",
+      "REST APIs & databases",
+      "UI/UX design concepts",
+      "App deployment and testing"
+    ],
+    "educational_requirements": [
+      "B.Tech / B.E in Computer Science or related field"
+    ],
+    "duties_and_responsibilities": [
+      "Develop mobile apps and new features",
+      "Fix bugs and optimize performance",
+      "Integrate APIs and backend services",
+      "Deploy apps to Play Store / App Store"
+    ],
+    "salary_range": "₹4,00,000 - ₹30,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Swiggy", "Flipkart", "Microsoft", "Infosys"]
+  },
+  {
+    "job_title": "Interior Designer",
+    "description": "An Interior Designer plans and beautifies indoor spaces by applying design principles, material selection, and creative aesthetics that enhance functionality and appeal.",
+    "roles_and_overview": "Works with clients to develop interior concepts and coordinate construction and installation activities.",
+    "skills_required": [
+      "AutoCAD / 3ds Max / SketchUp",
+      "Creativity and space planning",
+      "Material & color knowledge",
+      "Project coordination",
+      "Visualization and presentation"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Interior Design, Architecture, or Fine Arts"
+    ],
+    "duties_and_responsibilities": [
+      "Create layouts and 3D visualizations",
+      "Select materials, lighting, and colors",
+      "Prepare cost estimates",
+      "Work with contractors and architects"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Livspace", "DLF", "Godrej Interiors", "Urban Ladder", "Hometown"]
+  },
+  {
+    "job_title": "Electrical Engineer",
+    "description": "An Electrical Engineer designs, tests, and supervises the development of electrical systems including power systems, electronics, motors, sensors, and energy equipment.",
+    "roles_and_overview": "Works across manufacturing, energy, construction, automation, and utilities.",
+    "skills_required": [
+      "Circuit design and analysis",
+      "Embedded systems",
+      "MATLAB / AutoCAD Electrical",
+      "Power electronics",
+      "Problem solving"
+    ],
+    "educational_requirements": [
+      "B.Tech / B.E in Electrical Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Develop and test electrical systems",
+      "Create circuit diagrams and prototypes",
+      "Ensure safety and quality standards",
+      "Collaborate with manufacturing teams"
+    ],
+    "salary_range": "₹3,50,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["BHEL", "Siemens", "ABB", "ISRO", "L&T"]
+  },
+  {
+    "job_title": "Marketing Coordinator",
+    "description": "A Marketing Coordinator assists in planning and executing marketing activities, managing campaign schedules, and organizing promotional material.",
+    "roles_and_overview": "Supports marketing managers with campaign execution and communication strategies.",
+    "skills_required": [
+      "Communication and teamwork",
+      "Content creation",
+      "Project coordination",
+      "Social media management",
+      "Data analytics basics"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Marketing or Business"
+    ],
+    "duties_and_responsibilities": [
+      "Assist in marketing events and campaigns",
+      "Maintain marketing calendars",
+      "Analyze performance results",
+      "Prepare reports and presentations"
+    ],
+    "salary_range": "₹2,50,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["ITC", "HUL", "Tata", "L'Oréal", "PepsiCo"]
+  },
+  {
+    "job_title": "Technical Writer",
+    "description": "A Technical Writer produces documentation, manuals, whitepapers, and user guides that explain complex technical concepts in simple and clear language.",
+    "roles_and_overview": "Works with engineers, developers, and product teams to create accurate product documentation.",
+    "skills_required": [
+      "Technical writing and editing",
+      "Research skills",
+      "Understanding of software/hardware systems",
+      "Documentation tools",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in English, Engineering, or Technical Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Write manuals and documentation",
+      "Edit and proofread technical content",
+      "Collaborate with product teams",
+      "Simplify technical information"
+    ],
+    "salary_range": "₹4,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Microsoft", "Oracle", "SAP", "Infosys", "Intel"]
+  },
+  {
+    "job_title": "Pharmacist",
+    "description": "A Pharmacist dispenses prescribed medications, provides pharmaceutical advice, and monitors drug interactions to ensure safe patient care.",
+    "roles_and_overview": "Works in hospitals, medical stores, clinics, research companies, and healthcare systems.",
+    "skills_required": [
+      "Pharmacology knowledge",
+      "Patient counseling",
+      "Medical inventory handling",
+      "Attention to detail",
+      "Record keeping"
+    ],
+    "educational_requirements": [
+      "B.Pharm or Pharm.D with state license"
+    ],
+    "duties_and_responsibilities": [
+      "Dispense medications and prescriptions",
+      "Provide dosage and safety guidance",
+      "Maintain pharmacy records",
+      "Monitor patient reactions and side effects"
+    ],
+    "salary_range": "₹2,80,000 - ₹16,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Pharmacy", "Cipla", "Sun Pharma", "Fortis", "Dr. Reddy’s"]
+  },
+  {
+    "job_title": "Product Manager",
+    "description": "A Product Manager defines product vision, strategy, and development roadmap to deliver useful and valuable products to customers. They balance business goals, technology feasibility, and user requirements.",
+    "roles_and_overview": "Works closely with teams across engineering, design, sales, and marketing.",
+    "skills_required": [
+      "Leadership & strategic thinking",
+      "Market research and analytics",
+      "Agile and product lifecycle management",
+      "User experience understanding",
+      "Communication & decision-making"
+    ],
+    "educational_requirements": [
+      "Bachelor's in Engineering or Business",
+      "MBA preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Define product roadmap",
+      "Manage product lifecycle",
+      "Gather requirements and research",
+      "Measure product performance"
+    ],
+    "salary_range": "₹12,00,000 - ₹60,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Microsoft", "Flipkart", "Swiggy", "Zoho"]
+  },
+  {
+    "job_title": "Event Planner",
+    "description": "An Event Planner organizes and manages corporate events, weddings, conferences, and social gatherings, ensuring smooth execution and client satisfaction.",
+    "roles_and_overview": "Coordinates logistics, budgeting, vendors, and timelines to create memorable event experiences.",
+    "skills_required": [
+      "Planning & organization",
+      "Negotiation",
+      "Time management",
+      "Creativity",
+      "Budget management"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Hospitality, Business, or Event Management"
+    ],
+    "duties_and_responsibilities": [
+      "Plan and schedule event operations",
+      "Manage vendors and resources",
+      "Coordinate venues, catering, and logistics",
+      "Handle client communication"
+    ],
+    "salary_range": "₹2,80,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Weddings by WedMeGood", "Taj Hotels", "Marriott", "Red Events", "JW Marriott"]
+  },
+  {
+    "job_title": "Speech Therapist",
+    "description": "A Speech Therapist helps individuals improve their speech, language, communication, and swallowing difficulties caused by developmental delays, neurological disorders, or injuries. They work with children and adults to develop effective communication strategies.",
+    "roles_and_overview": "Evaluates speech impairments, creates personalized therapy plans, conducts speech exercises, and tracks patient progress.",
+    "skills_required": [
+      "Speech and language assessment skills",
+      "Therapeutic treatment planning",
+      "Communication and empathy",
+      "Patience and critical thinking",
+      "Documentation and reporting"
+    ],
+    "educational_requirements": [
+      "Master’s in Speech-Language Pathology or Audiology",
+      "Relevant professional license and clinical internship"
+    ],
+    "duties_and_responsibilities": [
+      "Diagnose language and speech disorders",
+      "Design therapy programs for patients",
+      "Work with schools, hospitals, or clinics",
+      "Support patient communication development"
+    ],
+    "salary_range": "₹3,50,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Hospitals", "Fortis Healthcare", "Narayana Health", "Speech Therapy Clinics", "Rehabilitation Centers"]
+  },
+  {
+    "job_title": "Civil Engineer",
+    "description": "A Civil Engineer designs, builds, and maintains infrastructure projects including roads, bridges, buildings, dams, airports, and water supply systems. They ensure safety, quality, and environmental compliance.",
+    "roles_and_overview": "Oversees project planning, structural analysis, construction supervision, and cost estimation.",
+    "skills_required": [
+      "AutoCAD, STAAD Pro, Revit",
+      "Construction planning",
+      "Surveying & geotechnical knowledge",
+      "Project coordination",
+      "Mathematical and analytical ability"
+    ],
+    "educational_requirements": [
+      "B.Tech / B.E in Civil Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Design and analyze structures",
+      "Prepare blueprints and documentation",
+      "Monitor construction activities",
+      "Ensure safety and regulatory compliance"
+    ],
+    "salary_range": "₹3,50,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["L&T", "Tata Projects", "GMR", "Adani Construction", "HCC"]
+  },
+  {
+    "job_title": "SEO Specialist",
+    "description": "An SEO Specialist improves website visibility and ranking in search engines through keyword optimization, content strategy, and performance analytics to drive organic traffic.",
+    "roles_and_overview": "Optimizes web pages, performs competitor analysis, manages backlinks, and tracks SEO performance metrics.",
+    "skills_required": [
+      "Keyword research",
+      "Google Analytics & Search Console",
+      "On-page & off-page SEO",
+      "Content strategy",
+      "Technical SEO"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Marketing, IT, or Mass Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Optimize website content for ranking",
+      "Monitor and improve organic traffic",
+      "Research search trends and keywords",
+      "Conduct SEO audits and reporting"
+    ],
+    "salary_range": "₹2,50,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "TCS", "Accenture", "Web Development Agencies", "Digital Marketing Firms"]
+  },
+  {
+    "job_title": "Physical Therapist",
+    "description": "A Physical Therapist helps patients recover mobility and physical strength after injuries, surgeries, or chronic health issues through rehabilitation programs and therapeutic exercises.",
+    "roles_and_overview": "Works with doctors and healthcare teams to improve patient recovery and physical functioning.",
+    "skills_required": [
+      "Rehabilitation techniques",
+      "Exercise therapy",
+      "Patient assessment",
+      "Empathy and encouragement",
+      "Anatomy and physiology knowledge"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or Master’s in Physiotherapy (BPT/MPT)"
+    ],
+    "duties_and_responsibilities": [
+      "Evaluate patient mobility and pain",
+      "Perform physical rehabilitation sessions",
+      "Develop treatment and recovery plans",
+      "Monitor patient progress"
+    ],
+    "salary_range": "₹3,00,000 - ₹16,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Hospitals", "Physiotherapy Clinics", "Sports Therapy Centers", "Fortis", "Max Healthcare"]
+  },
+  {
+    "job_title": "Investment Advisor",
+    "description": "An Investment Advisor guides clients on financial planning, portfolio management, insurance, stocks, and mutual fund investments to help them maximize returns and minimize risk.",
+    "roles_and_overview": "Analyzes financial markets, prepares investment strategies, and manages client portfolios.",
+    "skills_required": [
+      "Financial analysis",
+      "Market research",
+      "Communication and persuasion",
+      "Risk assessment",
+      "Economic knowledge"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Finance, Commerce, or Business Administration",
+      "NISM / SEBI Registered Investment Advisor certification preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze market trends and investments",
+      "Prepare financial plans for clients",
+      "Monitor portfolios and returns",
+      "Provide recommendations for investment decisions"
+    ],
+    "salary_range": "₹4,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["ICICI Securities", "HDFC", "Motilal Oswal", "Deloitte", "KPMG"]
+  },
+  {
+    "job_title": "Veterinarian",
+    "description": "A Veterinarian diagnoses and treats illnesses in animals, performs surgeries, prescribes medication, and provides preventive care to pets, livestock, and wildlife.",
+    "roles_and_overview": "Works in veterinary clinics, animal hospitals, research, or agricultural sectors.",
+    "skills_required": [
+      "Animal healthcare and surgery",
+      "Diagnosis and treatment skills",
+      "Compassion and patience",
+      "Medical record management",
+      "Decision-making"
+    ],
+    "educational_requirements": [
+      "Bachelor of Veterinary Science and Animal Husbandry (BVSc & AH)",
+      "Government licensing required"
+    ],
+    "duties_and_responsibilities": [
+      "Perform checkups and surgeries",
+      "Treat animal injuries and infections",
+      "Provide vaccinations and preventive care",
+      "Educate pet owners about health practices"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Pet Hospitals", "Zoos", "Amul", "Animal Research Centers", "NGOs"]
+  },
+  {
+    "job_title": "Real Estate Agent",
+    "description": "A Real Estate Agent assists clients in buying, selling, and renting properties and provides guidance on real estate market conditions and pricing strategies.",
+    "roles_and_overview": "Manages property negotiations, documentation, client relationships, and marketing listings.",
+    "skills_required": [
+      "Negotiation and communication",
+      "Market research",
+      "Sales and persuasion",
+      "Customer relationship management",
+      "Financial understanding"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business, Sales, or real estate certification courses"
+    ],
+    "duties_and_responsibilities": [
+      "Connect buyers and sellers",
+      "Conduct property visits and inspections",
+      "Negotiate pricing and agreements",
+      "Handle legal documentation with support"
+    ],
+    "salary_range": "₹3,00,000 - ₹25,00,000 per year in India + commissions",
+    "top_companies_offering_this_role": ["MagicBricks", "99Acres", "NoBroker", "DLF", "Lodha Group"]
+  },
+  {
+    "job_title": "Chef",
+    "description": "A Chef prepares meals, develops recipes, manages kitchen operations, and ensures food quality, safety, and creativity in restaurants, hotels, and catering businesses.",
+    "roles_and_overview": "Supervises kitchen staff, plans menus, and maintains high culinary standards.",
+    "skills_required": [
+      "Culinary skills",
+      "Food hygiene & safety",
+      "Creativity and plating",
+      "Time management",
+      "Team leadership"
+    ],
+    "educational_requirements": [
+      "Diploma or degree in culinary arts or hotel management"
+    ],
+    "duties_and_responsibilities": [
+      "Prepare high-quality dishes",
+      "Plan menu and manage kitchen inventory",
+      "Train kitchen staff",
+      "Ensure quality control and food safety"
+    ],
+    "salary_range": "₹2,50,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Taj Hotels", "ITC Hotels", "Hilton", "Marriott", "Club Mahindra"]
+  },
+  {
+    "job_title": "Translator",
+    "description": "A Translator converts written or spoken content from one language to another, ensuring accuracy, cultural relevance, and clarity while maintaining original intent.",
+    "roles_and_overview": "Works in media, education, publishing, corporate communication, and legal or medical translation.",
+    "skills_required": [
+      "Fluency in multiple languages",
+      "Cultural understanding",
+      "Writing accuracy",
+      "Research skills",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Linguistics, Languages, or Literature"
+    ],
+    "duties_and_responsibilities": [
+      "Translate documents and scripts",
+      "Interpret during meetings or events",
+      "Review and edit translated content",
+      "Maintain confidentiality and accuracy"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["UNICEF", "Google", "Government Language Departments", "Publishing Houses", "Medical Research Firms"]
+  },
+  {
+    "job_title": "Architect",
+    "description": "An Architect designs residential and commercial buildings, ensuring strong aesthetics, safety, and structural reliability. They create building plans and supervise construction processes.",
+    "roles_and_overview": "Works with civil engineers, contractors, and urban planners to translate ideas into functional structures.",
+    "skills_required": [
+      "AutoCAD, Revit, SketchUp",
+      "Creative design",
+      "Mathematical and structural knowledge",
+      "Project coordination",
+      "Visualization and planning"
+    ],
+    "educational_requirements": [
+      "B.Arch with Council of Architecture registration"
+    ],
+    "duties_and_responsibilities": [
+      "Develop architectural drawings and designs",
+      "Prepare 3D modeling presentations",
+      "Work with construction teams",
+      "Ensure building regulation compliance"
+    ],
+    "salary_range": "₹3,50,000 - ₹30,00,000 per year in India",
+    "top_companies_offering_this_role": ["DLF", "Larsen & Toubro", "Tata Projects", "Architectural Studios"]
+  },
+  {
+    "job_title": "Occupational Therapist",
+    "description": "An Occupational Therapist helps individuals with physical, mental, or cognitive challenges improve their daily functioning and independence using therapeutic activities.",
+    "roles_and_overview": "Supports rehabilitation for injuries, developmental conditions, or disabilities.",
+    "skills_required": [
+      "Therapeutic planning",
+      "Patient evaluation",
+      "Empathy and patience",
+      "Medical documentation",
+      "Hand-motor therapy techniques"
+    ],
+    "educational_requirements": [
+      "Bachelor or Master’s in Occupational Therapy (BOT/MOT)"
+    ],
+    "duties_and_responsibilities": [
+      "Assess patient capabilities",
+      "Develop treatment plans",
+      "Use assistive tools and activities",
+      "Support patient rehabilitation"
+    ],
+    "salary_range": "₹3,20,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Rehab Centers", "Hospitals", "Special Schools", "NGOs"]
+  },
+  {
+    "job_title": "Construction Manager",
+    "description": "A Construction Manager oversees construction projects, manages workers and subcontractors, controls budgets, and ensures projects are completed safely, on time, and within scope.",
+    "roles_and_overview": "Supervises site activities, procurement, and progress tracking.",
+    "skills_required": [
+      "Project management",
+      "Construction safety and regulations",
+      "Leadership and scheduling",
+      "Budget management",
+      "Blueprint interpretation"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Civil Engineering, Construction Management, or related field"
+    ],
+    "duties_and_responsibilities": [
+      "Manage construction site teams",
+      "Plan project timelines and resources",
+      "Oversee safety compliance",
+      "Coordinate materials and logistics"
+    ],
+    "salary_range": "₹5,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["L&T", "GMR Group", "Shapoorji Pallonji", "Adani Infra", "HCC"]
+  },
+  {
+    "job_title": "Fashion Designer",
+    "description": "A Fashion Designer creates original clothing, accessories, and footwear designs by researching trends, selecting fabrics, sketching concepts, and overseeing production.",
+    "roles_and_overview": "Works in fashion houses, merchandising, costume design, and independent labels.",
+    "skills_required": [
+      "Creativity and sketching",
+      "Fashion illustration",
+      "Fabric and textile knowledge",
+      "Sewing and pattern making",
+      "Trend research"
+    ],
+    "educational_requirements": [
+      "Degree or diploma in Fashion Design or Textile Design"
+    ],
+    "duties_and_responsibilities": [
+      "Design apparel collections",
+      "Work with manufacturing units",
+      "Participate in fashion shows",
+      "Develop branding and styling concepts"
+    ],
+    "salary_range": "₹3,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Manish Malhotra", "Sabyasachi", "Zara", "H&M", "FabIndia"]
+  },
+  {
+    "job_title": "Massage Therapist",
+    "description": "A Massage Therapist provides therapeutic massage treatments to reduce pain, improve relaxation, enhance mobility, and promote physical wellness.",
+    "roles_and_overview": "Works in spas, hospitals, fitness centers, and rehabilitation clinics.",
+    "skills_required": [
+      "Massage techniques",
+      "Anatomy knowledge",
+      "Customer service",
+      "Physical stamina",
+      "Professional care and hygiene"
+    ],
+    "educational_requirements": [
+      "Massage therapy certification or diploma"
+    ],
+    "duties_and_responsibilities": [
+      "Perform body massage and therapy",
+      "Assess client needs",
+      "Maintain treatment records",
+      "Recommend self-care routines"
+    ],
+    "salary_range": "₹2,20,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Spa Chains", "Fitness Centers", "Hospital Wellness Units", "Ayurvedic Clinics"]
+  },
+  {
+    "job_title": "Insurance Agent",
+    "description": "An Insurance Agent helps individuals and businesses choose suitable insurance plans based on financial needs and risk profiles. They sell insurance policies, explain coverage options, and assist with claims processing.",
+    "roles_and_overview": "Builds and maintains client relationships, analyses coverage needs, and provides insurance advice to protect against financial loss.",
+    "skills_required": [
+      "Communication & persuasion",
+      "Customer relationship management",
+      "Market and financial knowledge",
+      "Negotiation",
+      "Sales and networking"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Business, Finance, or any discipline",
+      "IRDA licensing mandatory"
+    ],
+    "duties_and_responsibilities": [
+      "Contact and schedule client appointments",
+      "Suggest suitable insurance plans",
+      "Maintain client policy records",
+      "Support claim settlement process"
+    ],
+    "salary_range": "₹2,50,000 - ₹20,00,000 per year in India + commissions",
+    "top_companies_offering_this_role": ["LIC", "HDFC Life", "SBI Life", "Aditya Birla Capital", "Tata AIA"]
+  },
+  {
+    "job_title": "Dental Hygienist",
+    "description": "A Dental Hygienist performs oral health assessments, dental cleanings, and preventive dental care procedures, helping maintain patient dental hygiene.",
+    "roles_and_overview": "Supports dentists in clinical procedures and patient education.",
+    "skills_required": [
+      "Dental cleaning techniques",
+      "Oral hygiene knowledge",
+      "Patient communication",
+      "Attention to detail",
+      "Record keeping"
+    ],
+    "educational_requirements": [
+      "Diploma or Degree in Dental Hygiene",
+      "Registration with dental council"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct dental cleanings and exams",
+      "Assist in preventive care procedures",
+      "Educate patients on oral hygiene",
+      "Maintain patient reports"
+    ],
+    "salary_range": "₹2,50,000 - ₹10,00,000 per year in India",
+    "top_companies_offering_this_role": ["Dental Clinics", "Hospitals", "Orthodontic Centers"]
+  },
+  {
+    "job_title": "Personal Trainer",
+    "description": "A Personal Trainer designs fitness routines, monitors physical progress, and motivates clients to achieve strength, endurance, and weight goals.",
+    "roles_and_overview": "Provides training sessions and ensures proper exercise forms and safe workout environments.",
+    "skills_required": [
+      "Fitness training knowledge",
+      "Nutrition basics",
+      "Motivation and leadership",
+      "Communication",
+      "CPR and first aid"
+    ],
+    "educational_requirements": [
+      "Certification from ACE, NASM, or equivalent fitness institute"
+    ],
+    "duties_and_responsibilities": [
+      "Develop customized fitness programs",
+      "Conduct workout sessions",
+      "Monitor client progress",
+      "Educate about lifestyle improvement"
+    ],
+    "salary_range": "₹2,20,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Cult Fit", "Gold’s Gym", "Talwalkars", "Fitness Centers"]
+  },
+  {
+    "job_title": "Photographer",
+    "description": "A Photographer captures professional images for events, commercial shoots, media, fashion, and digital content, using technical and creative skills.",
+    "roles_and_overview": "Works with lighting, editing tools, and equipment to produce visually appealing photographs.",
+    "skills_required": [
+      "Camera operation",
+      "Adobe Photoshop/Lightroom",
+      "Creativity & composition",
+      "Lighting setup",
+      "Communication"
+    ],
+    "educational_requirements": [
+      "Degree or certification in Photography, Media, or Fine Arts"
+    ],
+    "duties_and_responsibilities": [
+      "Plan and execute photo sessions",
+      "Edit and retouch images",
+      "Collaborate with clients",
+      "Manage equipment and shoots"
+    ],
+    "salary_range": "₹2,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Film Studios", "Ad Agencies", "Wedding Photography Firms", "Freelance"]
+  },
+  {
+    "job_title": "Landscaper",
+    "description": "A Landscaper designs, installs, and maintains outdoor environments including gardens, lawns, parks, and recreational spaces to improve aesthetics and functionality.",
+    "roles_and_overview": "Manages outdoor plant care, irrigation, construction, and grounds improvement.",
+    "skills_required": [
+      "Gardening and horticulture knowledge",
+      "Outdoor equipment handling",
+      "Creativity",
+      "Planning and maintenance",
+      "Physical stamina"
+    ],
+    "educational_requirements": [
+      "Diploma in Landscaping or Horticulture preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Create landscaping layouts",
+      "Maintain plant growth and soil health",
+      "Install lawns, trees, and decorative structures",
+      "Operate outdoor maintenance tools"
+    ],
+    "salary_range": "₹2,00,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Urban Landscaping Firms", "Resorts", "Municipal Parks", "Construction Companies"]
+  },
+  {
+    "job_title": "Electrician",
+    "description": "An Electrician installs, repairs, and maintains electrical systems, wiring, and equipment in residential, commercial, and industrial environments.",
+    "roles_and_overview": "Ensures electrical safety, troubleshooting, and system upgrades.",
+    "skills_required": [
+      "Electrical wiring knowledge",
+      "Circuit troubleshooting",
+      "Safety and compliance standards",
+      "Power system installation",
+      "Problem-solving"
+    ],
+    "educational_requirements": [
+      "ITI / Diploma in Electrical Trades"
+    ],
+    "duties_and_responsibilities": [
+      "Install and maintain electrical systems",
+      "Diagnose and repair faults",
+      "Follow safety standards",
+      "Test electrical devices and circuits"
+    ],
+    "salary_range": "₹2,00,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Construction Firms", "Electric Service Companies", "Manufacturing Plants"]
+  },
+  {
+    "job_title": "Plumber",
+    "description": "A Plumber installs, repairs, and maintains water supply, drainage, and piping systems in homes and commercial buildings.",
+    "roles_and_overview": "Handles pipe fittings, leakage repair, fixture installation, and maintenance services.",
+    "skills_required": [
+      "Plumbing installation and repair",
+      "Tools and equipment handling",
+      "Safety standards",
+      "Problem-solving",
+      "Blueprint reading"
+    ],
+    "educational_requirements": [
+      "ITI Plumbing or equivalent vocational training"
+    ],
+    "duties_and_responsibilities": [
+      "Repair water leakages and piping",
+      "Install fixtures and appliances",
+      "Ensure water flow and drainage",
+      "Provide maintenance services"
+    ],
+    "salary_range": "₹1,80,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Construction Services", "Facilities Management Groups", "Independent Contractors"]
+  },
+  {
+    "job_title": "Carpenter",
+    "description": "A Carpenter constructs and repairs building frameworks, furniture, and wooden structures using power tools, measurements, and design plans.",
+    "roles_and_overview": "Works in construction, interior design, and furniture manufacturing.",
+    "skills_required": [
+      "Woodworking",
+      "Tool handling",
+      "Blueprint reading",
+      "Attention to detail",
+      "Mathematical measurement"
+    ],
+    "educational_requirements": [
+      "ITI Carpentry or apprenticeship training"
+    ],
+    "duties_and_responsibilities": [
+      "Build and install wooden structures",
+      "Repair furniture and fittings",
+      "Measure and cut materials",
+      "Ensure finishing and alignment"
+    ],
+    "salary_range": "₹1,80,000 - ₹10,00,000 per year in India",
+    "top_companies_offering_this_role": ["Interior Design Firms", "Furniture Workshops", "Real Estate Developers"]
+  },
+  {
+    "job_title": "Auto Mechanic",
+    "description": "An Auto Mechanic diagnoses and repairs mechanical and electrical issues in cars, bikes, and commercial vehicles, ensuring reliable and safe performance.",
+    "roles_and_overview": "Inspects engines, braking systems, transmissions, and vehicle components.",
+    "skills_required": [
+      "Vehicle diagnostics",
+      "Mechanical repair knowledge",
+      "Tool handling",
+      "Problem-solving",
+      "Technical documentation"
+    ],
+    "educational_requirements": [
+      "Diploma in Automobile Engineering or ITI Motor Mechanic"
+    ],
+    "duties_and_responsibilities": [
+      "Inspect and repair vehicle systems",
+      "Perform engine and brake servicing",
+      "Use diagnostic tools",
+      "Conduct test drives"
+    ],
+    "salary_range": "₹2,00,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Maruti Suzuki", "Tata Motors", "Mahindra", "Service Centers"]
+  },
+  {
+    "job_title": "Hair Stylist",
+    "description": "A Hair Stylist provides beauty and grooming services including haircutting, coloring, styling, and hair treatments to enhance customer appearance.",
+    "roles_and_overview": "Works in salons, beauty centers, fashion shows, and film industry.",
+    "skills_required": [
+      "Hair cutting and styling techniques",
+      "Chemical treatments",
+      "Customer service",
+      "Creativity",
+      "Trend awareness"
+    ],
+    "educational_requirements": [
+      "Professional hair styling certification"
+    ],
+    "duties_and_responsibilities": [
+      "Perform haircuts and styling services",
+      "Apply coloring and treatments",
+      "Consult clients",
+      "Maintain hygiene and tools"
+    ],
+    "salary_range": "₹1,80,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Lakmé Salon", "Naturals", "Toni & Guy", "Salon Chains", "Film Industry Styling Units"]
+  },
+  {
+    "job_title": "Dental Assistant",
+    "description": "A Dental Assistant helps dentists with procedures, sterilizes equipment, manages patient records, and prepares patients for treatment.",
+    "roles_and_overview": "Ensures smooth clinical workflow and support during dental treatments.",
+    "skills_required": [
+      "Clinical assistance",
+      "Sterilization techniques",
+      "Communication",
+      "Patient care",
+      "Record organization"
+    ],
+    "educational_requirements": [
+      "Dental assistant certification course"
+    ],
+    "duties_and_responsibilities": [
+      "Prepare instruments and materials",
+      "Assist dentists during procedures",
+      "Maintain patient data",
+      "Manage appointments"
+    ],
+    "salary_range": "₹1,80,000 - ₹7,00,000 per year in India",
+    "top_companies_offering_this_role": ["Dental Clinics", "Orthodontic Centers", "Hospitals"]
+  },
+  {
+    "job_title": "Bartender",
+    "description": "A Bartender prepares and serves beverages, interacts with customers, manages bar inventory, and creates an enjoyable hospitality environment.",
+    "roles_and_overview": "Works in restaurants, resorts, pubs, clubs, and event venues.",
+    "skills_required": [
+      "Mixology and beverage knowledge",
+      "Customer interaction",
+      "Multitasking",
+      "Cash handling",
+      "Creativity"
+    ],
+    "educational_requirements": [
+      "Certification in bartending or hospitality training"
+    ],
+    "duties_and_responsibilities": [
+      "Serve drinks professionally",
+      "Maintain bar cleanliness and stock",
+      "Handle customer requests",
+      "Prepare signature cocktails"
+    ],
+    "salary_range": "₹2,50,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Taj Hotels", "JW Marriott", "Bars & Lounges", "Cruise Lines"]
+  },
+  {
+    "job_title": "Security Guard",
+    "description": "A Security Guard protects property and people by monitoring locations, inspecting access points, and responding to emergencies and suspicious activities.",
+    "roles_and_overview": "Ensures safety regulations and emergency readiness.",
+    "skills_required": [
+      "Observation skills",
+      "Physical fitness",
+      "Emergency response",
+      "Communication",
+      "Patrolling and surveillance"
+    ],
+    "educational_requirements": [
+      "High school education + security training"
+    ],
+    "duties_and_responsibilities": [
+      "Monitor premises via patrol or CCTV",
+      "Control access points",
+      "Report incidents",
+      "Respond to emergencies"
+    ],
+    "salary_range": "₹1,80,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["G4S", "Tops Security", "Government Facilities", "Corporate Offices"]
+  },
+  {
+    "job_title": "Flight Attendant",
+    "description": "A Flight Attendant ensures passenger safety and comfort during flights by providing hospitality services, safety instructions, and emergency assistance.",
+    "roles_and_overview": "Represents airlines onboard, handles customer experience, and maintains cabin environment.",
+    "skills_required": [
+      "Communication and hospitality",
+      "Safety training and CPR",
+      "Problem-solving",
+      "Patience and confidence",
+      "Professional grooming"
+    ],
+    "educational_requirements": [
+      "Degree or diploma in Aviation, Hospitality, or Travel Management",
+      "DGCA training required"
+    ],
+    "duties_and_responsibilities": [
+      "Assist passengers throughout flights",
+      "Conduct safety demonstrations",
+      "Serve meals and refreshments",
+      "Respond to emergency situations"
+    ],
+    "salary_range": "₹6,00,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["IndiGo", "Air India", "Vistara", "Emirates", "Qatar Airways"]
+  },
+  {
+    "job_title": "Truck Driver",
+    "description": "A Truck Driver transports goods and materials over long or short distances, ensuring safe driving, timely delivery, and proper vehicle maintenance. They play a crucial role in logistics and supply chain movement.",
+    "roles_and_overview": "Operates large commercial vehicles, follows road safety laws, and coordinates with logistics teams and warehouse staff.",
+    "skills_required": [
+      "Commercial driving skills",
+      "Vehicle inspection and maintenance",
+      "Time management",
+      "Navigation & GPS usage",
+      "Safety compliance"
+    ],
+    "educational_requirements": [
+      "High school education and commercial driving license"
+    ],
+    "duties_and_responsibilities": [
+      "Drive trucks to transport goods",
+      "Inspect vehicle conditions",
+      "Plan delivery routes",
+      "Load and unload cargo safely"
+    ],
+    "salary_range": "₹2,40,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Logistics Firms", "Transport Companies", "Amazon Transportation", "Reliance Logistics"]
+  },
+  {
+    "job_title": "Receptionist",
+    "description": "A Receptionist manages front desk operations by greeting visitors, answering calls, scheduling appointments, and assisting customer inquiries, creating a professional first impression of the organization.",
+    "roles_and_overview": "Acts as the communication link for clients, employees, and departments.",
+    "skills_required": [
+      "Communication & phone etiquette",
+      "Customer service",
+      "Organization and record keeping",
+      "Computer and MS Office skills",
+      "Multitasking"
+    ],
+    "educational_requirements": [
+      "High school or Bachelor's in any discipline"
+    ],
+    "duties_and_responsibilities": [
+      "Greet and assist visitors",
+      "Maintain appointment schedules",
+      "Answer and forward calls",
+      "Manage front desk paperwork"
+    ],
+    "salary_range": "₹1,80,000 - ₹6,00,000 per year in India",
+    "top_companies_offering_this_role": ["Corporate Offices", "Hospitals", "Hotels", "Educational Institutions"]
+  },
+  {
+    "job_title": "Janitor",
+    "description": "A Janitor maintains cleanliness and sanitation in buildings by cleaning floors, restrooms, trash areas, and workspaces, ensuring a hygienic and safe environment.",
+    "roles_and_overview": "Works in schools, hospitals, offices, and public facilities.",
+    "skills_required": [
+      "Cleaning & sanitation knowledge",
+      "Time management",
+      "Attention to detail",
+      "Physical stamina",
+      "Equipment handling"
+    ],
+    "educational_requirements": [
+      "No specific education requirement; training provided"
+    ],
+    "duties_and_responsibilities": [
+      "Clean floors and common areas",
+      "Dispose waste and sanitize surfaces",
+      "Maintain restrooms",
+      "Operate cleaning equipment"
+    ],
+    "salary_range": "₹1,50,000 - ₹4,50,000 per year in India",
+    "top_companies_offering_this_role": ["Facilities Services", "Hospitals", "Schools", "Corporate Buildings"]
+  },
+  {
+    "job_title": "Cashier",
+    "description": "A Cashier handles customer transactions, manages billing systems, collects payments, and provides receipts while maintaining accuracy and friendly service.",
+    "roles_and_overview": "Works in retail stores, supermarkets, and service outlets.",
+    "skills_required": [
+      "Basic math and billing",
+      "POS system handling",
+      "Customer service",
+      "Accuracy and attention",
+      "Cash management"
+    ],
+    "educational_requirements": [
+      "High school education or equivalent"
+    ],
+    "duties_and_responsibilities": [
+      "Process customer payments",
+      "Maintain billing records",
+      "Handle cash and cards",
+      "Resolve basic customer queries"
+    ],
+    "salary_range": "₹1,50,000 - ₹5,00,000 per year in India",
+    "top_companies_offering_this_role": ["Reliance Retail", "DMart", "Big Bazaar", "Supermarkets & Malls"]
+  },
+  {
+    "job_title": "Waiter",
+    "description": "A Waiter serves food and beverages to customers, manages orders, maintains dining areas, and ensures excellent hospitality service.",
+    "roles_and_overview": "Acts as a link between kitchen staff and customers in restaurants and hotels.",
+    "skills_required": [
+      "Customer service",
+      "Communication",
+      "Multitasking",
+      "Menu knowledge",
+      "Teamwork"
+    ],
+    "educational_requirements": [
+      "High school or hotel management diploma"
+    ],
+    "duties_and_responsibilities": [
+      "Take orders and serve meals",
+      "Maintain table setup",
+      "Handle billing requests",
+      "Assist customer needs"
+    ],
+    "salary_range": "₹1,50,000 - ₹7,00,000 per year in India",
+    "top_companies_offering_this_role": ["Taj Hotels", "ITC Hotels", "Restaurants", "Cafes"]
+  },
+  {
+    "job_title": "Retail Sales Associate",
+    "description": "A Retail Sales Associate assists customers in selecting products, explains features, manages inventory, and ensures store presentation and sales targets.",
+    "roles_and_overview": "Enhances customer experience and supports retail business operations.",
+    "skills_required": [
+      "Customer interaction",
+      "Product knowledge",
+      "Sales & persuasion",
+      "Inventory handling",
+      "Communication"
+    ],
+    "educational_requirements": [
+      "High school or graduation in any stream"
+    ],
+    "duties_and_responsibilities": [
+      "Assist customers in product purchases",
+      "Maintain stock display",
+      "Meet daily sales targets",
+      "Process billing support"
+    ],
+    "salary_range": "₹1,60,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["Reliance Trends", "Lifestyle", "Decathlon", "Walmart", "Croma"]
+  },
+  {
+    "job_title": "Library Assistant",
+    "description": "A Library Assistant organizes books, assists users with borrowing and research, manages records, and maintains library resources and reading environments.",
+    "roles_and_overview": "Supports librarians in cataloging, shelving, and circulation activity.",
+    "skills_required": [
+      "Organization and record management",
+      "Information research",
+      "Customer assistance",
+      "Computer literacy",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree or diploma in Library Science preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Help visitors find books and materials",
+      "Maintain catalog and inventory",
+      "Process checkouts and returns",
+      "Organize reading areas"
+    ],
+    "salary_range": "₹2,00,000 - ₹7,00,000 per year in India",
+    "top_companies_offering_this_role": ["Universities", "Public Libraries", "Research Institutions", "Schools"]
+  },
+  {
+    "job_title": "Museum Curator",
+    "description": "A Museum Curator manages museum collections, organizes exhibitions, preserves artifacts, and conducts educational programs related to culture, science, and history.",
+    "roles_and_overview": "Responsible for research, acquisition, conservation, and public engagement.",
+    "skills_required": [
+      "Research and historical knowledge",
+      "Exhibit planning",
+      "Artifact preservation",
+      "Documentation",
+      "Public speaking"
+    ],
+    "educational_requirements": [
+      "Master’s degree in History, Archaeology, Museum Studies, or Anthropology"
+    ],
+    "duties_and_responsibilities": [
+      "Manage museum collections",
+      "Plan and supervise exhibitions",
+      "Coordinate educational workshops",
+      "Preserve historical records and artifacts"
+    ],
+    "salary_range": "₹3,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["National Museums", "Heritage Sites", "Research Institutes", "Cultural Foundations"]
+  },
+  {
+    "job_title": "Park Ranger",
+    "description": "A Park Ranger protects wildlife and natural reserves, assists visitors, and ensures safety, conservation, and environmental education in national parks and forests.",
+    "roles_and_overview": "Works on environmental protection, patrolling, and emergency operations.",
+    "skills_required": [
+      "Wildlife and environment knowledge",
+      "First aid and emergency response",
+      "Communication",
+      "Navigation and outdoor skills",
+      "Law enforcement basics"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Environmental Science, Forestry, or Wildlife Management"
+    ],
+    "duties_and_responsibilities": [
+      "Protect wildlife and environment",
+      "Guide visitors and conduct tours",
+      "Monitor trails and hazards",
+      "Support conservation activities"
+    ],
+    "salary_range": "₹2,80,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["National Parks", "Forest Department", "Wildlife Sanctuaries"]
+  },
+  {
+    "job_title": "Fire Fighter",
+    "description": "A Fire Fighter responds to emergencies including fires, accidents, and disasters, rescuing people and protecting property while ensuring public safety.",
+    "roles_and_overview": "Trained in firefighting techniques, emergency medical support, and safety enforcement.",
+    "skills_required": [
+      "Physical fitness",
+      "Courage & teamwork",
+      "Emergency response",
+      "Fire safety knowledge",
+      "CPR and ventilation techniques"
+    ],
+    "educational_requirements": [
+      "Higher secondary education + Fire Service Training"
+    ],
+    "duties_and_responsibilities": [
+      "Respond to fire emergencies",
+      "Evacuate and rescue individuals",
+      "Operate firefighting equipment",
+      "Conduct fire safety inspections"
+    ],
+    "salary_range": "₹3,00,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Fire Departments", "Municipal Corporations", "Industrial Safety Units"]
+  },
+  {
+    "job_title": "Police Officer",
+    "description": "A Police Officer maintains law and order, prevents crime, protects citizens, and enforces laws while promoting community safety.",
+    "roles_and_overview": "Works in patrol, traffic control, investigations, and public safety response.",
+    "skills_required": [
+      "Law enforcement knowledge",
+      "Decision making",
+      "Physical fitness",
+      "Communication",
+      "Crisis management"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in any stream and training from Police Academy"
+    ],
+    "duties_and_responsibilities": [
+      "Patrol assigned areas",
+      "Investigate criminal activities",
+      "Control traffic and public safety",
+      "Respond to emergency calls"
+    ],
+    "salary_range": "₹4,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["State Police", "Central Police Forces", "CID", "CBI"]
+  },
+  {
+    "job_title": "Paramedic",
+    "description": "A Paramedic provides emergency medical care and ambulance support during critical situations including accidents, trauma, and medical emergencies.",
+    "roles_and_overview": "Delivers lifesaving care before patients reach hospitals.",
+    "skills_required": [
+      "Emergency response",
+      "Medical treatment knowledge",
+      "CPR and advanced first aid",
+      "Communication",
+      "Decision making under pressure"
+    ],
+    "educational_requirements": [
+      "Diploma or B.Sc. in Emergency Medical Technology / Paramedical Science"
+    ],
+    "duties_and_responsibilities": [
+      "Provide emergency treatment onsite",
+      "Stabilize patients during transport",
+      "Use medical equipment",
+      "Report patient condition to doctors"
+    ],
+    "salary_range": "₹2,80,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["108 Ambulance", "Hospitals", "Emergency Response Services"]
+  },
+  {
+    "job_title": "Social Worker",
+    "description": "A Social Worker helps individuals, families, and communities overcome challenges such as poverty, disability, abuse, or crisis by providing counseling, support, and resource access.",
+    "roles_and_overview": "Works in schools, hospitals, mental health centers, NGOs, and community groups.",
+    "skills_required": [
+      "Empathy and counseling",
+      "Case management",
+      "Communication",
+      "Crisis intervention",
+      "Report writing"
+    ],
+    "educational_requirements": [
+      "Bachelor or Master’s degree in Social Work (BSW/MSW)"
+    ],
+    "duties_and_responsibilities": [
+      "Assess client needs and challenges",
+      "Provide emotional and social support",
+      "Coordinate care services",
+      "Advocate for community welfare"
+    ],
+    "salary_range": "₹2,50,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["NGOs", "Government Social Services", "Schools", "Community Centers"]
+  },
+  {
+    "job_title": "Psychologist",
+    "description": "A Psychologist studies human behavior and mental processes and helps individuals deal with emotional problems, stress, trauma, and behavioral disorders through therapy and counseling.",
+    "roles_and_overview": "Works in hospitals, schools, clinics, corporate wellness programs, and research.",
+    "skills_required": [
+      "Counseling and therapy methods",
+      "Emotional intelligence",
+      "Research and assessment",
+      "Communication",
+      "Empathy and active listening"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or Master’s degree in Psychology",
+      "Clinical license for psychological practice"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct psychological assessments",
+      "Provide therapy sessions",
+      "Develop treatment plans",
+      "Support mental health awareness"
+    ],
+    "salary_range": "₹4,00,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["Hospitals", "Counseling Centers", "Educational Institutions", "Corporate HR Wellness Programs"]
+  },
+  {
+    "job_title": "Radiologic Technologist",
+    "description": "A Radiologic Technologist operates imaging equipment such as X-ray, MRI, and CT scanners to capture diagnostic medical images used by physicians to evaluate and treat medical conditions.",
+    "roles_and_overview": "Works closely with radiologists and medical staff to ensure safe imaging procedures and accurate results while maintaining radiation safety standards.",
+    "skills_required": [
+      "Medical imaging equipment operation",
+      "Patient care and communication",
+      "Radiation safety protocols",
+      "Technical documentation",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Diploma or Bachelor’s in Radiologic Technology",
+      "Certification from AERB or equivalent regulatory body"
+    ],
+    "duties_and_responsibilities": [
+      "Perform diagnostic imaging procedures",
+      "Maintain equipment safety and calibration",
+      "Prepare and position patients for scanning",
+      "Assist radiologists with test interpretation"
+    ],
+    "salary_range": "₹3,00,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Hospitals", "Fortis", "Max Healthcare", "AIIMS", "Diagnostic Centers"]
+  },
+  {
+    "job_title": "Medical Assistant",
+    "description": "A Medical Assistant supports doctors and nurses with clinical and administrative duties, including patient intake, recording medical histories, and assisting with medical procedures.",
+    "roles_and_overview": "Provides patient care support in clinics, hospitals, and outpatient centers.",
+    "skills_required": [
+      "Basic clinical procedures",
+      "Medical record management",
+      "Communication skills",
+      "Patient handling",
+      "First aid knowledge"
+    ],
+    "educational_requirements": [
+      "Diploma or certification in Medical Assisting"
+    ],
+    "duties_and_responsibilities": [
+      "Collect patient information and vitals",
+      "Assist physicians during examinations",
+      "Schedule appointments and maintain records",
+      "Prepare lab specimens"
+    ],
+    "salary_range": "₹2,20,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["Hospitals", "Clinics", "Diagnostic Centers"]
+  },
+  {
+    "job_title": "Laboratory Technician",
+    "description": "A Laboratory Technician performs laboratory tests, analyzes samples, prepares reports, and maintains equipment to support clinical diagnosis and scientific research.",
+    "roles_and_overview": "Supports pathologists, researchers, and healthcare teams in lab environments.",
+    "skills_required": [
+      "Sample testing and analysis",
+      "Microscopy and lab equipment handling",
+      "Safety and sterilization processes",
+      "Documentation accuracy",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "DMLT / BMLT or relevant life science degree"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze blood, urine, and tissue samples",
+      "Prepare lab test reports",
+      "Maintain lab instruments and safety",
+      "Record research findings"
+    ],
+    "salary_range": "₹2,00,000 - ₹10,00,000 per year in India",
+    "top_companies_offering_this_role": ["Dr. Lal PathLabs", "Apollo Diagnostics", "Metropolis Labs"]
+  },
+  {
+    "job_title": "Pharmacist Technician",
+    "description": "A Pharmacist Technician assists pharmacists in dispensing medications, managing inventory, labeling prescriptions, and providing customer support in pharmacies and hospitals.",
+    "roles_and_overview": "Supports pharmacy operations and ensures medication safety.",
+    "skills_required": [
+      "Pharmaceutical knowledge",
+      "Prescription handling",
+      "Inventory management",
+      "Customer service",
+      "Attention to accuracy"
+    ],
+    "educational_requirements": [
+      "Diploma or certification in Pharmacy Assistance"
+    ],
+    "duties_and_responsibilities": [
+      "Assist in preparing prescriptions",
+      "Label and package medications",
+      "Maintain pharmacy inventory",
+      "Provide dosage instructions under supervision"
+    ],
+    "salary_range": "₹2,00,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["Apollo Pharmacy", "MedPlus", "Hospitals", "Pharmacy Chains"]
+  },
+  {
+    "job_title": "Optician",
+    "description": "An Optician fits eyeglasses and contact lenses based on prescriptions from optometrists or ophthalmologists, and assists customers with frame and lens selection.",
+    "roles_and_overview": "Works in eye care clinics, optical retail stores, and hospitals.",
+    "skills_required": [
+      "Optical product knowledge",
+      "Lens measurement & fitting",
+      "Customer service",
+      "Attention to detail",
+      "Eye care awareness"
+    ],
+    "educational_requirements": [
+      "Diploma or certification in Opticianry or Optometry"
+    ],
+    "duties_and_responsibilities": [
+      "Help customers choose frames and lenses",
+      "Fit and adjust eyewear",
+      "Interpret optical prescriptions",
+      "Maintain product inventory"
+    ],
+    "salary_range": "₹2,00,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["Lenskart", "Titan Eye+", "Optical Stores", "Hospitals"]
+  },
+  {
+    "job_title": "Respiratory Therapist",
+    "description": "A Respiratory Therapist treats patients with breathing disorders such as asthma, COPD, and respiratory failure. They operate ventilators and oxygen therapy equipment.",
+    "roles_and_overview": "Supports ICU units, emergency rooms, and pulmonary care clinics.",
+    "skills_required": [
+      "Ventilator management",
+      "Pulmonary care knowledge",
+      "Patient assessment",
+      "Emergency response",
+      "Equipment handling"
+    ],
+    "educational_requirements": [
+      "Bachelor’s or Diploma in Respiratory Therapy"
+    ],
+    "duties_and_responsibilities": [
+      "Administer breathing treatments",
+      "Monitor patient ventilation",
+      "Assist during emergency interventions",
+      "Maintain respiratory devices"
+    ],
+    "salary_range": "₹3,50,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["ICU Units", "Hospitals", "Rehabilitation Centers"]
+  },
+  {
+    "job_title": "Dietitian",
+    "description": "A Dietitian creates personalized nutrition plans to improve health, manage diseases, and support wellness through scientifically structured diets and lifestyle recommendations.",
+    "roles_and_overview": "Works with patients in hospitals, wellness centers, fitness programs, and private practice.",
+    "skills_required": [
+      "Nutritional research",
+      "Diet planning",
+      "Consultation and counseling",
+      "Communication",
+      "Health assessment"
+    ],
+    "educational_requirements": [
+      "B.Sc. or M.Sc. in Nutrition and Dietetics",
+      "RD (Registered Dietitian) certification preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Assess nutritional needs",
+      "Develop diet plans for patients",
+      "Monitor progress & adjust intake plans",
+      "Educate individuals about healthy eating"
+    ],
+    "salary_range": "₹3,00,000 - ₹15,00,000 per year in India",
+    "top_companies_offering_this_role": ["Hospitals", "Sports Centers", "Diet Clinics", "Wellness Programs"]
+  },
+  {
+    "job_title": "Environmental Scientist",
+    "description": "An Environmental Scientist studies environmental conditions, pollution, and ecological risks to develop sustainable solutions and protect natural resources.",
+    "roles_and_overview": "Works in environmental research, conservation, pollution control, and ecosystem protection.",
+    "skills_required": [
+      "Environmental research",
+      "Data analysis",
+      "Field testing",
+      "Report writing",
+      "Scientific modeling"
+    ],
+    "educational_requirements": [
+      "Bachelor or Master’s in Environmental Science, Ecology, or Earth Science"
+    ],
+    "duties_and_responsibilities": [
+      "Collect and analyze environmental samples",
+      "Prepare scientific reports",
+      "Develop ecological protection strategies",
+      "Support conservation programs"
+    ],
+    "salary_range": "₹3,50,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["NEERI", "Environmental NGOs", "Government Agencies"]
+  },
+  {
+    "job_title": "Geologist",
+    "description": "A Geologist studies earth materials, rocks, earthquakes, and natural resources to support mining, construction, oil exploration, and environmental protection.",
+    "roles_and_overview": "Works in energy, natural resource management, research, and disaster prediction.",
+    "skills_required": [
+      "Geological mapping",
+      "Sample testing",
+      "GIS and remote sensing",
+      "Analytical reasoning",
+      "Field survival skills"
+    ],
+    "educational_requirements": [
+      "B.Sc. / M.Sc. in Geology, Earth Science, or Geophysics"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct geological surveys",
+      "Analyze rock/mineral samples",
+      "Assess resource extraction sites",
+      "Support earthquake and landslide research"
+    ],
+    "salary_range": "₹4,00,000 - ₹30,00,000 per year in India",
+    "top_companies_offering_this_role": ["ONGC", "GSI", "Oil Companies", "Mining Industry"]
+  },
+  {
+    "job_title": "Meteorologist",
+    "description": "A Meteorologist studies weather patterns, climate trends, and atmospheric changes to predict weather conditions and provide reports for aviation, agriculture, and disaster management.",
+    "roles_and_overview": "Uses scientific modeling and weather instruments for forecasting.",
+    "skills_required": [
+      "Weather forecasting",
+      "Climate modeling",
+      "Data analysis",
+      "Satellite monitoring",
+      "Research skills"
+    ],
+    "educational_requirements": [
+      "Degree in Meteorology, Atmospheric Science, or Environmental Science"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze climate data",
+      "Predict weather events",
+      "Issue warnings for storms or disasters",
+      "Prepare public forecast reports"
+    ],
+    "salary_range": "₹4,00,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["IMD", "ISRO", "Airports Authority", "TV News Networks"]
+  },
+  {
+    "job_title": "Astronomer",
+    "description": "An Astronomer studies celestial objects, space phenomena, and the universe using telescopes, satellites, and mathematical simulations to understand cosmic behavior and scientific physics.",
+    "roles_and_overview": "Works in astrophysics research, observatories, and space organizations.",
+    "skills_required": [
+      "Astrophysics",
+      "Mathematical modeling",
+      "Research and data analysis",
+      "Scientific programming",
+      "Observation instrumentation"
+    ],
+    "educational_requirements": [
+      "Ph.D. in Astronomy, Astrophysics, or Physics"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct space research observations",
+      "Develop astronomical models",
+      "Analyze data collected from telescopes",
+      "Publish research papers"
+    ],
+    "salary_range": "₹8,00,000 - ₹45,00,000 per year in India",
+    "top_companies_offering_this_role": ["ISRO", "NASA", "IUCAA", "Research Institutes"]
+  },
+  {
+    "job_title": "Biologist",
+    "description": "A Biologist studies living organisms, including plants, animals, and microorganisms to understand biological processes, ecosystems, and medical advancements.",
+    "roles_and_overview": "Works in research, healthcare, agriculture, biotechnology, and environmental science.",
+    "skills_required": [
+      "Microscopy and lab testing",
+      "Field research skills",
+      "Scientific analysis",
+      "Biostatistics",
+      "Documentation"
+    ],
+    "educational_requirements": [
+      "B.Sc. / M.Sc. in Biology, Biotechnology, or Life Science"
+    ],
+    "duties_and_responsibilities": [
+      "Study biological patterns",
+      "Conduct lab and field experiments",
+      "Analyze cell and organism behavior",
+      "Assist in scientific publications"
+    ],
+    "salary_range": "₹3,50,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Biotech Firms", "Research Labs", "Universities"]
+  },
+  {
+    "job_title": "Chemist",
+    "description": "A Chemist studies chemical composition, reactions, and properties to create and improve pharmaceuticals, materials, food ingredients, and industrial chemicals.",
+    "roles_and_overview": "Works in laboratories, manufacturing, research, and product development.",
+    "skills_required": [
+      "Chemical analysis",
+      "Laboratory testing",
+      "Safety protocols",
+      "Analytical thinking",
+      "Instrument handling"
+    ],
+    "educational_requirements": [
+      "B.Sc. / M.Sc. in Chemistry or Chemical Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct chemical experiments",
+      "Analyze chemical components",
+      "Develop new chemical formulas",
+      "Maintain lab safety standards"
+    ],
+    "salary_range": "₹3,00,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Cipla", "BASF", "Sun Pharma", "Chemical Labs"]
+  },
+  {
+    "job_title": "Physicist",
+    "description": "A Physicist researches physical forces, energy, matter, and scientific principles to develop theories and applications in fields like medicine, engineering, quantum science, and aerospace.",
+    "roles_and_overview": "Works in research labs, universities, technology development, and defense science.",
+    "skills_required": [
+      "Physics and mathematics",
+      "Scientific modeling",
+      "Analytical thinking",
+      "Research writing",
+      "Programming tools"
+    ],
+    "educational_requirements": [
+      "Ph.D. in Physics or Applied Physics"
+    ],
+    "duties_and_responsibilities": [
+      "Develop scientific models",
+      "Conduct theoretical and experimental research",
+      "Analyze physics datasets",
+      "Publish scientific findings"
+    ],
+    "salary_range": "₹7,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["ISRO", "DRDO", "BARC", "Space Research Labs"]
+  },
+  {
+    "job_title": "Mathematician",
+    "description": "A Mathematician applies mathematical principles, algorithms, and statistical modeling to solve scientific, engineering, financial, and real-world analytical problems.",
+    "roles_and_overview": "Works in research, finance, technology, academia, and applied sciences.",
+    "skills_required": [
+      "Advanced mathematics",
+      "Problem-solving",
+      "Data modeling",
+      "Research",
+      "Logical thinking"
+    ],
+    "educational_requirements": [
+      "Master’s or Ph.D. in Mathematics or Applied Mathematics"
+    ],
+    "duties_and_responsibilities": [
+      "Develop mathematical proofs",
+      "Create analytical models",
+      "Support academic and industrial research",
+      "Publish findings and theories"
+    ],
+    "salary_range": "₹5,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["Research Institutes", "Financial Analytics Firms", "Universities"]
+  },
+  {
+    "job_title": "Statistician",
+    "description": "A Statistician collects and analyzes numerical data to support decision-making, predictions, and research using mathematical and statistical tools.",
+    "roles_and_overview": "Works across government, healthcare, finance, business analytics, and scientific research.",
+    "skills_required": [
+      "Statistical modeling",
+      "SPSS / R / Python",
+      "Data interpretation",
+      "Probability and sampling",
+      "Reporting"
+    ],
+    "educational_requirements": [
+      "B.Sc. / M.Sc. in Statistics or Data Science"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze datasets and trends",
+      "Prepare statistical reports",
+      "Support predictive modeling",
+      "Design surveys and data collection methods"
+    ],
+    "salary_range": "₹4,00,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["Government Agencies", "Analytics Firms", "Research Institutes"]
+  },
+  {
+    "job_title": "Economist",
+    "description": "An Economist analyzes economic data, financial policies, and market trends to offer insights on resource allocation, pricing, and financial planning on local and global scales.",
+    "roles_and_overview": "Works in government policy, finance, banking, consulting, and international trade.",
+    "skills_required": [
+      "Economic modeling",
+      "Research & forecasting",
+      "Mathematics and statistics",
+      "Analytical thinking",
+      "Data visualization"
+    ],
+    "educational_requirements": [
+      "B.A. / M.A. / Ph.D. in Economics or Econometrics"
+    ],
+    "duties_and_responsibilities": [
+      "Study market trends and policies",
+      "Prepare financial & economic reports",
+      "Perform economic forecasting",
+      "Advise government & business decisions"
+    ],
+    "salary_range": "₹5,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["RBI", "World Bank", "Deloitte", "Government Planning Commission"]
+  },
+  {
+    "job_title": "Political Scientist",
+    "description": "A Political Scientist studies government systems, political behavior, public policies, and international relations to understand political trends and influence policy-making.",
+    "roles_and_overview": "Works in research institutions, media analysis, government advisory roles, and public administration.",
+    "skills_required": [
+      "Policy research",
+      "Public speaking and debate",
+      "Analytical reasoning",
+      "Data interpretation",
+      "Writing & communication"
+    ],
+    "educational_requirements": [
+      "Bachelor or Master’s degree in Political Science or Public Policy"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze political developments",
+      "Research governance and public policy",
+      "Prepare reports and publications",
+      "Support political campaigns and advisory projects"
+    ],
+    "salary_range": "₹4,50,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Think Tanks", "Government Research Bodies", "Universities"]
+  },
+  {
+    "job_title": "Sociologist",
+    "description": "A Sociologist studies society, social behavior, cultures, and human interactions to understand community challenges and propose improvements for social development.",
+    "roles_and_overview": "Works with research institutes, NGOs, universities, and public policy teams.",
+    "skills_required": [
+      "Research & analysis",
+      "Survey design",
+      "Social theory & statistics",
+      "Communication",
+      "Problem solving"
+    ],
+    "educational_requirements": [
+      "Bachelor or Master’s in Sociology, Social Sciences, or Anthropology"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct social research studies",
+      "Analyze community behavior trends",
+      "Publish reports and proposals",
+      "Support welfare and development initiatives"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["NGOs", "Government Social Research Units", "Universities", "Development Consultancies"]
+  },
+  {
+    "job_title": "Anthropologist",
+    "description": "An Anthropologist studies human societies, cultures, and evolutionary history to understand social behavior, traditions, and cultural development across time.",
+    "roles_and_overview": "Works in research, academia, museums, and social development organizations to analyze cultural patterns, languages, archaeology, and human evolution.",
+    "skills_required": [
+      "Research and fieldwork",
+      "Cultural analysis",
+      "Data interpretation",
+      "Report and academic writing",
+      "Interview and observation techniques"
+    ],
+    "educational_requirements": [
+      "Master’s or Ph.D. in Anthropology, Sociology, or Archaeology"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct cultural and social research",
+      "Analyze historical and cultural data",
+      "Publish academic studies",
+      "Support cultural preservation projects"
+    ],
+    "salary_range": "₹4,00,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Museums", "Universities", "Research Institutes", "UNESCO", "Cultural NGOs"]
+  },
+  {
+    "job_title": "Historian",
+    "description": "A Historian researches, analyzes, and interprets past events, documents, and artifacts to understand human history and its impact on modern society.",
+    "roles_and_overview": "Works in academia, museums, archives, publishing, and cultural conservation.",
+    "skills_required": [
+      "Research and documentation",
+      "Critical thinking",
+      "Archival management",
+      "Writing and presentation",
+      "Historical knowledge"
+    ],
+    "educational_requirements": [
+      "Master’s or Ph.D. in History or Cultural Studies"
+    ],
+    "duties_and_responsibilities": [
+      "Research historical records and artifacts",
+      "Write books, papers, and educational content",
+      "Preserve historical documents",
+      "Conduct public lectures and presentations"
+    ],
+    "salary_range": "₹3,50,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["National Archives", "Museums", "Universities", "Publishing Houses"]
+  },
+  {
+    "job_title": "Journalist",
+    "description": "A Journalist researches news stories, interviews sources, and reports accurate and timely information through print, broadcast, and digital media.",
+    "roles_and_overview": "Works with media houses, news agencies, television channels, and digital platforms.",
+    "skills_required": [
+      "Investigative research",
+      "Interviewing",
+      "Writing & reporting",
+      "Public speaking",
+      "Fact-checking"
+    ],
+    "educational_requirements": [
+      "Bachelor’s Degree in Journalism, Mass Communication, or English"
+    ],
+    "duties_and_responsibilities": [
+      "Research and write news stories",
+      "Verify information accuracy",
+      "Conduct interviews and reports",
+      "Work under tight deadlines"
+    ],
+    "salary_range": "₹2,50,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Times of India", "NDTV", "BBC", "Hindustan Times", "News Channels"]
+  },
+  {
+    "job_title": "Editor",
+    "description": "An Editor reviews, modifies, and refines written content to ensure clarity, accuracy, and proper structure for publishing and media output.",
+    "roles_and_overview": "Works with writers, publishers, digital teams, and media production units.",
+    "skills_required": [
+      "Editing and proofreading",
+      "Grammar and language expertise",
+      "Time management",
+      "Creative thinking",
+      "Attention to detail"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Communication, English, Journalism, or Literature"
+    ],
+    "duties_and_responsibilities": [
+      "Edit written articles and documents",
+      "Correct grammar and improve readability",
+      "Coordinate with writers and publishers",
+      "Approve content for publication"
+    ],
+    "salary_range": "₹3,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Penguin Publishing", "Newspapers", "Media Agencies", "Blogs & Digital Platforms"]
+  },
+  {
+    "job_title": "Public Relations Specialist",
+    "description": "A Public Relations Specialist manages public image, communication strategies, and media relationships for individuals or organizations to build brand reputation.",
+    "roles_and_overview": "Creates press releases, handles crisis communication, and manages PR campaigns.",
+    "skills_required": [
+      "Communication and networking",
+      "Public speaking",
+      "Media handling",
+      "Brand reputation management",
+      "Strategic planning"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Public Relations, Marketing, or Mass Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Write press releases and plan PR campaigns",
+      "Build relationships with media",
+      "Manage public events and communication",
+      "Handle crisis and reputation issues"
+    ],
+    "salary_range": "₹3,50,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["PR Agencies", "Corporate Firms", "Government Departments", "Media Companies"]
+  },
+  {
+    "job_title": "Advertising Executive",
+    "description": "An Advertising Executive manages advertising campaigns, client accounts, marketing strategies, and creative development to promote products and brands.",
+    "roles_and_overview": "Coordinates between clients, creative teams, and media channels.",
+    "skills_required": [
+      "Marketing and branding",
+      "Communication",
+      "Negotiation",
+      "Campaign planning",
+      "Creative thinking"
+    ],
+    "educational_requirements": [
+      "Bachelor’s in Marketing, Advertising, or Business"
+    ],
+    "duties_and_responsibilities": [
+      "Plan advertising campaigns",
+      "Coordinate with creative & media teams",
+      "Meet client needs and expectations",
+      "Track campaign performance"
+    ],
+    "salary_range": "₹4,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["Ogilvy", "DDB Mudra", "GroupM", "Tata Communications"]
+  },
+  {
+    "job_title": "Art Director",
+    "description": "An Art Director leads the visual concept of advertising, films, print media, and digital designs by guiding creative direction and ensuring aesthetic quality.",
+    "roles_and_overview": "Works with designers, photographers, production teams, and creative agencies.",
+    "skills_required": [
+      "Graphic design",
+      "Creative leadership",
+      "Branding and storytelling",
+      "Visual composition",
+      "Tools like Adobe Creative Suite"
+    ],
+    "educational_requirements": [
+      "Degree in Fine Arts, Graphic Design, or Visual Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Design visual creative concepts",
+      "Manage production and design teams",
+      "Review and approve creative output",
+      "Collaborate with marketing teams"
+    ],
+    "salary_range": "₹6,00,000 - ₹45,00,000 per year in India",
+    "top_companies_offering_this_role": ["Advertising Agencies", "Film Studios", "Branding Firms", "Media Houses"]
+  },
+  {
+    "job_title": "Copywriter",
+    "description": "A Copywriter writes engaging and persuasive marketing and advertising content including slogans, website copy, social media content, and promotional materials.",
+    "roles_and_overview": "Transforms brand messaging into impactful written communication.",
+    "skills_required": [
+      "Creative writing",
+      "Brand storytelling",
+      "SEO & content strategy",
+      "Research",
+      "Editing & proofreading"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in English, Communications, or Advertising"
+    ],
+    "duties_and_responsibilities": [
+      "Write promotional content",
+      "Develop campaign messaging",
+      "Work with marketers and designers",
+      "Rewrite text for clarity and engagement"
+    ],
+    "salary_range": "₹3,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Ad Agencies", "Digital Marketing Firms", "Media Companies", "Brand Agencies"]
+  },
+  {
+    "job_title": "Film Director",
+    "description": "A Film Director oversees film production by guiding the creative and technical aspects, including script interpretation, actor performance, cinematography, and overall storytelling.",
+    "roles_and_overview": "Manages film crew, schedules, budgets, and artistic decisions.",
+    "skills_required": [
+      "Creative vision",
+      "Leadership",
+      "Script and story analysis",
+      "Camera & production knowledge",
+      "Communication and directing actors"
+    ],
+    "educational_requirements": [
+      "Film degree or diploma in Film Direction or Mass Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Direct actors and technical teams",
+      "Plan scenes and camera shots",
+      "Edit and finalize film production",
+      "Coordinate with producers"
+    ],
+    "salary_range": "₹6,00,000 - ₹3,00,00,000+ per year in India",
+    "top_companies_offering_this_role": ["Film Studios", "OTT Platforms", "Production Houses"]
+  },
+  {
+    "job_title": "Screenwriter",
+    "description": "A Screenwriter writes screenplays for movies, television, advertisements, and digital content, developing characters, dialogues, and story structure.",
+    "roles_and_overview": "Works with producers, directors, and creative teams to craft compelling scripts.",
+    "skills_required": [
+      "Creative writing",
+      "Storytelling",
+      "Dialogue development",
+      "Research",
+      "Script formatting"
+    ],
+    "educational_requirements": [
+      "Degree or diploma in Creative Writing, Literature, or Film Studies"
+    ],
+    "duties_and_responsibilities": [
+      "Write and revise screenplays",
+      "Develop plot and character arcs",
+      "Collaborate with production teams",
+      "Research story background"
+    ],
+    "salary_range": "₹3,00,000 - ₹2,00,00,000 per year depending on success",
+    "top_companies_offering_this_role": ["Film Studios", "Media Houses", "OTT Platforms"]
+  },
+  {
+    "job_title": "Actor",
+    "description": "An Actor performs roles in films, theatre, television, or advertisements by interpreting scripts and portraying characters with emotional expression and stage presence.",
+    "roles_and_overview": "Works in entertainment industry projects, rehearsals, performances, and recordings.",
+    "skills_required": [
+      "Acting and improvisation",
+      "Voice control & expressions",
+      "Memorization & performance",
+      "Discipline and stamina",
+      "Team collaboration"
+    ],
+    "educational_requirements": [
+      "Drama school certification or acting workshops"
+    ],
+    "duties_and_responsibilities": [
+      "Rehearse and perform roles",
+      "Follow director instructions",
+      "Participate in production schedules",
+      "Promote films and shows"
+    ],
+    "salary_range": "₹2,50,000 - ₹5,00,00,000+ per year depending on popularity",
+    "top_companies_offering_this_role": ["Film Studios", "Theatre Companies", "TV Channels", "OTT"]
+  },
+  {
+    "job_title": "Musician",
+    "description": "A Musician composes, performs, records, or produces music using vocal talent or musical instruments for entertainment, education, or cultural expression.",
+    "roles_and_overview": "Works in bands, orchestras, recording studios, or independent music platforms.",
+    "skills_required": [
+      "Music theory",
+      "Instrument or vocal skills",
+      "Creativity",
+      "Rhythm & composition",
+      "Stage performance"
+    ],
+    "educational_requirements": [
+      "Music degree or professional training in instruments/vocals"
+    ],
+    "duties_and_responsibilities": [
+      "Create and perform music",
+      "Participate in recordings and concerts",
+      "Practice and refine skills",
+      "Collaborate with producers & music teams"
+    ],
+    "salary_range": "₹3,00,000 - ₹3,00,00,000 per year based on success level",
+    "top_companies_offering_this_role": ["Music Labels", "Film Industry", "Independent Platforms"]
+  },
+  {
+    "job_title": "Sound Engineer",
+    "description": "A Sound Engineer records, edits, mixes, and enhances audio for films, music, games, podcasts, live events, and studio productions.",
+    "roles_and_overview": "Manages microphones, recording equipment, mixing consoles, and sound design processes.",
+    "skills_required": [
+      "Audio editing and mixing",
+      "Sound equipment and acoustics",
+      "Digital audio workstations (DAWs)",
+      "Technical and creative skills",
+      "Problem-solving"
+    ],
+    "educational_requirements": [
+      "Diploma or degree in Sound Engineering or Audio Technology"
+    ],
+    "duties_and_responsibilities": [
+      "Record and enhance audio quality",
+      "Mix tracks and sound effects",
+      "Maintain audio equipment",
+      "Coordinate with music and film teams"
+    ],
+    "salary_range": "₹3,00,000 - ₹30,00,000 per year in India",
+    "top_companies_offering_this_role": ["Recording Studios", "Film Production", "Broadcast Networks"]
+  },
+  {
+    "job_title": "Video Game Designer",
+    "description": "A Video Game Designer creates game concepts, rules, storylines, levels, characters, and gameplay mechanics to deliver immersive gaming experiences.",
+    "roles_and_overview": "Works with programmers, artists, animators, and testers in game development environments.",
+    "skills_required": [
+      "Game design principles",
+      "Creativity and storytelling",
+      "Level design",
+      "Programming basics",
+      "User psychology"
+    ],
+    "educational_requirements": [
+      "Degree in Game Design, Computer Science, or Animation"
+    ],
+    "duties_and_responsibilities": [
+      "Create game concepts and scripts",
+      "Design levels, rules, and mechanics",
+      "Work with development teams",
+      "Playtest and refine gameplay"
+    ],
+    "salary_range": "₹4,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["Ubisoft", "EA Games", "Sony", "Nodwin", "Nazara Technologies"]
+  },
+  {
+    "job_title": "Animation Artist",
+    "description": "An Animation Artist creates animated visuals, 2D/3D characters, and motion graphics for films, games, ads, and digital platforms using design and illustrating tools.",
+    "roles_and_overview": "Transforms creative concepts into animated content through visual movement.",
+    "skills_required": [
+      "2D & 3D animation",
+      "Adobe After Effects, Maya, Blender",
+      "Drawing and illustration",
+      "Creativity",
+      "Storyboarding"
+    ],
+    "educational_requirements": [
+      "Degree or diploma in Animation, Fine Arts, or Visual Communication"
+    ],
+    "duties_and_responsibilities": [
+      "Develop animated scenes and characters",
+      "Create storyboards and motion graphics",
+      "Collaborate with directors and designers",
+      "Edit animations and effects"
+    ],
+    "salary_range": "₹3,00,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["Disney", "Pixar", "DreamWorks", "Animation Studios", "Gaming Companies"]
+  },
+  {
+    "job_title": "Comic Book Artist",
+    "description": "A Comic Book Artist illustrates comic books, graphic novels, and characters using drawing, storytelling, and sequential art techniques.",
+    "roles_and_overview": "Works with publishers, animation firms, and digital comic platforms.",
+    "skills_required": [
+      "Drawing and illustration",
+      "Character creation",
+      "Story sequencing",
+      "Digital art tools",
+      "Creativity"
+    ],
+    "educational_requirements": [
+      "Degree or training in Fine Arts, Animation, or Illustration"
+    ],
+    "duties_and_responsibilities": [
+      "Illustrate comic pages and covers",
+      "Create characters and visual stories",
+      "Collaborate with writers and editors",
+      "Prepare content for publication"
+    ],
+    "salary_range": "₹2,50,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Comic Publishers", "Animation & Graphic Studios", "Digital Comic Platforms"]
+  },
+  {
+    "job_title": "Fashion Model",
+    "description": "A Fashion Model presents clothing, accessories, and lifestyle products in fashion shows, photoshoots, commercials, and brand campaigns to promote styles and trends.",
+    "roles_and_overview": "Works with fashion designers, photographers, and modeling agencies.",
+    "skills_required": [
+      "Runway walking",
+      "Posing and expression",
+      "Confidence & presentation",
+      "Body and fitness maintenance",
+      "Fashion awareness"
+    ],
+    "educational_requirements": [
+      "No formal education required; modeling training preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Participate in fashion shows",
+      "Pose for photoshoots",
+      "Promote brands and designers",
+      "Maintain physical appearance"
+    ],
+    "salary_range": "₹3,00,000 - ₹3,00,00,000+ depending on popularity",
+    "top_companies_offering_this_role": ["Modeling Agencies", "Fashion Brands", "Media and Advertising Firms"]
+  },
+  {
+    "job_title": "Dance Instructor",
+    "description": "A Dance Instructor teaches dance techniques, choreography, and performance skills across different styles including classical, modern, hip-hop, and cultural forms.",
+    "roles_and_overview": "Works in studios, schools, fitness centers, and performance spaces.",
+    "skills_required": [
+      "Choreography and performance",
+      "Music rhythm understanding",
+      "Body conditioning",
+      "Teaching discipline",
+      "Creativity"
+    ],
+    "educational_requirements": [
+      "Dance certification or professional training"
+    ],
+    "duties_and_responsibilities": [
+      "Teach dance routines to students",
+      "Plan dance performances",
+      "Train students for competitions",
+      "Correct technique and posture"
+    ],
+    "salary_range": "₹2,00,000 - ₹18,00,000 per year in India",
+    "top_companies_offering_this_role": ["Dance Academies", "Fitness Centers", "Schools", "Entertainment Groups"]
+  },
+  {
+    "job_title": "Yoga Instructor",
+    "description": "A Yoga Instructor teaches yoga postures, breathing techniques, meditation, and wellness practices to improve physical strength, flexibility, and mental balance.",
+    "roles_and_overview": "Works in yoga studios, wellness centers, corporate programs, and fitness organizations.",
+    "skills_required": [
+      "Yoga techniques and anatomy knowledge",
+      "Communication and teaching",
+      "Meditation practices",
+      "Patience and empathy",
+      "Physical fitness"
+    ],
+    "educational_requirements": [
+      "Yoga training certification (200/500 hour training programs)"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct yoga classes and workshops",
+      "Support students with posture corrections",
+      "Create customized health routines",
+      "Promote wellness awareness"
+    ],
+    "salary_range": "₹2,00,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Art of Living", "Isha Foundation", "Yoga Studios", "Fitness Chains"]
+  },
+  {
+    "job_title": "Sports Coach",
+    "description": "A Sports Coach trains athletes and teams to improve physical performance, competitive skills, and sportsmanship through training programs and strategic development.",
+    "roles_and_overview": "Works in schools, colleges, sports academies, and professional leagues.",
+    "skills_required": [
+      "Training and conditioning",
+      "Motivation and leadership",
+      "Strategy development",
+      "Communication",
+      "Performance tracking"
+    ],
+    "educational_requirements": [
+      "Sports coaching certification or degree in Physical Education"
+    ],
+    "duties_and_responsibilities": [
+      "Develop training schedules for athletes",
+      "Guide performance improvement",
+      "Prepare for matches and competitions",
+      "Ensure physical and mental readiness"
+    ],
+    "salary_range": "₹3,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["Sports Academies", "Schools", "Colleges", "Sports Clubs"]
+  },
+  {
+    "job_title": "Athletic Trainer",
+    "description": "An Athletic Trainer helps athletes prevent and recover from injuries using physical therapy techniques, conditioning guidance, and rehabilitation exercises.",
+    "roles_and_overview": "Collaborates with sports coaches, physiotherapists, and medical teams.",
+    "skills_required": [
+      "Sports injury assessment",
+      "Rehabilitation training",
+      "Exercise science",
+      "CPR & first aid",
+      "Motivational skills"
+    ],
+    "educational_requirements": [
+      "Degree in Sports Science or Physical Therapy"
+    ],
+    "duties_and_responsibilities": [
+      "Provide first aid during sports events",
+      "Develop injury recovery plans",
+      "Monitor athlete performance",
+      "Conduct strength and conditioning exercises"
+    ],
+    "salary_range": "₹3,00,000 - ₹22,00,000 per year in India",
+    "top_companies_offering_this_role": ["Sports Teams", "Gyms", "Fitness Centers", "Colleges"]
+  },
+  {
+    "job_title": "Recreation Coordinator",
+    "description": "A Recreation Coordinator plans and organizes recreational activities, community programs, and events to support public engagement, fitness, and leisure involvement.",
+    "roles_and_overview": "Works in community centers, government parks, camps, and youth programs.",
+    "skills_required": [
+      "Program planning",
+      "Leadership",
+      "Event coordination",
+      "Communication",
+      "Organizational skills"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Recreation Management, Sports Science, or related field"
+    ],
+    "duties_and_responsibilities": [
+      "Plan and supervise recreational programs",
+      "Coordinate events and schedules",
+      "Engage communities and participants",
+      "Manage equipment and resources"
+    ],
+    "salary_range": "₹2,50,000 - ₹12,00,000 per year in India",
+    "top_companies_offering_this_role": ["Community Centers", "Municipal Councils", "Schools", "Camps"]
+  },
+  {
+    "job_title": "Camp Counselor",
+    "description": "A Camp Counselor guides children or youth groups during camp programs, ensuring safety, fun, learning activities, and participation in outdoor adventures.",
+    "roles_and_overview": "Works in summer camps, adventure camps, and educational outdoor programs.",
+    "skills_required": [
+      "Leadership",
+      "First aid",
+      "Communication",
+      "Activity planning",
+      "Patience and supervision"
+    ],
+    "educational_requirements": [
+      "High school or degree in Education or Social Work preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Lead group activities and games",
+      "Supervise children and ensure safety",
+      "Resolve conflicts and support learning",
+      "Assist in camp management"
+    ],
+    "salary_range": "₹1,80,000 - ₹8,00,000 per year in India",
+    "top_companies_offering_this_role": ["Adventure Camps", "Schools Outdoor Camps", "Youth Organizations"]
+  },
+  {
+    "job_title": "Cruise Director",
+    "description": "A Cruise Director manages onboard entertainment, guest programs, recreational activities, and public communication on cruise ships to enhance passenger experience.",
+    "roles_and_overview": "Serves as the hospitality leader for large-scale ocean travel and tourism companies.",
+    "skills_required": [
+      "Hospitality management",
+      "Public speaking",
+      "Team coordination",
+      "Event management",
+      "Crisis handling"
+    ],
+    "educational_requirements": [
+      "Hospitality management degree or tourism diploma"
+    ],
+    "duties_and_responsibilities": [
+      "Coordinate entertainment schedules",
+      "Supervise guest events and onboard staff",
+      "Welcome and communicate with passengers",
+      "Ensure guest satisfaction and safety"
+    ],
+    "salary_range": "₹12,00,000 - ₹75,00,000 per year in India",
+    "top_companies_offering_this_role": ["Royal Caribbean", "Carnival Cruises", "Disney Cruises", "International Cruise Lines"]
+  },
+  {
+  "job_title": "Machine Learning Engineer",
+  "description": "Machine Learning Engineers design, build, and deploy machine learning models that enable systems to learn from data and make intelligent decisions. They work on developing algorithms, preparing datasets, training models, and integrating them into products and real-world applications.",
+  "roles_and_overview": "Responsible for building scalable ML solutions, selecting appropriate algorithms, optimizing model performance, and deploying models into production. Works closely with data scientists, data engineers, and software engineers.",
+  "skills_required": [
+    "Python / R programming",
+    "Machine Learning algorithms",
+    "Deep learning frameworks (TensorFlow, PyTorch)",
+    "Data preprocessing & feature engineering",
+    "Model deployment (Docker, Kubernetes, MLflow)",
+    "Cloud platforms (AWS, GCP, Azure)"
+  ],
+  "educational_requirements": [
+    "Bachelor’s/Master’s in Computer Science, Data Science, AI/ML, or related fields",
+    "Strong foundation in mathematics, probability, and statistics"
+  ],
+  "duties_and_responsibilities": [
+    "Build and deploy machine learning and deep learning models",
+    "Collect, clean and analyze large datasets",
+    "Evaluate model performance using metrics",
+    "Optimize and tune models for speed and accuracy",
+    "Work with engineering teams to integrate models into applications",
+    "Document model behavior and improvements"
+  ],
+  "salary_range": "₹6,00,000 – ₹40,00,000 per year in India depending on experience",
+  "top_companies_offering_this_role": [
+    "Google",
+    "NVIDIA",
+    "Amazon",
+    "Meta",
+    "Microsoft",
+    "Zoho",
+    "TCS",
+    "Accenture"
+  ]
+},
+{
+  "job_title": "AI-Powered Marketing Analyst",
+  "description": "AI Marketing Analysts leverage artificial intelligence and data-driven insights to analyze customer behavior, optimize marketing strategies, and automate digital marketing campaigns. They use predictive analytics and machine learning to improve marketing ROI.",
+  "roles_and_overview": "Evaluates market trends and customer data to develop personalized marketing strategies. Uses data analytics tools and AI models to predict customer behavior and enhance campaign performance.",
+  "skills_required": [
+    "Data analysis and visualization",
+    "Marketing analytics tools (Google Analytics, HubSpot, SEMrush)",
+    "Machine learning basics & predictive analytics",
+    "A/B testing and campaign performance optimization",
+    "SQL and Excel",
+    "Digital marketing strategies and automation tools"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Marketing, Business Analytics, Data Science, or AI",
+    "Knowledge of marketing psychology & customer segmentation"
+  ],
+  "duties_and_responsibilities": [
+    "Analyze campaign performance metrics and optimize strategies",
+    "Use AI tools to automate marketing campaigns",
+    "Build predictive models for customer targeting",
+    "Generate dashboards and reports for marketing insights",
+    "Collaborate with sales and marketing teams",
+    "Plan personalized marketing workflows"
+  ],
+  "salary_range": "₹4,50,000 – ₹22,00,000 per year in India",
+  "top_companies_offering_this_role": [
+    "Swiggy",
+    "Zomato",
+    "Amazon",
+    "Google",
+    "Flipkart",
+    "Unacademy",
+    "Reliance Jio"
+  ]
+},
+{
+  "job_title": "AI Model Validator",
+  "description": "AI Model Validators evaluate and monitor machine learning models to ensure fairness, accuracy, reliability, and regulatory compliance. They test AI systems to prevent model failure, bias, and security vulnerabilities before deployment.",
+  "roles_and_overview": "Reviews AI models to verify performance, risk, and ethical standards. Works with ML engineers, data scientists, and risk management teams to ensure models behave as intended.",
+  "skills_required": [
+    "Model validation and evaluation techniques",
+    "Machine learning theory",
+    "Model performance metrics",
+    "Python / SQL",
+    "AI ethics and regulatory knowledge",
+    "Statistical testing and risk assessment"
+  ],
+  "educational_requirements": [
+    "Bachelor’s/Master’s in AI, ML, Data Science, Statistics, or related fields",
+    "Knowledge of compliance frameworks and AI risk standards"
+  ],
+  "duties_and_responsibilities": [
+    "Validate and audit machine learning models",
+    "Perform bias, drift, and stress testing",
+    "Detect model vulnerabilities and risks",
+    "Ensure regulatory and ethical compliance",
+    "Prepare validation documentation and reports",
+    "Monitor model performance in production"
+  ],
+  "salary_range": "₹7,00,000 – ₹45,00,000 per year in India",
+  "top_companies_offering_this_role": [
+    "J.P Morgan",
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "IBM",
+    "Microsoft",
+    "PwC",
+    "Accenture"
+  ]
+},
+{
+  "job_title": "Artificial Intelligence Trainer",
+  "description": "AI Trainers develop and prepare training datasets, label information, and help machine learning models learn from examples. They work on improving model accuracy by teaching AI systems to understand text, images, voice, and behavior.",
+  "roles_and_overview": "Responsible for creating structured training data, annotating datasets, testing model responses, and improving model understanding. Works closely with ML engineers and data scientists.",
+  "skills_required": [
+    "Basic understanding of AI/ML concepts",
+    "Strong communication and language skills",
+    "Familiarity with annotation and labeling tools",
+    "Problem-solving and logical reasoning",
+    "Attention to detail"
+  ],
+  "educational_requirements": [
+    "Bachelor’s degree in Computer Science, AI, Linguistics, or any related field",
+    "Certification in AI/ML or NLP is an added advantage"
+  ],
+  "duties_and_responsibilities": [
+    "Prepare and label training datasets",
+    "Test AI outputs and give feedback",
+    "Improve AI model accuracy with corrections",
+    "Work on text, image, audio, and video datasets",
+    "Perform quality checks on labeled data"
+  ],
+  "salary_range": "₹3,00,000 – ₹12,00,000 per year in India",
+  "top_companies_offering_this_role": [
+    "Google",
+    "OpenAI",
+    "Amazon",
+    "Meta",
+    "Microsoft",
+    "iMerit",
+    "Scale AI",
+    "Appen"
+  ]
+},{
+  "job_title": "AI Research Scientist",
+  "description": "AI Research Scientists design and develop new artificial intelligence models, algorithms, and innovations in deep learning, reinforcement learning, and neural network research.",
+  "roles_and_overview": "Develops advanced AI research solutions, publishes research papers, and leads experimental model development. Works in industrial R&D labs and universities.",
+  "skills_required": [
+    "Deep learning & neural networks",
+    "Mathematics and probability",
+    "Reinforcement learning",
+    "Programming (Python, C++)",
+    "Research writing & publications",
+    "Distributed computing"
+  ],
+  "educational_requirements": [
+    "Master’s or PhD in AI, Machine Learning, Computer Science, or Mathematics",
+    "Research publications in journals/conferences (preferred)"
+  ],
+  "duties_and_responsibilities": [
+    "Design and train advanced AI models",
+    "Publish research results and patents",
+    "Collaborate with engineering teams",
+    "Experiment with new AI techniques",
+    "Solve complex scientific problems"
+  ],
+  "salary_range": "₹15,00,000 – ₹75,00,000 per year in India",
+  "top_companies_offering_this_role": [
+    "Google DeepMind",
+    "OpenAI",
+    "IBM Research",
+    "NVIDIA",
+    "Microsoft Research",
+    "Adobe",
+    "IIT Research Labs"
+  ]
+},
+{
+  "job_title": "Ethical AI Auditor",
+  "description": "Ethical AI Auditors ensure AI systems are fair, transparent, unbiased, secure, and socially responsible. They evaluate AI for ethical issues and compliance with policies.",
+  "roles_and_overview": "Checks AI model risks, bias issues, and regulatory standards. Works with compliance, legal, and engineering teams.",
+  "skills_required": [
+    "Understanding of AI fairness and transparency",
+    "Data and model evaluation",
+    "Risk analysis & auditing knowledge",
+    "AI regulatory and policy frameworks",
+    "Statistical testing"
+  ],
+  "educational_requirements": [
+    "Bachelor’s/Master’s in AI, Ethics, Law, Data Science, or Public Policy"
+  ],
+  "duties_and_responsibilities": [
+    "Audit AI models for fairness and safety",
+    "Ensure ethical regulations in AI systems",
+    "Identify bias and security risks",
+    "Prepare compliance reports",
+    "Coordinate with legal and research teams"
+  ],
+  "salary_range": "₹10,00,000 – ₹45,00,000 per year in India",
+  "top_companies_offering_this_role": [
+    "IBM",
+    "Microsoft",
+    "Accenture",
+    "PwC",
+    "Deloitte",
+    "KPMG"
+  ]
+},
+{
+  "job_title": "AI Prompt Engineer",
+  "description": "Prompt Engineers design and optimize prompts to get the best responses from generative AI models such as ChatGPT, Claude, Gemini, and others. They work on prompt testing, tuning, and workflow automation.",
+  "roles_and_overview": "Builds prompts for production use, analyzes model responses, and enhances quality in real-world AI applications.",
+  "skills_required": [
+    "Excellent written communication",
+    "Creative problem solving",
+    "Understanding of LLMs and generative AI",
+    "Basic coding (Python & APIs)",
+    "Domain knowledge in AI deployments"
+  ],
+  "educational_requirements": [
+    "Any bachelor’s degree — CS, AI, English, Linguistics preferred",
+    "Knowledge of generative AI tools"
+  ],
+  "duties_and_responsibilities": [
+    "Create and optimize AI prompts",
+    "Develop automated prompt workflows",
+    "Analyze output quality and correctness",
+    "Collaborate with ML teams to enhance models",
+    "Train others on prompt usage"
+  ],
+  "salary_range": "₹8,00,000 – ₹70,00,000 per year in India (varies heavily)",
+  "top_companies_offering_this_role": [
+    "OpenAI",
+    "Google",
+    "Adobe",
+    "Amazon",
+    "Infosys",
+    "ServiceNow",
+    "Freshworks"
+  ]
+},
+{
+  "job_title": "AI Data Labeling Supervisor",
+  "description": "Oversees teams that annotate and label training datasets for AI systems. Ensures data quality, accuracy, and efficiency in model preparation.",
+  "roles_and_overview": "Manages labeling teams, tracks production targets, and maintains dataset quality checks for AI model training.",
+  "skills_required": [
+    "Team management",
+    "Quality control and auditing",
+    "Basic AI & ML knowledge",
+    "Annotation tools",
+    "Attention to detail"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in Computer Science, Management, or related fields"
+  ],
+  "duties_and_responsibilities": [
+    "Lead team of annotators",
+    "Review large datasets",
+    "Maintain annotation guidelines",
+    "Communicate with ML engineers",
+    "Analyze labeling performance"
+  ],
+  "salary_range": "₹4,50,000 – ₹18,00,000 per year",
+  "top_companies_offering_this_role": [
+    "iMerit",
+    "Scale AI",
+    "Appen",
+    "Cogito Tech",
+    "Google",
+    "TCS"
+  ]
+},
+{
+  "job_title": "Digital Customer Support Chatbot Trainer",
+  "description": "Chatbot trainers teach AI customer support bots how to handle queries accurately, improve responses, and understand user conversations.",
+  "roles_and_overview": "Optimizes chatbot responses using sample conversations, FAQs, and real user feedback.",
+  "skills_required": [
+    "Customer service domain knowledge",
+    "Conversation design",
+    "NLP understanding",
+    "Content writing",
+    "Testing and quality review"
+  ],
+  "educational_requirements": [
+    "Bachelor’s in any field; communication or IT preferred"
+  ],
+  "duties_and_responsibilities": [
+    "Build training scripts and chat examples",
+    "Analyze incorrect chatbot responses",
+    "Improve AI conversational flow",
+    "Develop FAQ and support contents",
+    "Perform quality testing"
+  ],
+  "salary_range": "₹4,00,000 – ₹16,00,000 per year",
+  "top_companies_offering_this_role": [
+    "Haptik",
+    "Freshworks",
+    "Intercom",
+    "Flipkart",
+    "Amazon",
+    "Replika AI"
+  ]
+},
+{
+  "job_title": "AI Ethics Consultant",
+  "description": "AI Ethics Consultants ensure responsible, transparent, and human-centered deployment of AI systems. They develop policies for safe and fair AI.",
+  "roles_and_overview": "Advises companies on ethical guidelines, risk policies, and AI regulations to ensure compliance.",
+  "skills_required": [
+    "AI governance knowledge",
+    "Policy development",
+    "Understanding of fairness & bias",
+    "Research and analysis",
+    "Communication & legal awareness"
+  ],
+  "educational_requirements": [
+    "Bachelor’s/Master’s in Ethics, Psychology, Law, AI, or Public Policy"
+  ],
+  "duties_and_responsibilities": [
+    "Create ethical AI policies",
+    "Assess risks in AI solutions",
+    "Recommend safeguards for users",
+    "Work with legal & compliance teams",
+    "Guide ethical AI development"
+  ],
+  "salary_range": "₹10,00,000 – ₹50,00,000 per year",
+  "top_companies_offering_this_role": [
+    "UNESCO AI Ethics",
+    "Google",
+    "Microsoft",
+    "Accenture",
+    "PwC",
+    "Deloitte"
+  ]
+},
+  {
+    "job_title": "Head of Data Science",
+    "description": "The Head of Data Science leads the entire data science department, manages AI and analytics strategies, and drives business decisions using large-scale data insights and machine learning solutions.",
+    "roles_and_overview": "Oversees data science teams, defines AI strategy, leads innovation, and ensures successful implementation of ML models across the organization.",
+    "skills_required": [
+      "Leadership and team management",
+      "Deep knowledge of machine learning & deep learning",
+      "Big data analytics",
+      "Cloud & distributed computing",
+      "Business strategy",
+      "Python, R, SQL, Spark"
+    ],
+    "educational_requirements": [
+      "Master’s or PhD in Data Science, AI, Machine Learning, or Statistics",
+      "Strong industrial research background preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Lead data science roadmap and research direction",
+      "Manage and mentor data science teams",
+      "Drive AI strategy aligned with business goals",
+      "Review models for accuracy, scalability, and compliance",
+      "Collaborate with leadership and engineering teams"
+    ],
+    "salary_range": "₹40,00,000 – ₹1,20,00,000 per year in India",
+    "top_companies_offering_this_role": [
+      "Google",
+      "Microsoft",
+      "Amazon",
+      "Flipkart",
+      "Jio",
+      "Accenture",
+      "Deloitte"
+    ]
+  },
+  {
+    "job_title": "Principal Data Scientist",
+    "description": "Principal Data Scientists lead complex machine learning projects, design high-impact models, and solve advanced data challenges while guiding technical teams.",
+    "roles_and_overview": "Acts as a senior AI expert, drives major solutions, performs advanced modeling, and ensures large-scale AI implementation success.",
+    "skills_required": [
+      "Advanced ML & DL algorithms",
+      "Predictive modeling",
+      "MLOps & scalable ML architecture",
+      "Statistics & probability",
+      "Python, R, PyTorch, TensorFlow",
+      "Cloud platforms (AWS, GCP, Azure)"
+    ],
+    "educational_requirements": [
+      "Master’s/PhD in Data Science, Machine Learning, or Applied Mathematics",
+      "Strong portfolio of AI case studies or publications"
+    ],
+    "duties_and_responsibilities": [
+      "Build high-performance ML models",
+      "Mentor data science and engineering teams",
+      "Evaluate deep learning model performance",
+      "Lead experiment design and research studies",
+      "Collaborate with product and R&D teams"
+    ],
+    "salary_range": "₹35,00,000 – ₹90,00,000 per year in India",
+    "top_companies_offering_this_role": [
+      "NVIDIA",
+      "Meta",
+      "Uber AI",
+      "Samsung R&D",
+      "LinkedIn",
+      "IBM Research"
+    ]
+  },
+  {
+    "job_title": "AI Chatbot Designer",
+    "description": "AI Chatbot Designers create conversation flows, design user interactions, and train chatbot personalities to deliver smooth and natural communication experiences.",
+    "roles_and_overview": "Designs end-to-end conversational journeys, chatbot personas, intent classification, and user experience workflows.",
+    "skills_required": [
+      "Conversation design",
+      "NLP fundamentals",
+      "UX/UI thinking",
+      "Chatbot tools (Dialogflow, Rasa, IBM Watson, Voiceflow)",
+      "Content writing",
+      "Testing & user behavior analysis"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in UX Design, Communication, AI, or any related field",
+      "Training in NLP or Conversation Design preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Design conversational flows and scripts",
+      "Create chatbot personality and tone",
+      "Test and refine chatbot responses",
+      "Analyze real conversations and improve flows",
+      "Work with developers and AI trainers"
+    ],
+    "salary_range": "₹5,00,000 – ₹22,00,000 per year",
+    "top_companies_offering_this_role": [
+      "Haptik",
+      "Freshworks",
+      "Infosys",
+      "TCS",
+      "Flipkart",
+      "Amazon"
+    ]
+  },
+  {
+    "job_title": "AI-Driven Content Strategist",
+    "description": "AI-Driven Content Strategists plan, create, and analyze content strategies using AI tools, automation models, and data insights to increase digital reach and audience engagement.",
+    "roles_and_overview": "Uses AI for content creation, SEO optimization, planning and performance analytics across marketing and branding channels.",
+    "skills_required": [
+      "Content strategy & storytelling",
+      "SEO and content analytics",
+      "AI writing tools (ChatGPT, Jasper, Gemini)",
+      "Market research",
+      "Copywriting",
+      "Social media strategy"
+    ],
+    "educational_requirements": [
+      "Bachelor’s degree in Marketing, Communication, Journalism, or Business",
+      "SEO or digital marketing certifications preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Plan content frameworks using AI insights",
+      "Generate content ideas and optimize SEO",
+      "Analyze audience analytics and performance metrics",
+      "Collaborate with marketing and design teams",
+      "Use AI tools to automate content workflows"
+    ],
+    "salary_range": "₹4,50,000 – ₹18,00,000 per year",
+    "top_companies_offering_this_role": [
+      "Swiggy",
+      "Zomato",
+      "TCS",
+      "Accenture",
+      "Byju’s",
+      "Wipro"
+    ]
+  },
+  {
+    "job_title": "Quantitative Analyst",
+    "description": "Quantitative Analysts apply mathematical and statistical models to analyze financial markets, predict risks, and support algorithmic trading and investment decisions.",
+    "roles_and_overview": "Builds predictive models, performs trading risk evaluation, and develops financial forecasting systems.",
+    "skills_required": [
+      "Advanced mathematics & statistics",
+      "Machine learning",
+      "Probability & stochastic processes",
+      "Python, R, MATLAB, SQL",
+      "Financial markets & trading knowledge",
+      "Data visualization"
+    ],
+    "educational_requirements": [
+      "Master’s degree in Mathematics, Finance, Statistics, or Quantitative Economics",
+      "CFA or FRM certification is an advantage"
+    ],
+    "duties_and_responsibilities": [
+      "Build financial risk and pricing models",
+      "Develop algorithmic trading strategies",
+      "Analyze investment portfolios",
+      "Perform predictive market forecasting",
+      "Develop statistical models for business insights"
+    ],
+    "salary_range": "₹12,00,000 – ₹60,00,000 per year",
+    "top_companies_offering_this_role": [
+      "Goldman Sachs",
+      "JP Morgan",
+      "Morgan Stanley",
+      "HSBC",
+      "Barclays",
+      "QuantInsti",
+      "Bloomberg"
+    ]
+  },
+  {
+    "job_title": "Blockchain Developer",
+    "description": "A Blockchain Developer designs, develops, and maintains decentralized applications and smart contracts. They build secure and scalable blockchain-based solutions for finance, supply chain, identity management, and more.",
+    "roles_and_overview": "Responsible for writing smart contracts, integrating blockchain with applications, and ensuring security and decentralization. Works closely with backend and cybersecurity teams.",
+    "skills_required": ["Solidity", "Ethereum", "Smart Contracts", "Web3.js", "Go/Rust", "Cryptography", "Distributed Systems"],
+    "educational_requirements": [
+      "Bachelor’s degree in Computer Science, IT, or related field",
+      "Knowledge of blockchain protocols and decentralized architectures"
+    ],
+    "duties_and_responsibilities": [
+      "Design and implement blockchain solutions",
+      "Develop and deploy smart contracts",
+      "Secure applications using cryptographic techniques",
+      "Collaborate with web and backend teams",
+      "Conduct testing and code audits"
+    ],
+    "salary_range": "₹6,00,000 - ₹30,00,000 per year",
+    "top_companies_offering_this_role": ["Polygon", "Coinbase", "Chainlink Labs", "WazirX", "Infosys", "TCS", "IBM"]
+  },
+  {
+    "job_title": "Nanotechnology Engineer",
+    "description": "Nanotechnology Engineers work with nanoscale materials to develop innovative solutions in medicine, electronics, materials science, and environmental technology.",
+    "roles_and_overview": "Researches molecular structures to create nano-devices, sensors, and medical treatments. Works in advanced research labs.",
+    "skills_required": ["Nanomaterials", "SEM/TEM", "Chemistry", "Biotechnology", "Material Science", "Research Analysis"],
+    "educational_requirements": [
+      "Bachelor’s or Master’s in Nanotechnology, Materials Engineering, or Biotechnology",
+      "Research work experience in nano labs preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct nanoscale research",
+      "Develop nano-based products and coatings",
+      "Test and analyze material properties",
+      "Collaborate with scientists across disciplines"
+    ],
+    "salary_range": "₹5,50,000 - ₹25,00,000 per year",
+    "top_companies_offering_this_role": ["DRDO", "ISRO", "TATA Steel", "Aditya Birla Science Centre", "Siemens", "NanoTech Labs"]
+  },
+  {
+    "job_title": "Molecular Assembler Technician",
+    "description": "A Molecular Assembler Technician works on designing and operating molecular-level assembly systems used for advanced manufacturing, medicine, and synthetic biology.",
+    "roles_and_overview": "Supports research teams in assembling nano-/micro-scale structures and maintaining automated systems.",
+    "skills_required": ["Biochemistry", "Microfabrication", "Lab Equipment Handling", "Automation Tools", "Microscopy"],
+    "educational_requirements": [
+      "Degree or diploma in Biotechnology, Biochemistry, Nanotech, or Molecular Biology",
+      "Hands-on lab training"
+    ],
+    "duties_and_responsibilities": [
+      "Operate molecular-scale equipment",
+      "Test and assemble microstructures",
+      "Maintain lab documentation",
+      "Support engineering research teams"
+    ],
+    "salary_range": "₹4,00,000 - ₹15,00,000 per year",
+    "top_companies_offering_this_role": ["Biocon", "CSIR", "Bharat Biotech", "Thermo Fisher Scientific", "NanoMagic Labs"]
+  },
+  {
+    "job_title": "Synthetic Spider Silk Producer",
+    "description": "Produces ultra-strong synthetic spider silk for use in aerospace, biomedical materials, and advanced textiles.",
+    "roles_and_overview": "Works on genetic engineering, fermentation, and silk fiber extraction technologies.",
+    "skills_required": ["Synthetic Biology", "Genetic Engineering", "Biomaterials", "Fermentation Technology", "Fiber Processing"],
+    "educational_requirements": [
+      "Degree in Biotechnology, Genetic Engineering, or Materials Science"
+    ],
+    "duties_and_responsibilities": [
+      "Develop spider-silk producing organisms",
+      "Optimize production processes",
+      "Extract and refine silk fibers",
+      "Collaborate with product manufacturing teams"
+    ],
+    "salary_range": "₹5,00,000 - ₹20,00,000 per year",
+    "top_companies_offering_this_role": ["Bolt Threads", "Kraig Biocraft Laboratories", "Bio Steel", "ISRO", "DRDO"]
+  },
+  {
+    "job_title": "Remote Technical Training Developer",
+    "description": "Creates virtual and self-paced technical training programs for software, IT, and engineering education.",
+    "roles_and_overview": "Designs courses, video content, assessments, and AI-based adaptive learning modules.",
+    "skills_required": ["Instructional Design", "Tech Education", "Content Development", "Video Production", "LMS Tools"],
+    "educational_requirements": [
+      "Bachelor’s in Engineering, Computer Science, or Education Technology"
+    ],
+    "duties_and_responsibilities": [
+      "Design e-learning modules",
+      "Record and edit training videos",
+      "Develop AI-driven personalized learning",
+      "Evaluate learner performance"
+    ],
+    "salary_range": "₹4,00,000 - ₹18,00,000 per year",
+    "top_companies_offering_this_role": ["Udemy", "Coursera", "Scaler", "Byju’s", "Unacademy"]
+  },
+  {
+    "job_title": "Green Building Consultant",
+    "description": "Advises companies on sustainable construction and environmentally-friendly building designs.",
+    "roles_and_overview": "Helps organizations achieve green certifications and energy-efficient architecture.",
+    "skills_required": ["LEED Certification", "Architecture", "Sustainability Standards", "Energy Modeling", "Environmental Science"],
+    "educational_requirements": [
+      "Bachelor’s in Civil Engineering, Architecture, or Environmental Science"
+    ],
+    "duties_and_responsibilities": [
+      "Evaluate building sustainability",
+      "Reduce energy and carbon footprint",
+      "Recommend eco-friendly materials",
+      "Coordinate green certifications"
+    ],
+    "salary_range": "₹6,00,000 - ₹28,00,000 per year",
+    "top_companies_offering_this_role": ["L&T", "TATA Projects", "AECOM", "GreenCo", "Infosys Sustainability"]
+  },
+  {
+    "job_title": "Remote Technical Interview Content Developer",
+    "description": "Creates coding challenges, interview problems, and technical evaluation tests for hiring platforms.",
+    "roles_and_overview": "Works with hiring teams to design skill assessments and automated grading modules.",
+    "skills_required": ["DSA", "Algorithms", "Programming Expertise", "Assessment Design", "Technical Writing"],
+    "educational_requirements": [
+      "Degree in Computer Science or equivalent experience in industry"
+    ],
+    "duties_and_responsibilities": [
+      "Write coding and system design problems",
+      "Create test case datasets",
+      "Build evaluation frameworks",
+      "Work with hiring managers"
+    ],
+    "salary_range": "₹6,00,000 - ₹22,00,000 per year",
+    "top_companies_offering_this_role": ["HackerRank", "LeetCode", "Scaler", "InterviewBit", "CodeChef", "Meta"]
+  },
+  {
+    "job_title": "Green Chemistry Researcher",
+    "description": "Researches eco-friendly alternatives to hazardous chemical processes for industrial and environmental applications.",
+    "roles_and_overview": "Develops sustainable molecules and pollution-free chemical synthesis methods.",
+    "skills_required": ["Organic Chemistry", "Lab Research", "Chemical Safety", "Analytical Instruments", "Environment Compliance"],
+    "educational_requirements": [
+      "Master’s/PhD in Chemistry or Chemical Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Experiment with eco-friendly chemicals",
+      "Develop clean synthesis routes",
+      "Publish scientific papers",
+      "Collaborate with manufacturing labs"
+    ],
+    "salary_range": "₹5,50,000 - ₹25,00,000 per year",
+    "top_companies_offering_this_role": ["TATA Chemicals", "BASF", "Reliance Research Labs", "Merck", "IISc", "CSIR"]
+  },
+  {
+    "job_title": "Remote Employee Training App Developer",
+    "description": "Builds web and mobile applications for employee learning systems and remote onboarding.",
+    "roles_and_overview": "Works with HR and tech teams to design gamified learning apps.",
+    "skills_required": ["Flutter/React Native", "Node.js", "Firebase/AWS", "UI/UX", "Gamification"],
+    "educational_requirements": [
+      "Degree in Software Engineering or Computer Applications"
+    ],
+    "duties_and_responsibilities": [
+      "Develop mobile training apps",
+      "Integrate learning analytics",
+      "Create gamified modules",
+      "Test and release updates"
+    ],
+    "salary_range": "₹6,00,000 - ₹24,00,000 per year",
+    "top_companies_offering_this_role": ["TCS iON", "Accenture Learning", "Udemy", "Coursera", "Zoho"]
+  },
+  {
+    "job_title": "Atmospheric Carbon Capture Specialist",
+    "description": "Develops and operates technology for removing carbon dioxide directly from the air to fight climate change.",
+    "roles_and_overview": "Works in carbon removal engineering and sustainable climate solutions.",
+    "skills_required": ["Environmental Engineering", "Chemical Engineering", "Thermodynamics", "Material Science", "Carbon Capture Systems"],
+    "educational_requirements": [
+      "Bachelor’s or Master’s in Environmental or Chemical Engineering"
+    ],
+    "duties_and_responsibilities": [
+      "Research and operate carbon capture units",
+      "Improve energy efficiency of CO2 removal",
+      "Analyze emission data",
+      "Support climate innovation projects"
+    ],
+    "salary_range": "₹8,00,000 - ₹40,00,000 per year",
+    "top_companies_offering_this_role": ["CarbonCure", "Climeworks", "TATA Sustainability", "ReNew Power"]
+  },
+  {
+    "job_title": "Digital Accessibility Consultant",
+    "description": "Ensures websites, apps, and digital tools are accessible to people with disabilities using WCAG and accessibility standards.",
+    "roles_and_overview": "Works with UI/UX teams to improve usability for all audience categories.",
+    "skills_required": ["WCAG Standards", "Accessibility Testing", "UI/UX Design", "Assistive Technologies", "HTML/CSS"],
+    "educational_requirements": [
+      "Bachelor’s in Design, Computer Science, or Human Interaction"
+    ],
+    "duties_and_responsibilities": [
+      "Audit digital products",
+      "Ensure assistive tool compatibility",
+      "Create accessibility documentation",
+      "Train development teams"
+    ],
+    "salary_range": "₹5,00,000 - ₹18,00,000 per year",
+    "top_companies_offering_this_role": ["Google", "Microsoft", "Adobe", "Wipro Accessibility Services"]
+  },
+  {
+    "job_title": "Remote Digital Product Experience Lead",
+    "description": "Leads product UX strategy and ensures seamless digital experience for customers across platforms.",
+    "roles_and_overview": "Manages UI/UX teams, product experiments, and customer journey analysis.",
+    "skills_required": ["UX Research", "Product Strategy", "Wireframing", "Analytics", "Team Leadership"],
+    "educational_requirements": [
+      "Bachelor’s in Design, Computer Science, or Product Management"
+    ],
+    "duties_and_responsibilities": [
+      "Drive product experience strategy",
+      "Run user research studies",
+      "Manage design operations",
+      "Track performance metrics"
+    ],
+    "salary_range": "₹15,00,000 - ₹70,00,000 per year",
+    "top_companies_offering_this_role": ["Google", "Amazon", "Salesforce", "Swiggy", "Zomato", "Spotify"]
+  },
+  {
+    "job_title": "Senior DevOps Engineer",
+    "description": "Leads automation, deployment, and CI/CD pipelines ensuring continuous delivery and system reliability.",
+    "roles_and_overview": "Works with cloud, monitoring, and security systems to improve performance.",
+    "skills_required": ["AWS/Azure/GCP", "Docker", "Kubernetes", "Terraform", "Linux", "CI/CD pipelines"],
+    "educational_requirements": ["Degree in Computer Science, IT, or related field"],
+    "duties_and_responsibilities": [
+      "Manage cloud deployment pipelines",
+      "Automate infrastructure",
+      "Monitor and improve system performance",
+      "Implement security and disaster recovery"
+    ],
+    "salary_range": "₹12,00,000 - ₹60,00,000 per year",
+    "top_companies_offering_this_role": ["NetApp", "Microsoft", "Infosys", "Google", "Zoho"]
+  },
+  {
+    "job_title": "VP of Engineering",
+    "description": "Oversees entire engineering operations, leading technological vision, team growth, and product development strategy.",
+    "roles_and_overview": "Responsible for scaling engineering teams and driving innovation.",
+    "skills_required": ["Leadership", "System Architecture", "Product Strategy", "Team Management", "Cloud and DevOps"],
+    "educational_requirements": [
+      "Bachelor’s in Engineering or related field, MBA preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Lead engineering teams",
+      "Set long-term technology vision",
+      "Ensure project delivery and performance",
+      "Collaborate with stakeholders and executives"
+    ],
+    "salary_range": "₹40,00,000 - ₹1,50,00,000 per year",
+    "top_companies_offering_this_role": ["Google", "Meta", "Flipkart", "Paytm", "Amazon", "Zoho"]
   }
+
+
 ]
