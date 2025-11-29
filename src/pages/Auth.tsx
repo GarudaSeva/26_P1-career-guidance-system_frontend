@@ -42,7 +42,7 @@ const Auth = () => {
       // Optionally store user in localStorage
       sessionStorage.setItem("user", JSON.stringify(data.user));
 
-      navigate("/");
+      navigate("/home");
     } catch (err: any) {
       toast({
         title: "Login Failed",
@@ -78,7 +78,7 @@ const Auth = () => {
         description: data.message || "Welcome to AI Career Discovery.",
       });
 
-      navigate("/chat");
+      navigate("/home");
     } catch (err: any) {
       toast({
         title: "Signup Failed",

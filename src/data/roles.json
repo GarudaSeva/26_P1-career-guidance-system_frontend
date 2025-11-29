@@ -1,0 +1,277 @@
+[
+  {
+    "id": "software-engineer",
+    "job_title": "Software Engineer",
+    "description": "A Software Engineer designs, develops, tests, and maintains software applications or systems that solve real business problems. They work with programming languages, frameworks, and development tools to create scalable and efficient digital solutions.",
+    "roles_and_overview": "Responsible for full-cycle software development including requirement analysis, system design, coding, debugging, deployment, and maintenance. Works closely with cross-functional teams including designers, testers, and product managers.",
+    "skills_required": [
+      "Programming languages (Java, Python, C++, JavaScript, etc.)",
+      "Data structures and algorithms",
+      "Software testing and debugging",
+      "Version control (Git)",
+      "Database management (SQL/NoSQL)",
+      "Problem-solving and analytical thinking"
+    ],
+    "educational_requirements": [
+      "Bachelor's or Master's degree in Computer Science, Software Engineering, or IT",
+      "Strong understanding of operating systems, networking, and cloud platforms"
+    ],
+    "duties_and_responsibilities": [
+      "Develop clean, scalable, and efficient code",
+      "Collaborate with teams to define software requirements",
+      "Troubleshoot, debug, and upgrade existing systems",
+      "Perform testing and code reviews",
+      "Deploy applications and maintain documentation"
+    ],
+    "salary_range": "₹4,50,000 - ₹30,00,000 per year in India depending on experience",
+    "top_companies_offering_this_role": ["Google", "Microsoft", "Amazon", "Infosys", "TCS", "Accenture", "Wipro"]
+  },
+  {
+    "id": "data-scientist",
+    "job_title": "Data Scientist",
+    "description": "Data Scientists analyze complex data sets to extract meaningful insights and help businesses make data-driven decisions using statistical analysis, machine learning, and data visualization techniques.",
+    "roles_and_overview": "Collect, process, and analyze large datasets to identify trends, patterns, and business opportunities. Build predictive models and machine learning algorithms.",
+    "skills_required": [
+      "Python, R, SQL",
+      "Machine Learning and Deep Learning",
+      "Statistics and Mathematics",
+      "Data Visualization (Tableau, Power BI)",
+      "Big Data technologies (Hadoop, Spark)",
+      "Communication skills"
+    ],
+    "educational_requirements": [
+      "Bachelor's or Master's degree in Data Science, Statistics, Computer Science, or related field",
+      "Knowledge of statistical modeling and machine learning algorithms"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze large datasets to discover trends and insights",
+      "Build and deploy machine learning models",
+      "Create data visualizations and dashboards",
+      "Collaborate with business teams to solve problems",
+      "Present findings to stakeholders"
+    ],
+    "salary_range": "₹6,00,000 - ₹35,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "Flipkart", "Walmart", "IBM", "Adobe"]
+  },
+  {
+    "id": "machine-learning-engineer",
+    "job_title": "Machine Learning Engineer",
+    "description": "Design and implement ML algorithms for production systems, focusing on building scalable machine learning models and deploying them in real-world applications.",
+    "roles_and_overview": "Bridge the gap between data science and engineering by taking ML models from research to production, optimizing performance and scalability.",
+    "skills_required": [
+      "Python, TensorFlow, PyTorch",
+      "Machine Learning algorithms",
+      "Cloud platforms (AWS, Azure, GCP)",
+      "Statistics and Mathematics",
+      "Software engineering practices",
+      "MLOps and model deployment"
+    ],
+    "educational_requirements": [
+      "Bachelor's or Master's degree in Computer Science, AI/ML, or related field",
+      "Strong understanding of algorithms and data structures"
+    ],
+    "duties_and_responsibilities": [
+      "Design and develop ML models and algorithms",
+      "Deploy models to production environments",
+      "Optimize model performance and scalability",
+      "Monitor and maintain ML systems",
+      "Collaborate with data scientists and engineers"
+    ],
+    "salary_range": "₹8,00,000 - ₹40,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "NVIDIA", "Tesla", "Netflix", "Uber"]
+  },
+  {
+    "id": "ai-research-scientist",
+    "job_title": "AI Research Scientist",
+    "description": "Conduct advanced research in artificial intelligence and machine learning, developing new algorithms and approaches to solve complex AI challenges.",
+    "roles_and_overview": "Focus on cutting-edge AI research, publishing papers, and developing novel approaches to advance the field of artificial intelligence.",
+    "skills_required": [
+      "Deep Learning and Neural Networks",
+      "Research methodology",
+      "Python, TensorFlow, PyTorch",
+      "Mathematics and Statistics",
+      "Academic writing and publication",
+      "Critical thinking"
+    ],
+    "educational_requirements": [
+      "PhD in Computer Science, AI, Machine Learning, or related field",
+      "Strong publication record in top-tier conferences"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct fundamental and applied AI research",
+      "Develop novel algorithms and techniques",
+      "Publish research papers in conferences and journals",
+      "Collaborate with academic and industry researchers",
+      "Mentor junior researchers and engineers"
+    ],
+    "salary_range": "₹15,00,000 - ₹50,00,000+ per year in India",
+    "top_companies_offering_this_role": ["Google DeepMind", "Microsoft Research", "Meta AI", "OpenAI", "IBM Research", "Amazon Science"]
+  },
+  {
+    "id": "business-intelligence-analyst",
+    "job_title": "Business Intelligence Analyst",
+    "description": "Analyze business data to support decision making, creating reports and dashboards that help organizations understand their performance and opportunities.",
+    "roles_and_overview": "Transform raw data into actionable business insights through analysis, visualization, and reporting to support strategic decisions.",
+    "skills_required": [
+      "SQL and database management",
+      "Tableau, Power BI",
+      "Data analysis and statistics",
+      "Business acumen",
+      "Excel and data modeling",
+      "Communication skills"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Business Analytics, Statistics, or related field",
+      "Understanding of business processes and metrics"
+    ],
+    "duties_and_responsibilities": [
+      "Analyze business data and identify trends",
+      "Create dashboards and reports",
+      "Provide data-driven recommendations",
+      "Collaborate with business stakeholders",
+      "Maintain data quality and documentation"
+    ],
+    "salary_range": "₹4,00,000 - ₹20,00,000 per year in India",
+    "top_companies_offering_this_role": ["Deloitte", "PwC", "EY", "Accenture", "McKinsey", "KPMG", "Flipkart"]
+  },
+  {
+    "id": "product-manager",
+    "job_title": "Product Manager",
+    "description": "Lead product development from concept to launch, defining product strategy, roadmap, and features while working with cross-functional teams.",
+    "roles_and_overview": "Own the product vision and strategy, prioritize features, and ensure successful product delivery that meets customer needs and business goals.",
+    "skills_required": [
+      "Product strategy and roadmapping",
+      "Data analysis",
+      "Communication and leadership",
+      "Market research",
+      "Agile methodologies",
+      "Technical understanding"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Business, Engineering, or related field",
+      "MBA preferred for senior roles",
+      "Understanding of technology and user experience"
+    ],
+    "duties_and_responsibilities": [
+      "Define product vision and strategy",
+      "Create and prioritize product roadmap",
+      "Work with engineering, design, and marketing teams",
+      "Analyze market trends and user feedback",
+      "Launch and iterate on products"
+    ],
+    "salary_range": "₹10,00,000 - ₹45,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Amazon", "Microsoft", "Flipkart", "PhonePe", "Swiggy", "Zomato"]
+  },
+  {
+    "id": "ux-ui-designer",
+    "job_title": "UX/UI Designer",
+    "description": "Design user-friendly and visually appealing digital interfaces, focusing on user experience and interface design to create intuitive products.",
+    "roles_and_overview": "Research user needs, create wireframes and prototypes, and design interfaces that provide excellent user experiences.",
+    "skills_required": [
+      "Figma, Sketch, Adobe XD",
+      "User research and testing",
+      "Wireframing and prototyping",
+      "Visual design principles",
+      "HTML/CSS basics",
+      "Empathy and communication"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Design, HCI, or related field",
+      "Portfolio demonstrating design work",
+      "Understanding of design thinking principles"
+    ],
+    "duties_and_responsibilities": [
+      "Conduct user research and usability testing",
+      "Create wireframes, prototypes, and mockups",
+      "Design user interfaces and experiences",
+      "Collaborate with developers and product managers",
+      "Maintain design systems and guidelines"
+    ],
+    "salary_range": "₹3,50,000 - ₹25,00,000 per year in India",
+    "top_companies_offering_this_role": ["Google", "Amazon", "Adobe", "Airbnb", "Netflix", "Razorpay", "CRED"]
+  },
+  {
+    "id": "devops-engineer",
+    "job_title": "DevOps Engineer",
+    "description": "Automate and streamline software development and deployment processes, ensuring reliable and efficient infrastructure and operations.",
+    "roles_and_overview": "Bridge development and operations teams, implementing CI/CD pipelines, managing cloud infrastructure, and ensuring system reliability.",
+    "skills_required": [
+      "Linux/Unix systems",
+      "CI/CD tools (Jenkins, GitLab)",
+      "Cloud platforms (AWS, Azure, GCP)",
+      "Docker and Kubernetes",
+      "Scripting (Python, Bash)",
+      "Monitoring and logging tools"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Strong understanding of software development and IT operations",
+      "Cloud certifications preferred"
+    ],
+    "duties_and_responsibilities": [
+      "Build and maintain CI/CD pipelines",
+      "Manage cloud infrastructure",
+      "Automate deployment processes",
+      "Monitor system performance and reliability",
+      "Troubleshoot and resolve infrastructure issues"
+    ],
+    "salary_range": "₹6,00,000 - ₹30,00,000 per year in India",
+    "top_companies_offering_this_role": ["Amazon", "Google", "Microsoft", "Netflix", "Atlassian", "Red Hat", "HashiCorp"]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "job_title": "Cybersecurity Analyst",
+    "description": "Protect organizations from cyber threats by monitoring security systems, investigating incidents, and implementing security measures.",
+    "roles_and_overview": "Monitor networks for security breaches, investigate security incidents, and implement measures to protect organizational data and systems.",
+    "skills_required": [
+      "Network security",
+      "Threat detection and analysis",
+      "Security tools (SIEM, IDS/IPS)",
+      "Ethical hacking",
+      "Risk assessment",
+      "Incident response"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Cybersecurity, Computer Science, or related field",
+      "Security certifications (CEH, CISSP, CompTIA Security+)",
+      "Understanding of security frameworks and compliance"
+    ],
+    "duties_and_responsibilities": [
+      "Monitor security alerts and events",
+      "Investigate security incidents",
+      "Conduct vulnerability assessments",
+      "Implement security controls",
+      "Develop security policies and procedures"
+    ],
+    "salary_range": "₹5,00,000 - ₹28,00,000 per year in India",
+    "top_companies_offering_this_role": ["IBM", "Cisco", "Palo Alto Networks", "CrowdStrike", "Deloitte", "EY", "PwC"]
+  },
+  {
+    "id": "cloud-architect",
+    "job_title": "Cloud Architect",
+    "description": "Design and oversee cloud computing strategies, managing cloud infrastructure and ensuring scalability, security, and cost-effectiveness.",
+    "roles_and_overview": "Lead cloud strategy and architecture decisions, design cloud solutions, and ensure best practices in cloud implementation.",
+    "skills_required": [
+      "Cloud platforms (AWS, Azure, GCP)",
+      "Infrastructure as Code",
+      "Microservices architecture",
+      "Security and compliance",
+      "Networking concepts",
+      "Cost optimization"
+    ],
+    "educational_requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Cloud certifications (AWS Solutions Architect, Azure Architect)",
+      "Extensive experience in cloud technologies"
+    ],
+    "duties_and_responsibilities": [
+      "Design cloud architecture solutions",
+      "Lead cloud migration projects",
+      "Optimize cloud infrastructure costs",
+      "Ensure security and compliance",
+      "Provide technical leadership and guidance"
+    ],
+    "salary_range": "₹12,00,000 - ₹50,00,000 per year in India",
+    "top_companies_offering_this_role": ["Amazon", "Microsoft", "Google", "IBM", "Accenture", "Wipro", "Infosys"]
+  }
+]
