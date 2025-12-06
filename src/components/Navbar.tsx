@@ -36,7 +36,8 @@ const Navbar = () => {
     navigate("/");
   };
 
-  const getFirstLetter = (name: string) => name?.charAt(0)?.toUpperCase() || "?";
+  const getFirstLetter = (name: string) =>
+    name?.charAt(0)?.toUpperCase() || "?";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -63,18 +64,7 @@ const Navbar = () => {
               Home
             </Link>
 
-{user && (
-            <Link
-              to="/careers"
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive("/careers") ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              Careers
-            </Link>
-)}
-
-            {/* Show Dashboard only if logged in */}
+             {/* Show Dashboard only if logged in */}
             {user && (
               <Link
                 to="/home"
@@ -83,6 +73,19 @@ const Navbar = () => {
                 }`}
               >
                 Dashboard
+              </Link>
+            )}
+
+            {user && (
+              <Link
+                to="/careers"
+                className={`text-sm font-medium transition-colors hover:text-primary ${
+                  isActive("/careers")
+                    ? "text-primary"
+                    : "text-muted-foreground"
+                }`}
+              >
+                Careers
               </Link>
             )}
 
@@ -95,7 +98,12 @@ const Navbar = () => {
                   </button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-40">
-                  <DropdownMenuLabel>{user.fullname}</DropdownMenuLabel>
+                  <DropdownMenuItem
+                    onClick={() => navigate("/profile")}
+                    className="cursor-pointer font-semibold"
+                  >
+                    {user.fullname}
+                  </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem
                     onClick={handleLogout}

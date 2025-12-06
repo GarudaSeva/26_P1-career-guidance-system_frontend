@@ -64,7 +64,7 @@ const Careers = () => {
             <div className="flex flex-col gap-6 max-w-6xl mx-auto">
               {displayedRoles.map((role) => (
                 <Card
-                  key={role.id}
+                  key={role?.id}
                   className="hover:shadow-lg transition-shadow "
                 >
                   <CardHeader>

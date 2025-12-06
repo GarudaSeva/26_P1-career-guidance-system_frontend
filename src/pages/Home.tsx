@@ -1,155 +1,226 @@
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
-import schoolImg from "@/assets/school.png";
-import careerImg from "@/assets/college.png";
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+} from "chart.js";
+import { Doughnut, Bar } from "react-chartjs-2";
+
+ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
 const Home = () => {
   const navigate = useNavigate();
   const storedUser = sessionStorage.getItem("user");
   const user = storedUser ? JSON.parse(storedUser) : null;
 
+  const [recommendations, setRecommendations] = useState<any[]>([]);
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const response = await fetch("http://localhost:5000/get-user", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: user.email }),
+      });
+
+      const data = await response.json();
+      console.log("Fetched user data:", data);
+      if (data.recommendations) setRecommendations(data.recommendations);
+    };
+
+    if (user?.email) fetchUserData();
+  }, [user?.email]);
+
+  // PIE CHART DATA
+  const pieChartData = {
+    labels: recommendations.map((r) => r.career_opportunity),
+    datasets: [
+      {
+        data: recommendations.map((r) => (r.similarity * 100).toFixed(0)),
+        backgroundColor: ["#4f46e5", "#0d9488", "#f59e0b", "#ef4444", "#8b5cf6"],
+      },
+    ],
+  };
+
+  // BAR CHART DATA
+  const barChartData = {
+    labels: recommendations.map((r) => r.career_opportunity),
+    datasets: [
+      {
+        label: "Skills You Have",
+        data: recommendations.map((r) => {
+          const matched = r.matched_skills?.length || 0;
+          const total = matched + (r.skill_gap?.length || 0);
+          return total > 0 ? ((matched / total) * 100) : 0;
+        }),
+        backgroundColor: "rgba(16, 185, 129, 0.8)",
+      },
+      {
+        label: "Skills You Need",
+        data: recommendations.map((r) => {
+          const gap = r.skill_gap?.length || 0;
+          const matched = r.matched_skills?.length || 0;
+          const total = matched + gap;
+          return total > 0 ? ((gap / total) * 100) : 0;
+        }),
+        backgroundColor: "rgba(239, 68, 68, 0.8)",
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      <main className="flex-1 container mx-auto px-4 pt-32 pb-20">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Welcome <span className="text-primary">{user?.fullname || "Guest"}</span>
-          </h1>
-          <p className="text-xl text-muted-foreground mb-12 text-center max-w-2xl mx-auto">
-            Choose your path to personalized career guidance
-          </p>
+      <main className="container mx-auto px-4 pt-32 pb-12">
+        {/* CHARTS SECTION */}
+        <div className="flex flex-col md:flex-row gap-6 mb-10">
+          
+          {/* Pie Chart */}
+<Card className="w-full md:w-1/2 h-[380px] shadow-xl p-4 flex flex-col">
+  <CardHeader>
+    <CardTitle className="text-center">Career Match Analysis</CardTitle>
+  </CardHeader>
 
-          <div className="grid md:grid-cols-2 gap-10">
-            {/* School Bot Card */}
-            <Card className="hover:shadow-xl transition-shadow cursor-pointer group rounded-xl overflow-hidden">
-              <img
-                src={schoolImg}
-                alt="School Bot"
-                className="w-full h-64 object-cover"
+  <CardContent className="flex-grow flex justify-between items-center gap-4">
+    {/* Actual Pie Chart */}
+    <div className="w-56 h-56 flex justify-center items-center">
+      <Doughnut 
+        data={pieChartData} 
+        options={{
+          plugins: { legend: { display: false } }   // hide default legend
+        }} 
+      />
+    </div>
+
+    {/* Custom Legend on Right */}
+    <div className="flex flex-col gap-2 text-sm">
+      {recommendations.map((r, index) => (
+        <div key={index} className="flex items-center gap-2">
+          <div
+            className="w-3 h-3 rounded-full"
+            style={{ backgroundColor: pieChartData.datasets[0].backgroundColor[index] }}
+          ></div>
+          <span className="font-medium capitalize">{r.career_opportunity}</span>
+        </div>
+      ))}
+    </div>
+  </CardContent>
+</Card>
+
+
+          {/* Bar Chart */}
+          <Card className="w-full md:w-1/2 h-[380px] shadow-xl p-2 flex flex-col">
+            <CardHeader>
+              <CardTitle className="text-center">Skills You Have vs Need</CardTitle>
+            </CardHeader>
+            <CardContent className="flex-grow flex justify-center items-center">
+              <Bar
+                data={barChartData}
+                options={{
+                  responsive: true,
+                  maintainAspectRatio: false,
+                  plugins: { legend: { position: "bottom" } },
+                  scales: { y: { beginAtZero: true, max: 100 } },
+                }}
               />
-              <CardHeader className="pt-6">
-                <CardTitle className="text-2xl">Connecting school to your future</CardTitle>
-                <CardDescription className="text-base">
-                  Guiding school students toward future
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-6">
-                  Link your current academic learning to future career opportunities. Discover how school subjects connect to professions and develop your study skills.
-                </p>
-                <Button
-                  className="w-full group-hover:scale-105 transition-transform"
-                  onClick={() => navigate("/chat", { state: { mode: "basic" } })}
-                >
-                  Start School Guidance
-                </Button>
-              </CardContent>
-            </Card>
+            </CardContent>
+          </Card>
+        </div>
 
-            {/* Career Bot Card */}
-            <Card className="hover:shadow-xl transition-shadow cursor-pointer group rounded-xl overflow-hidden">
-              <img
-                src={careerImg}
-                alt="Career Bot"
-                className="w-full h-64 object-cover"
-              />
-              <CardHeader className="pt-6">
-                <CardTitle className="text-2xl">Choose a Career path</CardTitle>
-                <CardDescription className="text-base">
-                  Explore personalized career opportunities
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-6">
-                  Develop essential communication, time management, networking, and personal branding skills for a successful professional journey.
-                </p>
-                <Button
-                  className="w-full group-hover:scale-105 transition-transform"
-                  onClick={() => navigate("/chat", { state: { mode: "advanced" } })}
-                >
-                  Start Career Guidance
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
+        {/* RECOMMENDATIONS SECTION BELOW */}
+        <h2 className="text-3xl font-bold mb-6 text-center">
+          Your Career Recommendations
+        </h2>
 
-          {/* FAQ Section */}
-              <div className="mt-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">
-              Frequently Asked <span className="text-primary">Questions</span>
-            </h2>
-            <div className="max-w-6xl mx-auto">
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="item-1">
-                  <AccordionTrigger>What is AI Career Discovery?</AccordionTrigger>
-                  <AccordionContent>
-                    AI Career Discovery is an intelligent platform that helps students and professionals find the best career paths based on their skills, interests, academic performance, and personal traits using advanced AI algorithms.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-2">
-                  <AccordionTrigger>How does the School Bot help students?</AccordionTrigger>
-                  <AccordionContent>
-                    The School Bot analyzes your academic performance across subjects, study habits, and extracurricular activities to recommend careers that align with your strengths and interests. It helps you understand how your current subjects connect to future professions.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-3">
-                  <AccordionTrigger>What does the Career Bot offer?</AccordionTrigger>
-                  <AccordionContent>
-                    The Career Bot provides personalized career recommendations for college students and professionals based on your existing skills and interests. It identifies skill gaps and suggests multiple career opportunities with similarity scores to help you make informed decisions.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-4">
-                  <AccordionTrigger>Is my data secure and private?</AccordionTrigger>
-                  <AccordionContent>
-                    Yes, we take data privacy seriously. All your personal information, academic records, and career preferences are stored securely and used only to provide personalized recommendations. We never share your data with third parties without your consent.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-5">
-                  <AccordionTrigger>Can I get multiple career recommendations?</AccordionTrigger>
-                  <AccordionContent>
-                    Yes! The Career Bot for college students and professionals can provide multiple career recommendations (typically 3-5 options) ranked by similarity to your profile. You can choose how many recommendations you'd like to receive.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-6">
-                  <AccordionTrigger>What is skill gap analysis?</AccordionTrigger>
-                  <AccordionContent>
-                    Skill gap analysis identifies the difference between your current skills and the skills required for your target career. Our platform highlights which skills you need to develop or acquire to be successful in your chosen career path.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-7">
-                  <AccordionTrigger>How accurate are the career recommendations?</AccordionTrigger>
-                  <AccordionContent>
-                    Our AI model is trained on extensive career data and uses advanced machine learning algorithms to provide highly accurate recommendations. The system considers multiple factors including academic performance, skills, interests, and industry trends to suggest the best matches.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-8">
-                  <AccordionTrigger>Can I explore different career options?</AccordionTrigger>
-                  <AccordionContent>
-                    Absolutely! Our Careers page features a comprehensive database of career roles across various industries. You can search, filter, and explore detailed information about different careers including job descriptions, required skills, salary ranges, and top hiring companies.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-9">
-                  <AccordionTrigger>Do I need technical skills to use this platform?</AccordionTrigger>
-                  <AccordionContent>
-                    No technical skills are required! Our platform is designed to be user-friendly and intuitive. Simply answer the chatbot's questions naturally, and the AI will guide you through the process to provide personalized career recommendations.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-10">
-                  <AccordionTrigger>How often should I use the career guidance tools?</AccordionTrigger>
-                  <AccordionContent>
-                    We recommend using the tools whenever you're considering career decisions, developing new skills, or experiencing changes in your interests. For students, checking in each semester can help track your career path alignment. Professionals may benefit from quarterly reviews to ensure continued career growth.
-                  </AccordionContent>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  {recommendations.map((rec, index) => (
+    <Card
+      key={index}
+      className="shadow-lg p-6 rounded-2xl border hover:shadow-2xl transition-all"
+    >
+      {/* TITLE + MATCH SIDE BY SIDE */}
+      <div className="flex justify-between items-center mb-2">
+        <CardTitle className="text-2xl font-extrabold text-primary capitalize">
+          {rec.career_opportunity}
+        </CardTitle>
+
+        <div className="bg-blue-600 text-white font-bold text-lg px-4 py-2 rounded-xl text-center leading-tight">
+          {(rec.similarity * 100).toFixed(0)}%
+          <div className="text-xs font-semibold">Match</div>
+        </div>
+      </div>
+
+      {/* DESCRIPTION */}
+      <p className="text-base text-gray-700 mb-3 leading-relaxed">
+        {rec.description}
+      </p>
+
+      {/* PAY SCALE */}
+      <Badge className="mb-4 bg-purple-600 text-white text-sm px-3 py-1 w-fit">
+        {rec.pay_scale}
+      </Badge>
+
+      {/* SKILLS SECTION */}
+      <div className="mb-2">
+        <span className="font-bold text-lg mr-2">Skills:</span>
+        <span className="flex flex-wrap gap-2">
+          {rec.matched_skills?.length > 0 ? (
+            rec.matched_skills.map((skill: string, i: number) => (
+              <Badge key={i} className="bg-green-200 text-green-900 px-2 py-1 rounded-md text-sm">
+                {skill}
+              </Badge>
+            ))
+          ) : (
+            <span className="text-gray-500">None</span>
+          )}
+        </span>
+      </div>
+
+      {/* SKILL GAPS SECTION */}
+      <div className="mb-4">
+        <span className="font-bold text-lg mr-2">Skill Gaps:</span>
+        <span className="flex flex-wrap gap-2">
+          {rec.skill_gap?.map((skill: string, i: number) => (
+            <Badge key={i} className="bg-red-200 text-red-900 px-2 py-1 rounded-md text-sm">
+              {skill}
+            </Badge>
+          ))}
+        </span>
+      </div>
+
+      {/* BUTTON BOTTOM RIGHT */}
+      <div className="flex justify-end">
+        <Button
+          className="px-5 py-2 text-sm font-semibold rounded-md bg-primary hover:bg-primary/80"
+          onClick={() =>
+  navigate(`/careers/${encodeURIComponent(rec.career_opportunity)}`, {
+    state: { rec }
+  })
+}
+        >
+          See Details
+        </Button>
+      </div>
+    </Card>
+  ))}
+</div>
+
+
+        <div className="mt-10 flex justify-center gap-4">
+          <Button onClick={() => navigate("/chat")}>Open Chat</Button>
+          <Button variant="outline" onClick={() => navigate("/ProfileForm")}>Update Profile</Button>
         </div>
       </main>
 

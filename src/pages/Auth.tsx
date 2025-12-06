@@ -78,7 +78,8 @@ const Auth = () => {
         description: data.message || "Welcome to AI Career Discovery.",
       });
 
-      navigate("/home");
+      sessionStorage.setItem("user", JSON.stringify({ fullname, email }));
+      navigate("/ProfileForm");
     } catch (err: any) {
       toast({
         title: "Signup Failed",

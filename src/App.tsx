@@ -10,6 +10,8 @@ import Chat from "./pages/Chat";
 import Careers from "./pages/Careers";
 import CareerDetail from "./pages/CareerDetail";
 import NotFound from "./pages/NotFound";
+import ProfileForm from "./pages/ProfileForm";
+import Profile from "./pages/Profile";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +33,9 @@ const App = () => {
           
             <Route path="/home" element={<Home />} />
             <Route path="/chat" element={<Chat />} />
+            <Route path="/ProfileForm" element={<ProfileForm />} />
+            <Route path="/profile" element={<Profile />} />
+
             
             {/* Catch-all route */}
             <Route path="*" element={<NotFound />} />
