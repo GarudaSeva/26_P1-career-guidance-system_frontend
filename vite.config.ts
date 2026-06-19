@@ -10,6 +10,11 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     allowedHosts: ["two6-p1-career-guidance-system-frontend.onrender.com"],
   },
+  preview: {
+    host: "0.0.0.0",
+    port: 8080,
+    allowedHosts: ["two6-p1-career-guidance-system-frontend.onrender.com"],
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
