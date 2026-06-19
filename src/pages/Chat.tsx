@@ -8,6 +8,7 @@ import { Send, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { apiUrl } from "@/lib/api";
 
 type Message = {
   role: "user" | "bot";
@@ -187,7 +188,7 @@ const Chat = () => {
 
         setIsLoading(true);
         try {
-          const response = await fetch("http://localhost:5000/basic", {
+          const response = await fetch(apiUrl("/basic"), {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(finalData),
@@ -246,7 +247,7 @@ const Chat = () => {
 
         setIsLoading(true);
         try {
-          const response = await fetch("http://localhost:5000/recommend", {
+          const response = await fetch(apiUrl("/recommend"), {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(finalData),

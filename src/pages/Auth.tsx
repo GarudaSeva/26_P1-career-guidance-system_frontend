@@ -8,8 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useToast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const API_BASE = "http://localhost:5000";
+import { apiUrl } from "@/lib/api";
 
 const Auth = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -25,7 +24,7 @@ const Auth = () => {
     const password = (form.elements.namedItem("login-password") as HTMLInputElement).value;
 
     try {
-      const res = await fetch(`${API_BASE}/login`, {
+      const res = await fetch(apiUrl("/login"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -64,7 +63,7 @@ const Auth = () => {
     const password = (form.elements.namedItem("signup-password") as HTMLInputElement).value;
 
     try {
-      const res = await fetch(`${API_BASE}/signup`, {
+      const res = await fetch(apiUrl("/signup"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ fullname, email, password }),

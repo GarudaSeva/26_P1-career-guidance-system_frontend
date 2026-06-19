@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { apiUrl } from "@/lib/api";
 
 const ProfileForm = () => {
   const { toast } = useToast();
@@ -49,7 +50,7 @@ const ProfileForm = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:5000/save-profile", {
+      const response = await fetch(apiUrl("/save-profile"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

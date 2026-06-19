@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { apiUrl } from "@/lib/api";
 
 const Profile = () => {
   const storedUser = sessionStorage.getItem("user");
@@ -14,7 +15,7 @@ const Profile = () => {
 
   useEffect(() => {
     const fetchUserData = async () => {
-      const response = await fetch("http://localhost:5000/get-user", {
+      const response = await fetch(apiUrl("/get-user"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: user.email }),
